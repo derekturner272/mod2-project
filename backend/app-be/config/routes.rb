@@ -1,4 +1,10 @@
 Rails.application.routes.draw do
+  resources :technologies
+  resources :sports
+  resources :sciences
+  resources :healths
+  resources :generals
+  resources :entertainments
   resources :businesses
   resources :articles
   resources :users

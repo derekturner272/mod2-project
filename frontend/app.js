@@ -26,7 +26,7 @@ fetch(url)
     </div>`
     $article_section.append($div)
   }
-
+// we also need to remember to fix the spacing on the date/time in the header
   // set-up for data and time
   const days = ["Sunday", "Monday", "Tuesday", "Wednesday", "Thursday", "Friday", "Saturday"] 
   const today = new Date(); 
