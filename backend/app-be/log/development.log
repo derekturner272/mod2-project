@@ -18466,3 +18466,1088 @@ Completed 200 OK in 14ms (Views: 11.6ms | ActiveRecord: 1.6ms | Allocations: 247
 Completed 200 OK in 18ms (Views: 15.6ms | ActiveRecord: 1.4ms | Allocations: 5265)
 
 
+Started GET "/articles" for ::1 at 2020-07-30 16:56:59 -0600
+Started GET "/generals" for ::1 at 2020-07-30 16:56:59 -0600
+  [1m[35m (0.9ms)[0m  [1m[34mSELECT sqlite_version(*)[0m
+  [1m[35m (0.2ms)[0m  [1m[34mSELECT sqlite_version(*)[0m
+  [1m[35m (0.3ms)[0m  [1m[34mSELECT "schema_migrations"."version" FROM "schema_migrations" ORDER BY "schema_migrations"."version" ASC[0m
+Processing by ArticlesController#index as */*
+  [1m[36mArticle Load (0.3ms)[0m  [1m[34mSELECT "articles".* FROM "articles"[0m
+  [1m[35m (0.2ms)[0m  [1m[34mSELECT "schema_migrations"."version" FROM "schema_migrations" ORDER BY "schema_migrations"."version" ASC[0m
+  ↳ app/controllers/articles_controller.rb:4:in `index'
+Processing by GeneralsController#index as */*
+Completed 200 OK in 29ms (Views: 24.6ms | ActiveRecord: 2.0ms | Allocations: 11242)
+
+
+  [1m[36mGeneral Load (0.9ms)[0m  [1m[34mSELECT "generals".* FROM "generals"[0m
+  ↳ app/controllers/generals_controller.rb:4:in `index'
+Completed 200 OK in 28ms (Views: 24.9ms | ActiveRecord: 1.7ms | Allocations: 6766)
+
+
+Started GET "/businesses" for ::1 at 2020-07-30 16:57:14 -0600
+Processing by BusinessesController#index as */*
+  [1m[36mBusiness Load (0.9ms)[0m  [1m[34mSELECT "businesses".* FROM "businesses"[0m
+  ↳ app/controllers/businesses_controller.rb:4:in `index'
+Completed 200 OK in 63ms (Views: 56.1ms | ActiveRecord: 1.6ms | Allocations: 8647)
+
+
+Started GET "/entertainments" for ::1 at 2020-07-30 16:57:18 -0600
+Processing by EntertainmentsController#index as */*
+  [1m[36mEntertainment Load (0.3ms)[0m  [1m[34mSELECT "entertainments".* FROM "entertainments"[0m
+  ↳ app/controllers/entertainments_controller.rb:4:in `index'
+Completed 200 OK in 12ms (Views: 9.9ms | ActiveRecord: 0.8ms | Allocations: 8680)
+
+
+Started GET "/healths" for ::1 at 2020-07-30 16:57:20 -0600
+Processing by HealthsController#index as */*
+  [1m[36mHealth Load (0.2ms)[0m  [1m[34mSELECT "healths".* FROM "healths"[0m
+  ↳ app/controllers/healths_controller.rb:4:in `index'
+Completed 200 OK in 12ms (Views: 10.4ms | ActiveRecord: 0.7ms | Allocations: 8646)
+
+
+Started GET "/sciences" for ::1 at 2020-07-30 16:57:24 -0600
+Processing by SciencesController#index as */*
+  [1m[36mScience Load (0.3ms)[0m  [1m[34mSELECT "sciences".* FROM "sciences"[0m
+  ↳ app/controllers/sciences_controller.rb:4:in `index'
+Completed 200 OK in 20ms (Views: 17.9ms | ActiveRecord: 1.4ms | Allocations: 8626)
+
+
+Started GET "/sports" for ::1 at 2020-07-30 16:57:27 -0600
+Processing by SportsController#index as */*
+  [1m[36mSport Load (0.3ms)[0m  [1m[34mSELECT "sports".* FROM "sports"[0m
+  ↳ app/controllers/sports_controller.rb:4:in `index'
+Completed 200 OK in 31ms (Views: 27.9ms | ActiveRecord: 1.3ms | Allocations: 8634)
+
+
+Started GET "/technologies" for ::1 at 2020-07-30 16:57:30 -0600
+Processing by TechnologiesController#index as */*
+  [1m[36mTechnology Load (0.3ms)[0m  [1m[34mSELECT "technologies".* FROM "technologies"[0m
+  ↳ app/controllers/technologies_controller.rb:4:in `index'
+Completed 200 OK in 33ms (Views: 31.1ms | ActiveRecord: 1.0ms | Allocations: 8624)
+
+
+Started GET "/entertainments" for ::1 at 2020-07-30 16:59:00 -0600
+Processing by EntertainmentsController#index as */*
+  [1m[36mEntertainment Load (0.3ms)[0m  [1m[34mSELECT "entertainments".* FROM "entertainments"[0m
+  ↳ app/controllers/entertainments_controller.rb:4:in `index'
+Completed 200 OK in 8ms (Views: 7.2ms | ActiveRecord: 0.3ms | Allocations: 3869)
+
+
+Started GET "/entertainments" for ::1 at 2020-07-30 16:59:39 -0600
+Processing by EntertainmentsController#index as */*
+  [1m[36mEntertainment Load (1.7ms)[0m  [1m[34mSELECT "entertainments".* FROM "entertainments"[0m
+  ↳ app/controllers/entertainments_controller.rb:4:in `index'
+Completed 200 OK in 37ms (Views: 34.2ms | ActiveRecord: 1.7ms | Allocations: 3872)
+
+
+Started GET "/entertainments" for ::1 at 2020-07-30 17:00:00 -0600
+Processing by EntertainmentsController#index as */*
+  [1m[36mEntertainment Load (0.2ms)[0m  [1m[34mSELECT "entertainments".* FROM "entertainments"[0m
+  ↳ app/controllers/entertainments_controller.rb:4:in `index'
+Completed 200 OK in 4ms (Views: 3.4ms | ActiveRecord: 0.2ms | Allocations: 3869)
+
+
+Started GET "/entertainments" for ::1 at 2020-07-30 17:00:21 -0600
+Processing by EntertainmentsController#index as */*
+  [1m[36mEntertainment Load (0.2ms)[0m  [1m[34mSELECT "entertainments".* FROM "entertainments"[0m
+  ↳ app/controllers/entertainments_controller.rb:4:in `index'
+Completed 200 OK in 4ms (Views: 3.4ms | ActiveRecord: 0.2ms | Allocations: 3869)
+
+
+Started GET "/entertainments" for ::1 at 2020-07-30 17:00:34 -0600
+Processing by EntertainmentsController#index as */*
+  [1m[36mEntertainment Load (0.2ms)[0m  [1m[34mSELECT "entertainments".* FROM "entertainments"[0m
+  ↳ app/controllers/entertainments_controller.rb:4:in `index'
+Completed 200 OK in 4ms (Views: 3.4ms | ActiveRecord: 0.2ms | Allocations: 3869)
+
+
+Started GET "/entertainments" for ::1 at 2020-07-30 17:00:41 -0600
+Processing by EntertainmentsController#index as */*
+  [1m[36mEntertainment Load (0.2ms)[0m  [1m[34mSELECT "entertainments".* FROM "entertainments"[0m
+  ↳ app/controllers/entertainments_controller.rb:4:in `index'
+Completed 200 OK in 4ms (Views: 3.5ms | ActiveRecord: 0.2ms | Allocations: 3869)
+
+
+Started GET "/articles" for ::1 at 2020-07-30 17:00:56 -0600
+Started GET "/generals" for ::1 at 2020-07-30 17:00:56 -0600
+Processing by ArticlesController#index as */*
+  [1m[36mArticle Load (0.3ms)[0m  [1m[34mSELECT "articles".* FROM "articles"[0m
+Processing by GeneralsController#index as */*
+  [1m[36mGeneral Load (0.2ms)[0m  [1m[34mSELECT "generals".* FROM "generals"[0m
+  ↳ app/controllers/generals_controller.rb:4:in `index'
+  ↳ app/controllers/articles_controller.rb:4:in `index'
+Completed 200 OK in 8ms (Views: 7.0ms | ActiveRecord: 0.3ms | Allocations: 5966)
+
+
+Completed 200 OK in 2ms (Views: 1.7ms | ActiveRecord: 0.2ms | Allocations: 1567)
+
+
+Started GET "/articles" for ::1 at 2020-07-30 17:00:57 -0600
+Processing by ArticlesController#index as */*
+  [1m[36mArticle Load (0.2ms)[0m  [1m[34mSELECT "articles".* FROM "articles"[0m
+  ↳ app/controllers/articles_controller.rb:4:in `index'
+Completed 200 OK in 4ms (Views: 3.7ms | ActiveRecord: 0.2ms | Allocations: 3839)
+
+
+Started GET "/articles" for ::1 at 2020-07-30 17:01:24 -0600
+Processing by ArticlesController#index as */*
+  [1m[36mArticle Load (0.2ms)[0m  [1m[34mSELECT "articles".* FROM "articles"[0m
+  ↳ app/controllers/articles_controller.rb:4:in `index'
+Completed 200 OK in 4ms (Views: 3.6ms | ActiveRecord: 0.2ms | Allocations: 3839)
+
+
+Started GET "/generals" for ::1 at 2020-07-30 17:02:21 -0600
+Started GET "/articles" for ::1 at 2020-07-30 17:02:21 -0600
+Processing by GeneralsController#index as */*
+Processing by ArticlesController#index as */*
+  [1m[36mGeneral Load (0.1ms)[0m  [1m[34mSELECT "generals".* FROM "generals"[0m
+  [1m[36mArticle Load (0.2ms)[0m  [1m[34mSELECT "articles".* FROM "articles"[0m
+  ↳ app/controllers/generals_controller.rb:4:in `index'
+  ↳ app/controllers/articles_controller.rb:4:in `index'
+Completed 200 OK in 3ms (Views: 2.9ms | ActiveRecord: 0.1ms | Allocations: 2435)
+
+
+Completed 200 OK in 5ms (Views: 4.9ms | ActiveRecord: 0.2ms | Allocations: 5263)
+
+
+Started GET "/articles" for ::1 at 2020-07-30 17:04:45 -0600
+Started GET "/generals" for ::1 at 2020-07-30 17:04:45 -0600
+Processing by ArticlesController#index as */*
+Processing by GeneralsController#index as */*
+  [1m[36mArticle Load (0.2ms)[0m  [1m[34mSELECT "articles".* FROM "articles"[0m
+  [1m[36mGeneral Load (0.1ms)[0m  [1m[34mSELECT "generals".* FROM "generals"[0m
+  ↳ app/controllers/articles_controller.rb:4:in `index'
+  ↳ app/controllers/generals_controller.rb:4:in `index'
+Completed 200 OK in 5ms (Views: 4.8ms | ActiveRecord: 0.2ms | Allocations: 4626)
+
+
+Completed 200 OK in 5ms (Views: 5.3ms | ActiveRecord: 0.1ms | Allocations: 5159)
+
+
+Started GET "/businesses" for ::1 at 2020-07-30 17:06:12 -0600
+Processing by BusinessesController#index as */*
+  [1m[36mBusiness Load (0.2ms)[0m  [1m[34mSELECT "businesses".* FROM "businesses"[0m
+  ↳ app/controllers/businesses_controller.rb:4:in `index'
+Completed 200 OK in 4ms (Views: 3.4ms | ActiveRecord: 0.2ms | Allocations: 3884)
+
+
+Started GET "/healths" for ::1 at 2020-07-30 17:06:21 -0600
+Processing by HealthsController#index as */*
+  [1m[36mHealth Load (0.3ms)[0m  [1m[34mSELECT "healths".* FROM "healths"[0m
+  ↳ app/controllers/healths_controller.rb:4:in `index'
+Completed 200 OK in 4ms (Views: 3.5ms | ActiveRecord: 0.3ms | Allocations: 3887)
+
+
+Started GET "/articles" for ::1 at 2020-07-30 17:06:27 -0600
+Started GET "/generals" for ::1 at 2020-07-30 17:06:27 -0600
+Processing by ArticlesController#index as */*
+  [1m[36mArticle Load (0.3ms)[0m  [1m[34mSELECT "articles".* FROM "articles"[0m
+Processing by GeneralsController#index as */*
+  ↳ app/controllers/articles_controller.rb:4:in `index'
+  [1m[36mGeneral Load (0.1ms)[0m  [1m[34mSELECT "generals".* FROM "generals"[0m
+Completed 200 OK in 5ms (Views: 4.6ms | ActiveRecord: 0.3ms | Allocations: 4008)
+
+
+  ↳ app/controllers/generals_controller.rb:4:in `index'
+Completed 200 OK in 5ms (Views: 5.1ms | ActiveRecord: 0.1ms | Allocations: 4740)
+
+
+  [1m[35m (0.3ms)[0m  [1m[34mSELECT sqlite_version(*)[0m
+  [1m[35m (0.1ms)[0m  [1m[34mSELECT "schema_migrations"."version" FROM "schema_migrations" ORDER BY "schema_migrations"."version" ASC[0m
+  [1m[35m (0.1ms)[0m  [1m[34mSELECT sqlite_version(*)[0m
+  [1m[36mUser Load (0.1ms)[0m  [1m[34mSELECT "users".* FROM "users"[0m
+  [1m[36mArticle Load (0.1ms)[0m  [1m[34mSELECT "articles".* FROM "articles"[0m
+  [1m[35m (0.1ms)[0m  [1m[36mbegin transaction[0m
+  [1m[36mArticle Destroy (0.4ms)[0m  [1m[31mDELETE FROM "articles" WHERE "articles"."id" = ?[0m  [["id", 168]]
+  [1m[35m (1.3ms)[0m  [1m[36mcommit transaction[0m
+  [1m[35m (0.0ms)[0m  [1m[36mbegin transaction[0m
+  [1m[36mArticle Destroy (0.2ms)[0m  [1m[31mDELETE FROM "articles" WHERE "articles"."id" = ?[0m  [["id", 169]]
+  [1m[35m (0.4ms)[0m  [1m[36mcommit transaction[0m
+  [1m[35m (0.0ms)[0m  [1m[36mbegin transaction[0m
+  [1m[36mArticle Destroy (0.2ms)[0m  [1m[31mDELETE FROM "articles" WHERE "articles"."id" = ?[0m  [["id", 170]]
+  [1m[35m (0.6ms)[0m  [1m[36mcommit transaction[0m
+  [1m[35m (0.0ms)[0m  [1m[36mbegin transaction[0m
+  [1m[36mArticle Destroy (0.2ms)[0m  [1m[31mDELETE FROM "articles" WHERE "articles"."id" = ?[0m  [["id", 171]]
+  [1m[35m (0.5ms)[0m  [1m[36mcommit transaction[0m
+  [1m[35m (0.0ms)[0m  [1m[36mbegin transaction[0m
+  [1m[36mArticle Destroy (0.2ms)[0m  [1m[31mDELETE FROM "articles" WHERE "articles"."id" = ?[0m  [["id", 172]]
+  [1m[35m (0.5ms)[0m  [1m[36mcommit transaction[0m
+  [1m[35m (0.0ms)[0m  [1m[36mbegin transaction[0m
+  [1m[36mArticle Destroy (0.2ms)[0m  [1m[31mDELETE FROM "articles" WHERE "articles"."id" = ?[0m  [["id", 173]]
+  [1m[35m (0.5ms)[0m  [1m[36mcommit transaction[0m
+  [1m[35m (0.0ms)[0m  [1m[36mbegin transaction[0m
+  [1m[36mArticle Destroy (0.2ms)[0m  [1m[31mDELETE FROM "articles" WHERE "articles"."id" = ?[0m  [["id", 174]]
+  [1m[35m (0.4ms)[0m  [1m[36mcommit transaction[0m
+  [1m[35m (0.0ms)[0m  [1m[36mbegin transaction[0m
+  [1m[36mArticle Destroy (0.2ms)[0m  [1m[31mDELETE FROM "articles" WHERE "articles"."id" = ?[0m  [["id", 175]]
+  [1m[35m (0.5ms)[0m  [1m[36mcommit transaction[0m
+  [1m[35m (0.0ms)[0m  [1m[36mbegin transaction[0m
+  [1m[36mArticle Destroy (0.3ms)[0m  [1m[31mDELETE FROM "articles" WHERE "articles"."id" = ?[0m  [["id", 176]]
+  [1m[35m (0.4ms)[0m  [1m[36mcommit transaction[0m
+  [1m[35m (0.0ms)[0m  [1m[36mbegin transaction[0m
+  [1m[36mArticle Destroy (0.2ms)[0m  [1m[31mDELETE FROM "articles" WHERE "articles"."id" = ?[0m  [["id", 177]]
+  [1m[35m (0.5ms)[0m  [1m[36mcommit transaction[0m
+  [1m[35m (0.0ms)[0m  [1m[36mbegin transaction[0m
+  [1m[36mArticle Destroy (0.3ms)[0m  [1m[31mDELETE FROM "articles" WHERE "articles"."id" = ?[0m  [["id", 178]]
+  [1m[35m (0.4ms)[0m  [1m[36mcommit transaction[0m
+  [1m[35m (0.0ms)[0m  [1m[36mbegin transaction[0m
+  [1m[36mArticle Destroy (0.2ms)[0m  [1m[31mDELETE FROM "articles" WHERE "articles"."id" = ?[0m  [["id", 179]]
+  [1m[35m (0.4ms)[0m  [1m[36mcommit transaction[0m
+  [1m[35m (0.0ms)[0m  [1m[36mbegin transaction[0m
+  [1m[36mArticle Destroy (0.2ms)[0m  [1m[31mDELETE FROM "articles" WHERE "articles"."id" = ?[0m  [["id", 180]]
+  [1m[35m (0.5ms)[0m  [1m[36mcommit transaction[0m
+  [1m[35m (0.0ms)[0m  [1m[36mbegin transaction[0m
+  [1m[36mArticle Destroy (0.2ms)[0m  [1m[31mDELETE FROM "articles" WHERE "articles"."id" = ?[0m  [["id", 181]]
+  [1m[35m (0.3ms)[0m  [1m[36mcommit transaction[0m
+  [1m[35m (0.0ms)[0m  [1m[36mbegin transaction[0m
+  [1m[36mArticle Destroy (0.3ms)[0m  [1m[31mDELETE FROM "articles" WHERE "articles"."id" = ?[0m  [["id", 182]]
+  [1m[35m (0.4ms)[0m  [1m[36mcommit transaction[0m
+  [1m[35m (0.0ms)[0m  [1m[36mbegin transaction[0m
+  [1m[36mArticle Destroy (0.2ms)[0m  [1m[31mDELETE FROM "articles" WHERE "articles"."id" = ?[0m  [["id", 183]]
+  [1m[35m (0.8ms)[0m  [1m[36mcommit transaction[0m
+  [1m[35m (0.0ms)[0m  [1m[36mbegin transaction[0m
+  [1m[36mArticle Destroy (0.3ms)[0m  [1m[31mDELETE FROM "articles" WHERE "articles"."id" = ?[0m  [["id", 184]]
+  [1m[35m (0.5ms)[0m  [1m[36mcommit transaction[0m
+  [1m[35m (0.1ms)[0m  [1m[36mbegin transaction[0m
+  [1m[36mArticle Destroy (0.3ms)[0m  [1m[31mDELETE FROM "articles" WHERE "articles"."id" = ?[0m  [["id", 185]]
+  [1m[35m (0.4ms)[0m  [1m[36mcommit transaction[0m
+  [1m[35m (0.0ms)[0m  [1m[36mbegin transaction[0m
+  [1m[36mArticle Destroy (0.2ms)[0m  [1m[31mDELETE FROM "articles" WHERE "articles"."id" = ?[0m  [["id", 186]]
+  [1m[35m (0.5ms)[0m  [1m[36mcommit transaction[0m
+  [1m[35m (0.0ms)[0m  [1m[36mbegin transaction[0m
+  [1m[36mArticle Destroy (0.2ms)[0m  [1m[31mDELETE FROM "articles" WHERE "articles"."id" = ?[0m  [["id", 187]]
+  [1m[35m (0.4ms)[0m  [1m[36mcommit transaction[0m
+  [1m[36mBusiness Load (0.2ms)[0m  [1m[34mSELECT "businesses".* FROM "businesses"[0m
+  [1m[35m (0.0ms)[0m  [1m[36mbegin transaction[0m
+  [1m[36mBusiness Destroy (0.2ms)[0m  [1m[31mDELETE FROM "businesses" WHERE "businesses"."id" = ?[0m  [["id", 121]]
+  [1m[35m (0.6ms)[0m  [1m[36mcommit transaction[0m
+  [1m[35m (0.0ms)[0m  [1m[36mbegin transaction[0m
+  [1m[36mBusiness Destroy (0.2ms)[0m  [1m[31mDELETE FROM "businesses" WHERE "businesses"."id" = ?[0m  [["id", 122]]
+  [1m[35m (0.5ms)[0m  [1m[36mcommit transaction[0m
+  [1m[35m (0.0ms)[0m  [1m[36mbegin transaction[0m
+  [1m[36mBusiness Destroy (0.2ms)[0m  [1m[31mDELETE FROM "businesses" WHERE "businesses"."id" = ?[0m  [["id", 123]]
+  [1m[35m (0.5ms)[0m  [1m[36mcommit transaction[0m
+  [1m[35m (0.0ms)[0m  [1m[36mbegin transaction[0m
+  [1m[36mBusiness Destroy (0.2ms)[0m  [1m[31mDELETE FROM "businesses" WHERE "businesses"."id" = ?[0m  [["id", 124]]
+  [1m[35m (0.6ms)[0m  [1m[36mcommit transaction[0m
+  [1m[35m (0.0ms)[0m  [1m[36mbegin transaction[0m
+  [1m[36mBusiness Destroy (0.2ms)[0m  [1m[31mDELETE FROM "businesses" WHERE "businesses"."id" = ?[0m  [["id", 125]]
+  [1m[35m (0.7ms)[0m  [1m[36mcommit transaction[0m
+  [1m[35m (0.1ms)[0m  [1m[36mbegin transaction[0m
+  [1m[36mBusiness Destroy (0.2ms)[0m  [1m[31mDELETE FROM "businesses" WHERE "businesses"."id" = ?[0m  [["id", 126]]
+  [1m[35m (0.5ms)[0m  [1m[36mcommit transaction[0m
+  [1m[35m (0.0ms)[0m  [1m[36mbegin transaction[0m
+  [1m[36mBusiness Destroy (0.2ms)[0m  [1m[31mDELETE FROM "businesses" WHERE "businesses"."id" = ?[0m  [["id", 127]]
+  [1m[35m (0.5ms)[0m  [1m[36mcommit transaction[0m
+  [1m[35m (0.0ms)[0m  [1m[36mbegin transaction[0m
+  [1m[36mBusiness Destroy (0.3ms)[0m  [1m[31mDELETE FROM "businesses" WHERE "businesses"."id" = ?[0m  [["id", 128]]
+  [1m[35m (0.6ms)[0m  [1m[36mcommit transaction[0m
+  [1m[35m (0.0ms)[0m  [1m[36mbegin transaction[0m
+  [1m[36mBusiness Destroy (0.2ms)[0m  [1m[31mDELETE FROM "businesses" WHERE "businesses"."id" = ?[0m  [["id", 129]]
+  [1m[35m (0.5ms)[0m  [1m[36mcommit transaction[0m
+  [1m[35m (0.0ms)[0m  [1m[36mbegin transaction[0m
+  [1m[36mBusiness Destroy (0.2ms)[0m  [1m[31mDELETE FROM "businesses" WHERE "businesses"."id" = ?[0m  [["id", 130]]
+  [1m[35m (0.4ms)[0m  [1m[36mcommit transaction[0m
+  [1m[35m (0.0ms)[0m  [1m[36mbegin transaction[0m
+  [1m[36mBusiness Destroy (0.3ms)[0m  [1m[31mDELETE FROM "businesses" WHERE "businesses"."id" = ?[0m  [["id", 131]]
+  [1m[35m (0.5ms)[0m  [1m[36mcommit transaction[0m
+  [1m[35m (0.0ms)[0m  [1m[36mbegin transaction[0m
+  [1m[36mBusiness Destroy (0.2ms)[0m  [1m[31mDELETE FROM "businesses" WHERE "businesses"."id" = ?[0m  [["id", 132]]
+  [1m[35m (0.4ms)[0m  [1m[36mcommit transaction[0m
+  [1m[35m (0.0ms)[0m  [1m[36mbegin transaction[0m
+  [1m[36mBusiness Destroy (0.2ms)[0m  [1m[31mDELETE FROM "businesses" WHERE "businesses"."id" = ?[0m  [["id", 133]]
+  [1m[35m (0.5ms)[0m  [1m[36mcommit transaction[0m
+  [1m[35m (0.0ms)[0m  [1m[36mbegin transaction[0m
+  [1m[36mBusiness Destroy (0.2ms)[0m  [1m[31mDELETE FROM "businesses" WHERE "businesses"."id" = ?[0m  [["id", 134]]
+  [1m[35m (0.4ms)[0m  [1m[36mcommit transaction[0m
+  [1m[35m (0.0ms)[0m  [1m[36mbegin transaction[0m
+  [1m[36mBusiness Destroy (0.2ms)[0m  [1m[31mDELETE FROM "businesses" WHERE "businesses"."id" = ?[0m  [["id", 135]]
+  [1m[35m (0.4ms)[0m  [1m[36mcommit transaction[0m
+  [1m[35m (0.0ms)[0m  [1m[36mbegin transaction[0m
+  [1m[36mBusiness Destroy (0.2ms)[0m  [1m[31mDELETE FROM "businesses" WHERE "businesses"."id" = ?[0m  [["id", 136]]
+  [1m[35m (0.4ms)[0m  [1m[36mcommit transaction[0m
+  [1m[35m (0.0ms)[0m  [1m[36mbegin transaction[0m
+  [1m[36mBusiness Destroy (0.2ms)[0m  [1m[31mDELETE FROM "businesses" WHERE "businesses"."id" = ?[0m  [["id", 137]]
+  [1m[35m (0.4ms)[0m  [1m[36mcommit transaction[0m
+  [1m[35m (0.0ms)[0m  [1m[36mbegin transaction[0m
+  [1m[36mBusiness Destroy (0.3ms)[0m  [1m[31mDELETE FROM "businesses" WHERE "businesses"."id" = ?[0m  [["id", 138]]
+  [1m[35m (0.6ms)[0m  [1m[36mcommit transaction[0m
+  [1m[35m (0.0ms)[0m  [1m[36mbegin transaction[0m
+  [1m[36mBusiness Destroy (0.2ms)[0m  [1m[31mDELETE FROM "businesses" WHERE "businesses"."id" = ?[0m  [["id", 139]]
+  [1m[35m (0.5ms)[0m  [1m[36mcommit transaction[0m
+  [1m[35m (0.0ms)[0m  [1m[36mbegin transaction[0m
+  [1m[36mBusiness Destroy (0.2ms)[0m  [1m[31mDELETE FROM "businesses" WHERE "businesses"."id" = ?[0m  [["id", 140]]
+  [1m[35m (0.5ms)[0m  [1m[36mcommit transaction[0m
+  [1m[36mEntertainment Load (0.2ms)[0m  [1m[34mSELECT "entertainments".* FROM "entertainments"[0m
+  [1m[35m (0.0ms)[0m  [1m[36mbegin transaction[0m
+  [1m[36mEntertainment Destroy (0.2ms)[0m  [1m[31mDELETE FROM "entertainments" WHERE "entertainments"."id" = ?[0m  [["id", 101]]
+  [1m[35m (0.6ms)[0m  [1m[36mcommit transaction[0m
+  [1m[35m (0.0ms)[0m  [1m[36mbegin transaction[0m
+  [1m[36mEntertainment Destroy (0.2ms)[0m  [1m[31mDELETE FROM "entertainments" WHERE "entertainments"."id" = ?[0m  [["id", 102]]
+  [1m[35m (0.5ms)[0m  [1m[36mcommit transaction[0m
+  [1m[35m (0.0ms)[0m  [1m[36mbegin transaction[0m
+  [1m[36mEntertainment Destroy (0.2ms)[0m  [1m[31mDELETE FROM "entertainments" WHERE "entertainments"."id" = ?[0m  [["id", 103]]
+  [1m[35m (0.4ms)[0m  [1m[36mcommit transaction[0m
+  [1m[35m (0.0ms)[0m  [1m[36mbegin transaction[0m
+  [1m[36mEntertainment Destroy (0.2ms)[0m  [1m[31mDELETE FROM "entertainments" WHERE "entertainments"."id" = ?[0m  [["id", 104]]
+  [1m[35m (0.4ms)[0m  [1m[36mcommit transaction[0m
+  [1m[35m (0.0ms)[0m  [1m[36mbegin transaction[0m
+  [1m[36mEntertainment Destroy (0.2ms)[0m  [1m[31mDELETE FROM "entertainments" WHERE "entertainments"."id" = ?[0m  [["id", 105]]
+  [1m[35m (0.4ms)[0m  [1m[36mcommit transaction[0m
+  [1m[35m (0.0ms)[0m  [1m[36mbegin transaction[0m
+  [1m[36mEntertainment Destroy (0.2ms)[0m  [1m[31mDELETE FROM "entertainments" WHERE "entertainments"."id" = ?[0m  [["id", 106]]
+  [1m[35m (0.4ms)[0m  [1m[36mcommit transaction[0m
+  [1m[35m (0.1ms)[0m  [1m[36mbegin transaction[0m
+  [1m[36mEntertainment Destroy (0.3ms)[0m  [1m[31mDELETE FROM "entertainments" WHERE "entertainments"."id" = ?[0m  [["id", 107]]
+  [1m[35m (0.5ms)[0m  [1m[36mcommit transaction[0m
+  [1m[35m (0.0ms)[0m  [1m[36mbegin transaction[0m
+  [1m[36mEntertainment Destroy (0.2ms)[0m  [1m[31mDELETE FROM "entertainments" WHERE "entertainments"."id" = ?[0m  [["id", 108]]
+  [1m[35m (0.4ms)[0m  [1m[36mcommit transaction[0m
+  [1m[35m (0.0ms)[0m  [1m[36mbegin transaction[0m
+  [1m[36mEntertainment Destroy (0.2ms)[0m  [1m[31mDELETE FROM "entertainments" WHERE "entertainments"."id" = ?[0m  [["id", 109]]
+  [1m[35m (0.4ms)[0m  [1m[36mcommit transaction[0m
+  [1m[35m (0.0ms)[0m  [1m[36mbegin transaction[0m
+  [1m[36mEntertainment Destroy (0.2ms)[0m  [1m[31mDELETE FROM "entertainments" WHERE "entertainments"."id" = ?[0m  [["id", 110]]
+  [1m[35m (0.4ms)[0m  [1m[36mcommit transaction[0m
+  [1m[35m (0.0ms)[0m  [1m[36mbegin transaction[0m
+  [1m[36mEntertainment Destroy (0.2ms)[0m  [1m[31mDELETE FROM "entertainments" WHERE "entertainments"."id" = ?[0m  [["id", 111]]
+  [1m[35m (0.4ms)[0m  [1m[36mcommit transaction[0m
+  [1m[35m (0.0ms)[0m  [1m[36mbegin transaction[0m
+  [1m[36mEntertainment Destroy (0.2ms)[0m  [1m[31mDELETE FROM "entertainments" WHERE "entertainments"."id" = ?[0m  [["id", 112]]
+  [1m[35m (0.4ms)[0m  [1m[36mcommit transaction[0m
+  [1m[35m (0.0ms)[0m  [1m[36mbegin transaction[0m
+  [1m[36mEntertainment Destroy (0.2ms)[0m  [1m[31mDELETE FROM "entertainments" WHERE "entertainments"."id" = ?[0m  [["id", 113]]
+  [1m[35m (0.5ms)[0m  [1m[36mcommit transaction[0m
+  [1m[35m (0.0ms)[0m  [1m[36mbegin transaction[0m
+  [1m[36mEntertainment Destroy (0.2ms)[0m  [1m[31mDELETE FROM "entertainments" WHERE "entertainments"."id" = ?[0m  [["id", 114]]
+  [1m[35m (0.4ms)[0m  [1m[36mcommit transaction[0m
+  [1m[35m (0.0ms)[0m  [1m[36mbegin transaction[0m
+  [1m[36mEntertainment Destroy (0.2ms)[0m  [1m[31mDELETE FROM "entertainments" WHERE "entertainments"."id" = ?[0m  [["id", 115]]
+  [1m[35m (0.4ms)[0m  [1m[36mcommit transaction[0m
+  [1m[35m (0.0ms)[0m  [1m[36mbegin transaction[0m
+  [1m[36mEntertainment Destroy (0.3ms)[0m  [1m[31mDELETE FROM "entertainments" WHERE "entertainments"."id" = ?[0m  [["id", 116]]
+  [1m[35m (0.4ms)[0m  [1m[36mcommit transaction[0m
+  [1m[35m (0.0ms)[0m  [1m[36mbegin transaction[0m
+  [1m[36mEntertainment Destroy (0.2ms)[0m  [1m[31mDELETE FROM "entertainments" WHERE "entertainments"."id" = ?[0m  [["id", 117]]
+  [1m[35m (0.4ms)[0m  [1m[36mcommit transaction[0m
+  [1m[35m (0.0ms)[0m  [1m[36mbegin transaction[0m
+  [1m[36mEntertainment Destroy (0.2ms)[0m  [1m[31mDELETE FROM "entertainments" WHERE "entertainments"."id" = ?[0m  [["id", 118]]
+  [1m[35m (0.4ms)[0m  [1m[36mcommit transaction[0m
+  [1m[35m (0.0ms)[0m  [1m[36mbegin transaction[0m
+  [1m[36mEntertainment Destroy (0.2ms)[0m  [1m[31mDELETE FROM "entertainments" WHERE "entertainments"."id" = ?[0m  [["id", 119]]
+  [1m[35m (0.5ms)[0m  [1m[36mcommit transaction[0m
+  [1m[35m (0.0ms)[0m  [1m[36mbegin transaction[0m
+  [1m[36mEntertainment Destroy (0.3ms)[0m  [1m[31mDELETE FROM "entertainments" WHERE "entertainments"."id" = ?[0m  [["id", 120]]
+  [1m[35m (0.4ms)[0m  [1m[36mcommit transaction[0m
+  [1m[36mGeneral Load (0.1ms)[0m  [1m[34mSELECT "generals".* FROM "generals"[0m
+  [1m[35m (0.0ms)[0m  [1m[36mbegin transaction[0m
+  [1m[36mGeneral Destroy (0.3ms)[0m  [1m[31mDELETE FROM "generals" WHERE "generals"."id" = ?[0m  [["id", 51]]
+  [1m[35m (0.4ms)[0m  [1m[36mcommit transaction[0m
+  [1m[35m (0.0ms)[0m  [1m[36mbegin transaction[0m
+  [1m[36mGeneral Destroy (0.3ms)[0m  [1m[31mDELETE FROM "generals" WHERE "generals"."id" = ?[0m  [["id", 52]]
+  [1m[35m (0.5ms)[0m  [1m[36mcommit transaction[0m
+  [1m[35m (0.0ms)[0m  [1m[36mbegin transaction[0m
+  [1m[36mGeneral Destroy (0.2ms)[0m  [1m[31mDELETE FROM "generals" WHERE "generals"."id" = ?[0m  [["id", 53]]
+  [1m[35m (0.4ms)[0m  [1m[36mcommit transaction[0m
+  [1m[35m (0.0ms)[0m  [1m[36mbegin transaction[0m
+  [1m[36mGeneral Destroy (0.3ms)[0m  [1m[31mDELETE FROM "generals" WHERE "generals"."id" = ?[0m  [["id", 54]]
+  [1m[35m (0.5ms)[0m  [1m[36mcommit transaction[0m
+  [1m[35m (0.0ms)[0m  [1m[36mbegin transaction[0m
+  [1m[36mGeneral Destroy (0.2ms)[0m  [1m[31mDELETE FROM "generals" WHERE "generals"."id" = ?[0m  [["id", 55]]
+  [1m[35m (0.5ms)[0m  [1m[36mcommit transaction[0m
+  [1m[36mHealth Load (0.2ms)[0m  [1m[34mSELECT "healths".* FROM "healths"[0m
+  [1m[35m (0.0ms)[0m  [1m[36mbegin transaction[0m
+  [1m[36mHealth Destroy (0.2ms)[0m  [1m[31mDELETE FROM "healths" WHERE "healths"."id" = ?[0m  [["id", 101]]
+  [1m[35m (0.5ms)[0m  [1m[36mcommit transaction[0m
+  [1m[35m (0.0ms)[0m  [1m[36mbegin transaction[0m
+  [1m[36mHealth Destroy (0.2ms)[0m  [1m[31mDELETE FROM "healths" WHERE "healths"."id" = ?[0m  [["id", 102]]
+  [1m[35m (0.4ms)[0m  [1m[36mcommit transaction[0m
+  [1m[35m (0.0ms)[0m  [1m[36mbegin transaction[0m
+  [1m[36mHealth Destroy (0.2ms)[0m  [1m[31mDELETE FROM "healths" WHERE "healths"."id" = ?[0m  [["id", 103]]
+  [1m[35m (0.4ms)[0m  [1m[36mcommit transaction[0m
+  [1m[35m (0.0ms)[0m  [1m[36mbegin transaction[0m
+  [1m[36mHealth Destroy (0.2ms)[0m  [1m[31mDELETE FROM "healths" WHERE "healths"."id" = ?[0m  [["id", 104]]
+  [1m[35m (0.4ms)[0m  [1m[36mcommit transaction[0m
+  [1m[35m (0.0ms)[0m  [1m[36mbegin transaction[0m
+  [1m[36mHealth Destroy (0.2ms)[0m  [1m[31mDELETE FROM "healths" WHERE "healths"."id" = ?[0m  [["id", 105]]
+  [1m[35m (0.5ms)[0m  [1m[36mcommit transaction[0m
+  [1m[35m (0.0ms)[0m  [1m[36mbegin transaction[0m
+  [1m[36mHealth Destroy (0.2ms)[0m  [1m[31mDELETE FROM "healths" WHERE "healths"."id" = ?[0m  [["id", 106]]
+  [1m[35m (0.4ms)[0m  [1m[36mcommit transaction[0m
+  [1m[35m (0.0ms)[0m  [1m[36mbegin transaction[0m
+  [1m[36mHealth Destroy (0.3ms)[0m  [1m[31mDELETE FROM "healths" WHERE "healths"."id" = ?[0m  [["id", 107]]
+  [1m[35m (0.5ms)[0m  [1m[36mcommit transaction[0m
+  [1m[35m (0.0ms)[0m  [1m[36mbegin transaction[0m
+  [1m[36mHealth Destroy (0.2ms)[0m  [1m[31mDELETE FROM "healths" WHERE "healths"."id" = ?[0m  [["id", 108]]
+  [1m[35m (0.4ms)[0m  [1m[36mcommit transaction[0m
+  [1m[35m (0.0ms)[0m  [1m[36mbegin transaction[0m
+  [1m[36mHealth Destroy (0.4ms)[0m  [1m[31mDELETE FROM "healths" WHERE "healths"."id" = ?[0m  [["id", 109]]
+  [1m[35m (0.5ms)[0m  [1m[36mcommit transaction[0m
+  [1m[35m (0.0ms)[0m  [1m[36mbegin transaction[0m
+  [1m[36mHealth Destroy (0.6ms)[0m  [1m[31mDELETE FROM "healths" WHERE "healths"."id" = ?[0m  [["id", 110]]
+  [1m[35m (0.5ms)[0m  [1m[36mcommit transaction[0m
+  [1m[35m (0.0ms)[0m  [1m[36mbegin transaction[0m
+  [1m[36mHealth Destroy (0.2ms)[0m  [1m[31mDELETE FROM "healths" WHERE "healths"."id" = ?[0m  [["id", 111]]
+  [1m[35m (0.3ms)[0m  [1m[36mcommit transaction[0m
+  [1m[35m (0.0ms)[0m  [1m[36mbegin transaction[0m
+  [1m[36mHealth Destroy (0.2ms)[0m  [1m[31mDELETE FROM "healths" WHERE "healths"."id" = ?[0m  [["id", 112]]
+  [1m[35m (0.4ms)[0m  [1m[36mcommit transaction[0m
+  [1m[35m (0.0ms)[0m  [1m[36mbegin transaction[0m
+  [1m[36mHealth Destroy (0.2ms)[0m  [1m[31mDELETE FROM "healths" WHERE "healths"."id" = ?[0m  [["id", 113]]
+  [1m[35m (0.5ms)[0m  [1m[36mcommit transaction[0m
+  [1m[35m (0.0ms)[0m  [1m[36mbegin transaction[0m
+  [1m[36mHealth Destroy (0.2ms)[0m  [1m[31mDELETE FROM "healths" WHERE "healths"."id" = ?[0m  [["id", 114]]
+  [1m[35m (0.5ms)[0m  [1m[36mcommit transaction[0m
+  [1m[35m (0.0ms)[0m  [1m[36mbegin transaction[0m
+  [1m[36mHealth Destroy (0.2ms)[0m  [1m[31mDELETE FROM "healths" WHERE "healths"."id" = ?[0m  [["id", 115]]
+  [1m[35m (0.4ms)[0m  [1m[36mcommit transaction[0m
+  [1m[35m (0.0ms)[0m  [1m[36mbegin transaction[0m
+  [1m[36mHealth Destroy (0.2ms)[0m  [1m[31mDELETE FROM "healths" WHERE "healths"."id" = ?[0m  [["id", 116]]
+  [1m[35m (0.4ms)[0m  [1m[36mcommit transaction[0m
+  [1m[35m (0.0ms)[0m  [1m[36mbegin transaction[0m
+  [1m[36mHealth Destroy (0.2ms)[0m  [1m[31mDELETE FROM "healths" WHERE "healths"."id" = ?[0m  [["id", 117]]
+  [1m[35m (0.4ms)[0m  [1m[36mcommit transaction[0m
+  [1m[35m (0.0ms)[0m  [1m[36mbegin transaction[0m
+  [1m[36mHealth Destroy (0.3ms)[0m  [1m[31mDELETE FROM "healths" WHERE "healths"."id" = ?[0m  [["id", 118]]
+  [1m[35m (0.4ms)[0m  [1m[36mcommit transaction[0m
+  [1m[35m (0.0ms)[0m  [1m[36mbegin transaction[0m
+  [1m[36mHealth Destroy (0.2ms)[0m  [1m[31mDELETE FROM "healths" WHERE "healths"."id" = ?[0m  [["id", 119]]
+  [1m[35m (0.4ms)[0m  [1m[36mcommit transaction[0m
+  [1m[35m (0.0ms)[0m  [1m[36mbegin transaction[0m
+  [1m[36mHealth Destroy (0.2ms)[0m  [1m[31mDELETE FROM "healths" WHERE "healths"."id" = ?[0m  [["id", 120]]
+  [1m[35m (0.3ms)[0m  [1m[36mcommit transaction[0m
+  [1m[36mScience Load (0.2ms)[0m  [1m[34mSELECT "sciences".* FROM "sciences"[0m
+  [1m[35m (0.0ms)[0m  [1m[36mbegin transaction[0m
+  [1m[36mScience Destroy (0.2ms)[0m  [1m[31mDELETE FROM "sciences" WHERE "sciences"."id" = ?[0m  [["id", 101]]
+  [1m[35m (0.4ms)[0m  [1m[36mcommit transaction[0m
+  [1m[35m (0.0ms)[0m  [1m[36mbegin transaction[0m
+  [1m[36mScience Destroy (0.2ms)[0m  [1m[31mDELETE FROM "sciences" WHERE "sciences"."id" = ?[0m  [["id", 102]]
+  [1m[35m (0.4ms)[0m  [1m[36mcommit transaction[0m
+  [1m[35m (0.0ms)[0m  [1m[36mbegin transaction[0m
+  [1m[36mScience Destroy (0.2ms)[0m  [1m[31mDELETE FROM "sciences" WHERE "sciences"."id" = ?[0m  [["id", 103]]
+  [1m[35m (0.4ms)[0m  [1m[36mcommit transaction[0m
+  [1m[35m (0.0ms)[0m  [1m[36mbegin transaction[0m
+  [1m[36mScience Destroy (0.2ms)[0m  [1m[31mDELETE FROM "sciences" WHERE "sciences"."id" = ?[0m  [["id", 104]]
+  [1m[35m (0.3ms)[0m  [1m[36mcommit transaction[0m
+  [1m[35m (0.0ms)[0m  [1m[36mbegin transaction[0m
+  [1m[36mScience Destroy (0.2ms)[0m  [1m[31mDELETE FROM "sciences" WHERE "sciences"."id" = ?[0m  [["id", 105]]
+  [1m[35m (0.4ms)[0m  [1m[36mcommit transaction[0m
+  [1m[35m (0.0ms)[0m  [1m[36mbegin transaction[0m
+  [1m[36mScience Destroy (0.2ms)[0m  [1m[31mDELETE FROM "sciences" WHERE "sciences"."id" = ?[0m  [["id", 106]]
+  [1m[35m (0.4ms)[0m  [1m[36mcommit transaction[0m
+  [1m[35m (0.0ms)[0m  [1m[36mbegin transaction[0m
+  [1m[36mScience Destroy (0.2ms)[0m  [1m[31mDELETE FROM "sciences" WHERE "sciences"."id" = ?[0m  [["id", 107]]
+  [1m[35m (0.5ms)[0m  [1m[36mcommit transaction[0m
+  [1m[35m (0.0ms)[0m  [1m[36mbegin transaction[0m
+  [1m[36mScience Destroy (0.3ms)[0m  [1m[31mDELETE FROM "sciences" WHERE "sciences"."id" = ?[0m  [["id", 108]]
+  [1m[35m (0.5ms)[0m  [1m[36mcommit transaction[0m
+  [1m[35m (0.0ms)[0m  [1m[36mbegin transaction[0m
+  [1m[36mScience Destroy (0.2ms)[0m  [1m[31mDELETE FROM "sciences" WHERE "sciences"."id" = ?[0m  [["id", 109]]
+  [1m[35m (0.6ms)[0m  [1m[36mcommit transaction[0m
+  [1m[35m (0.0ms)[0m  [1m[36mbegin transaction[0m
+  [1m[36mScience Destroy (0.2ms)[0m  [1m[31mDELETE FROM "sciences" WHERE "sciences"."id" = ?[0m  [["id", 110]]
+  [1m[35m (0.4ms)[0m  [1m[36mcommit transaction[0m
+  [1m[35m (0.0ms)[0m  [1m[36mbegin transaction[0m
+  [1m[36mScience Destroy (0.2ms)[0m  [1m[31mDELETE FROM "sciences" WHERE "sciences"."id" = ?[0m  [["id", 111]]
+  [1m[35m (0.4ms)[0m  [1m[36mcommit transaction[0m
+  [1m[35m (0.0ms)[0m  [1m[36mbegin transaction[0m
+  [1m[36mScience Destroy (0.3ms)[0m  [1m[31mDELETE FROM "sciences" WHERE "sciences"."id" = ?[0m  [["id", 112]]
+  [1m[35m (0.5ms)[0m  [1m[36mcommit transaction[0m
+  [1m[35m (0.0ms)[0m  [1m[36mbegin transaction[0m
+  [1m[36mScience Destroy (0.2ms)[0m  [1m[31mDELETE FROM "sciences" WHERE "sciences"."id" = ?[0m  [["id", 113]]
+  [1m[35m (0.4ms)[0m  [1m[36mcommit transaction[0m
+  [1m[35m (0.0ms)[0m  [1m[36mbegin transaction[0m
+  [1m[36mScience Destroy (0.2ms)[0m  [1m[31mDELETE FROM "sciences" WHERE "sciences"."id" = ?[0m  [["id", 114]]
+  [1m[35m (0.4ms)[0m  [1m[36mcommit transaction[0m
+  [1m[35m (0.0ms)[0m  [1m[36mbegin transaction[0m
+  [1m[36mScience Destroy (0.2ms)[0m  [1m[31mDELETE FROM "sciences" WHERE "sciences"."id" = ?[0m  [["id", 115]]
+  [1m[35m (0.4ms)[0m  [1m[36mcommit transaction[0m
+  [1m[35m (0.0ms)[0m  [1m[36mbegin transaction[0m
+  [1m[36mScience Destroy (0.2ms)[0m  [1m[31mDELETE FROM "sciences" WHERE "sciences"."id" = ?[0m  [["id", 116]]
+  [1m[35m (0.4ms)[0m  [1m[36mcommit transaction[0m
+  [1m[35m (0.0ms)[0m  [1m[36mbegin transaction[0m
+  [1m[36mScience Destroy (0.2ms)[0m  [1m[31mDELETE FROM "sciences" WHERE "sciences"."id" = ?[0m  [["id", 117]]
+  [1m[35m (0.4ms)[0m  [1m[36mcommit transaction[0m
+  [1m[35m (0.0ms)[0m  [1m[36mbegin transaction[0m
+  [1m[36mScience Destroy (0.2ms)[0m  [1m[31mDELETE FROM "sciences" WHERE "sciences"."id" = ?[0m  [["id", 118]]
+  [1m[35m (0.5ms)[0m  [1m[36mcommit transaction[0m
+  [1m[35m (0.0ms)[0m  [1m[36mbegin transaction[0m
+  [1m[36mScience Destroy (0.3ms)[0m  [1m[31mDELETE FROM "sciences" WHERE "sciences"."id" = ?[0m  [["id", 119]]
+  [1m[35m (0.4ms)[0m  [1m[36mcommit transaction[0m
+  [1m[35m (0.0ms)[0m  [1m[36mbegin transaction[0m
+  [1m[36mScience Destroy (0.3ms)[0m  [1m[31mDELETE FROM "sciences" WHERE "sciences"."id" = ?[0m  [["id", 120]]
+  [1m[35m (0.4ms)[0m  [1m[36mcommit transaction[0m
+  [1m[36mSport Load (0.3ms)[0m  [1m[34mSELECT "sports".* FROM "sports"[0m
+  [1m[35m (0.1ms)[0m  [1m[36mbegin transaction[0m
+  [1m[36mSport Destroy (0.2ms)[0m  [1m[31mDELETE FROM "sports" WHERE "sports"."id" = ?[0m  [["id", 81]]
+  [1m[35m (0.4ms)[0m  [1m[36mcommit transaction[0m
+  [1m[35m (0.0ms)[0m  [1m[36mbegin transaction[0m
+  [1m[36mSport Destroy (0.2ms)[0m  [1m[31mDELETE FROM "sports" WHERE "sports"."id" = ?[0m  [["id", 82]]
+  [1m[35m (0.4ms)[0m  [1m[36mcommit transaction[0m
+  [1m[35m (0.0ms)[0m  [1m[36mbegin transaction[0m
+  [1m[36mSport Destroy (0.2ms)[0m  [1m[31mDELETE FROM "sports" WHERE "sports"."id" = ?[0m  [["id", 83]]
+  [1m[35m (0.4ms)[0m  [1m[36mcommit transaction[0m
+  [1m[35m (0.0ms)[0m  [1m[36mbegin transaction[0m
+  [1m[36mSport Destroy (0.2ms)[0m  [1m[31mDELETE FROM "sports" WHERE "sports"."id" = ?[0m  [["id", 84]]
+  [1m[35m (0.5ms)[0m  [1m[36mcommit transaction[0m
+  [1m[35m (0.0ms)[0m  [1m[36mbegin transaction[0m
+  [1m[36mSport Destroy (0.2ms)[0m  [1m[31mDELETE FROM "sports" WHERE "sports"."id" = ?[0m  [["id", 85]]
+  [1m[35m (0.4ms)[0m  [1m[36mcommit transaction[0m
+  [1m[35m (0.0ms)[0m  [1m[36mbegin transaction[0m
+  [1m[36mSport Destroy (0.2ms)[0m  [1m[31mDELETE FROM "sports" WHERE "sports"."id" = ?[0m  [["id", 86]]
+  [1m[35m (0.4ms)[0m  [1m[36mcommit transaction[0m
+  [1m[35m (0.0ms)[0m  [1m[36mbegin transaction[0m
+  [1m[36mSport Destroy (0.2ms)[0m  [1m[31mDELETE FROM "sports" WHERE "sports"."id" = ?[0m  [["id", 87]]
+  [1m[35m (0.4ms)[0m  [1m[36mcommit transaction[0m
+  [1m[35m (0.0ms)[0m  [1m[36mbegin transaction[0m
+  [1m[36mSport Destroy (0.2ms)[0m  [1m[31mDELETE FROM "sports" WHERE "sports"."id" = ?[0m  [["id", 88]]
+  [1m[35m (0.6ms)[0m  [1m[36mcommit transaction[0m
+  [1m[35m (0.0ms)[0m  [1m[36mbegin transaction[0m
+  [1m[36mSport Destroy (0.3ms)[0m  [1m[31mDELETE FROM "sports" WHERE "sports"."id" = ?[0m  [["id", 89]]
+  [1m[35m (0.4ms)[0m  [1m[36mcommit transaction[0m
+  [1m[35m (0.0ms)[0m  [1m[36mbegin transaction[0m
+  [1m[36mSport Destroy (0.2ms)[0m  [1m[31mDELETE FROM "sports" WHERE "sports"."id" = ?[0m  [["id", 90]]
+  [1m[35m (0.4ms)[0m  [1m[36mcommit transaction[0m
+  [1m[35m (0.0ms)[0m  [1m[36mbegin transaction[0m
+  [1m[36mSport Destroy (0.2ms)[0m  [1m[31mDELETE FROM "sports" WHERE "sports"."id" = ?[0m  [["id", 91]]
+  [1m[35m (0.5ms)[0m  [1m[36mcommit transaction[0m
+  [1m[35m (0.0ms)[0m  [1m[36mbegin transaction[0m
+  [1m[36mSport Destroy (0.3ms)[0m  [1m[31mDELETE FROM "sports" WHERE "sports"."id" = ?[0m  [["id", 92]]
+  [1m[35m (0.4ms)[0m  [1m[36mcommit transaction[0m
+  [1m[35m (0.0ms)[0m  [1m[36mbegin transaction[0m
+  [1m[36mSport Destroy (0.2ms)[0m  [1m[31mDELETE FROM "sports" WHERE "sports"."id" = ?[0m  [["id", 93]]
+  [1m[35m (0.5ms)[0m  [1m[36mcommit transaction[0m
+  [1m[35m (0.0ms)[0m  [1m[36mbegin transaction[0m
+  [1m[36mSport Destroy (0.2ms)[0m  [1m[31mDELETE FROM "sports" WHERE "sports"."id" = ?[0m  [["id", 94]]
+  [1m[35m (0.4ms)[0m  [1m[36mcommit transaction[0m
+  [1m[35m (0.0ms)[0m  [1m[36mbegin transaction[0m
+  [1m[36mSport Destroy (0.2ms)[0m  [1m[31mDELETE FROM "sports" WHERE "sports"."id" = ?[0m  [["id", 95]]
+  [1m[35m (0.4ms)[0m  [1m[36mcommit transaction[0m
+  [1m[35m (0.0ms)[0m  [1m[36mbegin transaction[0m
+  [1m[36mSport Destroy (0.2ms)[0m  [1m[31mDELETE FROM "sports" WHERE "sports"."id" = ?[0m  [["id", 96]]
+  [1m[35m (0.4ms)[0m  [1m[36mcommit transaction[0m
+  [1m[35m (0.0ms)[0m  [1m[36mbegin transaction[0m
+  [1m[36mSport Destroy (0.2ms)[0m  [1m[31mDELETE FROM "sports" WHERE "sports"."id" = ?[0m  [["id", 97]]
+  [1m[35m (0.4ms)[0m  [1m[36mcommit transaction[0m
+  [1m[35m (0.0ms)[0m  [1m[36mbegin transaction[0m
+  [1m[36mSport Destroy (0.2ms)[0m  [1m[31mDELETE FROM "sports" WHERE "sports"."id" = ?[0m  [["id", 98]]
+  [1m[35m (0.3ms)[0m  [1m[36mcommit transaction[0m
+  [1m[35m (0.0ms)[0m  [1m[36mbegin transaction[0m
+  [1m[36mSport Destroy (0.2ms)[0m  [1m[31mDELETE FROM "sports" WHERE "sports"."id" = ?[0m  [["id", 99]]
+  [1m[35m (0.4ms)[0m  [1m[36mcommit transaction[0m
+  [1m[35m (0.0ms)[0m  [1m[36mbegin transaction[0m
+  [1m[36mSport Destroy (0.2ms)[0m  [1m[31mDELETE FROM "sports" WHERE "sports"."id" = ?[0m  [["id", 100]]
+  [1m[35m (0.3ms)[0m  [1m[36mcommit transaction[0m
+  [1m[36mTechnology Load (0.2ms)[0m  [1m[34mSELECT "technologies".* FROM "technologies"[0m
+  [1m[35m (0.2ms)[0m  [1m[36mbegin transaction[0m
+  [1m[36mTechnology Destroy (0.3ms)[0m  [1m[31mDELETE FROM "technologies" WHERE "technologies"."id" = ?[0m  [["id", 81]]
+  [1m[35m (0.5ms)[0m  [1m[36mcommit transaction[0m
+  [1m[35m (0.0ms)[0m  [1m[36mbegin transaction[0m
+  [1m[36mTechnology Destroy (0.3ms)[0m  [1m[31mDELETE FROM "technologies" WHERE "technologies"."id" = ?[0m  [["id", 82]]
+  [1m[35m (0.4ms)[0m  [1m[36mcommit transaction[0m
+  [1m[35m (0.0ms)[0m  [1m[36mbegin transaction[0m
+  [1m[36mTechnology Destroy (0.2ms)[0m  [1m[31mDELETE FROM "technologies" WHERE "technologies"."id" = ?[0m  [["id", 83]]
+  [1m[35m (0.4ms)[0m  [1m[36mcommit transaction[0m
+  [1m[35m (0.0ms)[0m  [1m[36mbegin transaction[0m
+  [1m[36mTechnology Destroy (0.3ms)[0m  [1m[31mDELETE FROM "technologies" WHERE "technologies"."id" = ?[0m  [["id", 84]]
+  [1m[35m (0.5ms)[0m  [1m[36mcommit transaction[0m
+  [1m[35m (0.0ms)[0m  [1m[36mbegin transaction[0m
+  [1m[36mTechnology Destroy (0.3ms)[0m  [1m[31mDELETE FROM "technologies" WHERE "technologies"."id" = ?[0m  [["id", 85]]
+  [1m[35m (0.5ms)[0m  [1m[36mcommit transaction[0m
+  [1m[35m (0.0ms)[0m  [1m[36mbegin transaction[0m
+  [1m[36mTechnology Destroy (0.3ms)[0m  [1m[31mDELETE FROM "technologies" WHERE "technologies"."id" = ?[0m  [["id", 86]]
+  [1m[35m (0.5ms)[0m  [1m[36mcommit transaction[0m
+  [1m[35m (0.0ms)[0m  [1m[36mbegin transaction[0m
+  [1m[36mTechnology Destroy (0.2ms)[0m  [1m[31mDELETE FROM "technologies" WHERE "technologies"."id" = ?[0m  [["id", 87]]
+  [1m[35m (0.4ms)[0m  [1m[36mcommit transaction[0m
+  [1m[35m (0.0ms)[0m  [1m[36mbegin transaction[0m
+  [1m[36mTechnology Destroy (0.2ms)[0m  [1m[31mDELETE FROM "technologies" WHERE "technologies"."id" = ?[0m  [["id", 88]]
+  [1m[35m (0.5ms)[0m  [1m[36mcommit transaction[0m
+  [1m[35m (0.0ms)[0m  [1m[36mbegin transaction[0m
+  [1m[36mTechnology Destroy (0.3ms)[0m  [1m[31mDELETE FROM "technologies" WHERE "technologies"."id" = ?[0m  [["id", 89]]
+  [1m[35m (0.4ms)[0m  [1m[36mcommit transaction[0m
+  [1m[35m (0.0ms)[0m  [1m[36mbegin transaction[0m
+  [1m[36mTechnology Destroy (0.2ms)[0m  [1m[31mDELETE FROM "technologies" WHERE "technologies"."id" = ?[0m  [["id", 90]]
+  [1m[35m (0.5ms)[0m  [1m[36mcommit transaction[0m
+  [1m[35m (0.0ms)[0m  [1m[36mbegin transaction[0m
+  [1m[36mTechnology Destroy (0.3ms)[0m  [1m[31mDELETE FROM "technologies" WHERE "technologies"."id" = ?[0m  [["id", 91]]
+  [1m[35m (0.4ms)[0m  [1m[36mcommit transaction[0m
+  [1m[35m (0.0ms)[0m  [1m[36mbegin transaction[0m
+  [1m[36mTechnology Destroy (0.2ms)[0m  [1m[31mDELETE FROM "technologies" WHERE "technologies"."id" = ?[0m  [["id", 92]]
+  [1m[35m (0.3ms)[0m  [1m[36mcommit transaction[0m
+  [1m[35m (0.0ms)[0m  [1m[36mbegin transaction[0m
+  [1m[36mTechnology Destroy (0.2ms)[0m  [1m[31mDELETE FROM "technologies" WHERE "technologies"."id" = ?[0m  [["id", 93]]
+  [1m[35m (0.4ms)[0m  [1m[36mcommit transaction[0m
+  [1m[35m (0.0ms)[0m  [1m[36mbegin transaction[0m
+  [1m[36mTechnology Destroy (0.2ms)[0m  [1m[31mDELETE FROM "technologies" WHERE "technologies"."id" = ?[0m  [["id", 94]]
+  [1m[35m (0.4ms)[0m  [1m[36mcommit transaction[0m
+  [1m[35m (0.0ms)[0m  [1m[36mbegin transaction[0m
+  [1m[36mTechnology Destroy (0.2ms)[0m  [1m[31mDELETE FROM "technologies" WHERE "technologies"."id" = ?[0m  [["id", 95]]
+  [1m[35m (0.3ms)[0m  [1m[36mcommit transaction[0m
+  [1m[35m (0.0ms)[0m  [1m[36mbegin transaction[0m
+  [1m[36mTechnology Destroy (0.2ms)[0m  [1m[31mDELETE FROM "technologies" WHERE "technologies"."id" = ?[0m  [["id", 96]]
+  [1m[35m (0.5ms)[0m  [1m[36mcommit transaction[0m
+  [1m[35m (0.0ms)[0m  [1m[36mbegin transaction[0m
+  [1m[36mTechnology Destroy (0.2ms)[0m  [1m[31mDELETE FROM "technologies" WHERE "technologies"."id" = ?[0m  [["id", 97]]
+  [1m[35m (0.5ms)[0m  [1m[36mcommit transaction[0m
+  [1m[35m (0.0ms)[0m  [1m[36mbegin transaction[0m
+  [1m[36mTechnology Destroy (0.3ms)[0m  [1m[31mDELETE FROM "technologies" WHERE "technologies"."id" = ?[0m  [["id", 98]]
+  [1m[35m (0.5ms)[0m  [1m[36mcommit transaction[0m
+  [1m[35m (0.0ms)[0m  [1m[36mbegin transaction[0m
+  [1m[36mTechnology Destroy (0.2ms)[0m  [1m[31mDELETE FROM "technologies" WHERE "technologies"."id" = ?[0m  [["id", 99]]
+  [1m[35m (0.5ms)[0m  [1m[36mcommit transaction[0m
+  [1m[35m (0.0ms)[0m  [1m[36mbegin transaction[0m
+  [1m[36mTechnology Destroy (0.3ms)[0m  [1m[31mDELETE FROM "technologies" WHERE "technologies"."id" = ?[0m  [["id", 100]]
+  [1m[35m (0.4ms)[0m  [1m[36mcommit transaction[0m
+  [1m[35m (0.1ms)[0m  [1m[36mbegin transaction[0m
+  [1m[36mArticle Create (0.4ms)[0m  [1m[32mINSERT INTO "articles" ("title", "image", "url", "created_at", "updated_at", "source") VALUES (?, ?, ?, ?, ?, ?)[0m  [["title", "Apple Stock Tops $400 on Strong Quarterly Earnings and 4-For-1 Split - Barron's"], ["image", "https://images.barrons.com/im-214944/social"], ["url", "https://www.barrons.com/articles/apple-stock-tops-400-on-strong-quarterly-earnings-and-4-for-1-split-51596143309"], ["created_at", "2020-07-30 23:10:32.896799"], ["updated_at", "2020-07-30 23:10:32.896799"], ["source", "Barron's"]]
+  [1m[35m (0.9ms)[0m  [1m[36mcommit transaction[0m
+  [1m[35m (0.0ms)[0m  [1m[36mbegin transaction[0m
+  [1m[36mArticle Create (0.7ms)[0m  [1m[32mINSERT INTO "articles" ("title", "image", "url", "created_at", "updated_at", "source") VALUES (?, ?, ?, ?, ?, ?)[0m  [["title", "Stocks are set to jump Friday after four tech giants post strong earnings, Nasdaq futures gain 1% - CNBC"], ["image", "https://image.cnbcfm.com/api/v1/image/106569797-1591649109683gettyimages-1032942656.jpeg?v=1596141747"], ["url", "https://www.cnbc.com/2020/07/30/stock-market-futures-open-to-close-news.html"], ["created_at", "2020-07-30 23:10:32.901177"], ["updated_at", "2020-07-30 23:10:32.901177"], ["source", "CNBC"]]
+  [1m[35m (0.8ms)[0m  [1m[36mcommit transaction[0m
+  [1m[35m (0.1ms)[0m  [1m[36mbegin transaction[0m
+  [1m[36mArticle Create (0.3ms)[0m  [1m[32mINSERT INTO "articles" ("title", "image", "url", "created_at", "updated_at", "source") VALUES (?, ?, ?, ?, ?, ?)[0m  [["title", "Ellen DeGeneres Addresses Workplace Allegations and Changes Forthcoming in Staff Letter (Exclusive) - Hollywood Reporter"], ["image", "https://cdn1.thr.com/sites/default/files/2020/07/ellen_degeneres_-_serious_-getty_-_h_2020.jpg"], ["url", "https://www.hollywoodreporter.com/live-feed/ellen-degeneres-addresses-workplace-allegations-changes-forthcoming-staff-letter-1305189"], ["created_at", "2020-07-30 23:10:32.905830"], ["updated_at", "2020-07-30 23:10:32.905830"], ["source", "Hollywood Reporter"]]
+  [1m[35m (0.7ms)[0m  [1m[36mcommit transaction[0m
+  [1m[35m (0.0ms)[0m  [1m[36mbegin transaction[0m
+  [1m[36mArticle Create (0.3ms)[0m  [1m[32mINSERT INTO "articles" ("title", "url", "created_at", "updated_at", "source") VALUES (?, ?, ?, ?, ?)[0m  [["title", "5 p.m. Thursday advisory on Tropical Storm Isaias - WPTV News - FL Palm Beaches and Treasure Coast"], ["url", "https://news.google.com/__i/rss/rd/articles/CBMiK2h0dHBzOi8vd3d3LnlvdXR1YmUuY29tL3dhdGNoP3Y9TWlna1ZxMDI5RFnSAQA?oc=5"], ["created_at", "2020-07-30 23:10:32.914346"], ["updated_at", "2020-07-30 23:10:32.914346"], ["source", "Google News"]]
+  [1m[35m (0.6ms)[0m  [1m[36mcommit transaction[0m
+  [1m[35m (0.0ms)[0m  [1m[36mbegin transaction[0m
+  [1m[36mArticle Create (0.3ms)[0m  [1m[32mINSERT INTO "articles" ("title", "url", "created_at", "updated_at", "source") VALUES (?, ?, ?, ?, ?)[0m  [["title", "Toni Braxton Breaks Her Silence After Sister Tamar's Hospitalization - Entertainment Tonight"], ["url", "https://news.google.com/__i/rss/rd/articles/CBMiK2h0dHBzOi8vd3d3LnlvdXR1YmUuY29tL3dhdGNoP3Y9NTRGc29laHdUYmPSAQA?oc=5"], ["created_at", "2020-07-30 23:10:32.917714"], ["updated_at", "2020-07-30 23:10:32.917714"], ["source", "Google News"]]
+  [1m[35m (0.6ms)[0m  [1m[36mcommit transaction[0m
+  [1m[35m (0.0ms)[0m  [1m[36mbegin transaction[0m
+  [1m[36mArticle Create (0.3ms)[0m  [1m[32mINSERT INTO "articles" ("title", "image", "url", "created_at", "updated_at", "source") VALUES (?, ?, ?, ?, ?, ?)[0m  [["title", "As California coronavirus cases spike, contact tracing stalled by fear and embarrassment - NBC News"], ["image", "https://media4.s-nbcnews.com/j/newscms/2020_31/3400996/200730-contact-tracing-california-main-kh_f02c6dcb9280c6a5bfc857f474283ea0.nbcnews-fp-1200-630.jpg"], ["url", "https://www.nbcnews.com/news/us-news/california-coronavirus-cases-spike-contact-tracing-stalled-fear-embarrassment-n1235345"], ["created_at", "2020-07-30 23:10:32.921056"], ["updated_at", "2020-07-30 23:10:32.921056"], ["source", "NBC News"]]
+  [1m[35m (0.6ms)[0m  [1m[36mcommit transaction[0m
+  [1m[35m (0.0ms)[0m  [1m[36mbegin transaction[0m
+  [1m[36mArticle Create (0.4ms)[0m  [1m[32mINSERT INTO "articles" ("title", "image", "url", "created_at", "updated_at", "source") VALUES (?, ?, ?, ?, ?, ?)[0m  [["title", "Taylor Swift is rebranding her album merch after a Black-owned business accused her team of ripping off its design - CNN"], ["image", "https://cdn.cnn.com/cnnnext/dam/assets/200730161321-03-taylor-swift-0105-super-tease.jpg"], ["url", "https://www.cnn.com/2020/07/30/entertainment/taylor-swift-folklore-merch-trnd/index.html"], ["created_at", "2020-07-30 23:10:32.924471"], ["updated_at", "2020-07-30 23:10:32.924471"], ["source", "CNN"]]
+  [1m[35m (0.6ms)[0m  [1m[36mcommit transaction[0m
+  [1m[35m (0.0ms)[0m  [1m[36mbegin transaction[0m
+  [1m[36mArticle Create (0.3ms)[0m  [1m[32mINSERT INTO "articles" ("title", "image", "url", "created_at", "updated_at", "source") VALUES (?, ?, ?, ?, ?, ?)[0m  [["title", "Notre Dame football schedule 2020: Florida State among new ACC opponents, annual Navy game in limbo - CBS Sports"], ["image", "https://sportshub.cbsistatic.com/i/r/2020/04/28/06581683-0875-44b4-9dfa-1a2a495b596b/thumbnail/1200x675/e0c51a7520992d3872f7b6f923938a2d/usatsi-13755779.jpg"], ["url", "https://www.cbssports.com/college-football/news/notre-dame-football-schedule-2020-florida-state-among-new-acc-opponents-annual-navy-game-in-limbo/"], ["created_at", "2020-07-30 23:10:32.928089"], ["updated_at", "2020-07-30 23:10:32.928089"], ["source", "CBS Sports"]]
+  [1m[35m (0.7ms)[0m  [1m[36mcommit transaction[0m
+  [1m[35m (0.0ms)[0m  [1m[36mbegin transaction[0m
+  [1m[36mArticle Create (0.3ms)[0m  [1m[32mINSERT INTO "articles" ("title", "image", "url", "created_at", "updated_at", "source") VALUES (?, ?, ?, ?, ?, ?)[0m  [["title", "Facebook usage and revenue continue to grow as the pandemic rages on - The Verge"], ["image", "https://cdn.vox-cdn.com/thumbor/mRsbBEAHbrYY0kVnjEEyueKxHno=/0x146:2040x1214/fit-in/1200x630/cdn.vox-cdn.com/uploads/chorus_asset/file/10595581/jbareham_180405_1777_facebook_0003.jpg"], ["url", "https://www.theverge.com/2020/7/30/21348308/facebook-earnings-q2-2020-pandemic-revenue-usage-growth"], ["created_at", "2020-07-30 23:10:32.931757"], ["updated_at", "2020-07-30 23:10:32.931757"], ["source", "The Verge"]]
+  [1m[35m (0.8ms)[0m  [1m[36mcommit transaction[0m
+  [1m[35m (0.0ms)[0m  [1m[36mbegin transaction[0m
+  [1m[36mArticle Create (0.3ms)[0m  [1m[32mINSERT INTO "articles" ("title", "image", "url", "created_at", "updated_at", "source") VALUES (?, ?, ?, ?, ?, ?)[0m  [["title", "Blue Ivy makes adorable cameo in Beyoncé's 'Black Is King' trailer - New York Post "], ["image", "https://nypost.com/wp-content/uploads/sites/2/2020/07/blue-ivy-beyonce-01.jpg?quality=90&strip=all&w=1200"], ["url", "https://nypost.com/2020/07/30/blue-ivy-carter-makes-cameo-in-beyonces-black-is-king-trailer/"], ["created_at", "2020-07-30 23:10:32.935988"], ["updated_at", "2020-07-30 23:10:32.935988"], ["source", "New York Post"]]
+  [1m[35m (0.7ms)[0m  [1m[36mcommit transaction[0m
+  [1m[35m (0.0ms)[0m  [1m[36mbegin transaction[0m
+  [1m[36mArticle Create (0.4ms)[0m  [1m[32mINSERT INTO "articles" ("title", "image", "url", "created_at", "updated_at", "source") VALUES (?, ?, ?, ?, ?, ?)[0m  [["title", "Multiple Officers Shot at CPD Station While Attempting to Arrest Carjacking Suspect: Supt. - NBC Chicago"], ["image", "https://media.nbcchicago.com/2020/07/25-dist-cop-shot.png?resize=1200%2C675"], ["url", "https://www.nbcchicago.com/news/local/cpd-officer-shot-in-chicago-authorities-say/2314027/"], ["created_at", "2020-07-30 23:10:32.939833"], ["updated_at", "2020-07-30 23:10:32.939833"], ["source", "NBC Chicago"]]
+  [1m[35m (0.7ms)[0m  [1m[36mcommit transaction[0m
+  [1m[35m (0.0ms)[0m  [1m[36mbegin transaction[0m
+  [1m[36mArticle Create (0.3ms)[0m  [1m[32mINSERT INTO "articles" ("title", "url", "created_at", "updated_at", "source") VALUES (?, ?, ?, ?, ?)[0m  [["title", "Anthony Davis expects to play vs. the Clippers tonight - Woj | SportsCenter - ESPN"], ["url", "https://news.google.com/__i/rss/rd/articles/CBMiK2h0dHBzOi8vd3d3LnlvdXR1YmUuY29tL3dhdGNoP3Y9UUkxTXVmaWhSUDTSAQA?oc=5"], ["created_at", "2020-07-30 23:10:32.943480"], ["updated_at", "2020-07-30 23:10:32.943480"], ["source", "Google News"]]
+  [1m[35m (0.6ms)[0m  [1m[36mcommit transaction[0m
+  [1m[35m (0.0ms)[0m  [1m[36mbegin transaction[0m
+  [1m[36mArticle Create (0.3ms)[0m  [1m[32mINSERT INTO "articles" ("title", "image", "url", "created_at", "updated_at", "source") VALUES (?, ?, ?, ?, ?, ?)[0m  [["title", "Barack Obama’s Eulogy for John Lewis Was Perfect - Slate"], ["image", "https://compote.slate.com/images/19a851a0-a5c7-4a27-ba80-d7975822824b.jpeg?width=780&height=520&rect=3042x2028&offset=358x0"], ["url", "https://slate.com/news-and-politics/2020/07/barack-obama-eulogy-for-john-lewis-was-perfect.html"], ["created_at", "2020-07-30 23:10:32.946979"], ["updated_at", "2020-07-30 23:10:32.946979"], ["source", "Slate Magazine"]]
+  [1m[35m (0.7ms)[0m  [1m[36mcommit transaction[0m
+  [1m[35m (0.0ms)[0m  [1m[36mbegin transaction[0m
+  [1m[36mArticle Create (0.3ms)[0m  [1m[32mINSERT INTO "articles" ("title", "image", "url", "created_at", "updated_at", "source") VALUES (?, ?, ?, ?, ?, ?)[0m  [["title", "NASA Astronauts in Space to Discuss Upcoming SpaceX Crew Dragon Return - NASA"], ["image", "http://www.nasa.gov/sites/default/files/thumbnails/image/49968955896_d2df186e3a_k.jpg"], ["url", "https://www.nasa.gov/press-release/nasa-astronauts-in-space-to-discuss-upcoming-spacex-crew-dragon-return/"], ["created_at", "2020-07-30 23:10:32.950644"], ["updated_at", "2020-07-30 23:10:32.950644"], ["source", "NASA"]]
+  [1m[35m (0.6ms)[0m  [1m[36mcommit transaction[0m
+  [1m[35m (0.0ms)[0m  [1m[36mbegin transaction[0m
+  [1m[36mArticle Create (0.3ms)[0m  [1m[32mINSERT INTO "articles" ("title", "image", "url", "created_at", "updated_at", "source") VALUES (?, ?, ?, ?, ?, ?)[0m  [["title", "Ford beats Wall Street earnings expectations after coronavirus shuttered factories - CNBC"], ["image", "https://image.cnbcfm.com/api/v1/image/106274216-1575316780530gettyimages-1137684994.jpeg?v=1596140196"], ["url", "https://www.cnbc.com/2020/07/30/ford-f-earnings-q2-2020.html"], ["created_at", "2020-07-30 23:10:32.954024"], ["updated_at", "2020-07-30 23:10:32.954024"], ["source", "CNBC"]]
+  [1m[35m (0.6ms)[0m  [1m[36mcommit transaction[0m
+  [1m[35m (0.0ms)[0m  [1m[36mbegin transaction[0m
+  [1m[36mArticle Create (0.3ms)[0m  [1m[32mINSERT INTO "articles" ("title", "image", "url", "created_at", "updated_at", "source") VALUES (?, ?, ?, ?, ?, ?)[0m  [["title", "Astrophysicists observe long-theorized quantum phenomena - Phys.org"], ["image", "https://scx2.b-cdn.net/gfx/news/2020/6-astrophysici.jpg"], ["url", "https://phys.org/news/2020-07-astrophysicists-long-theorized-quantum-phenomena.html"], ["created_at", "2020-07-30 23:10:32.957070"], ["updated_at", "2020-07-30 23:10:32.957070"], ["source", "Phys.Org"]]
+  [1m[35m (0.6ms)[0m  [1m[36mcommit transaction[0m
+  [1m[35m (0.0ms)[0m  [1m[36mbegin transaction[0m
+  [1m[36mArticle Create (0.3ms)[0m  [1m[32mINSERT INTO "articles" ("title", "image", "url", "created_at", "updated_at", "source") VALUES (?, ?, ?, ?, ?, ?)[0m  [["title", "Fact-checking Trump's continued assault on mail-in voting and suggestions of delaying the election - CNN"], ["image", "https://cdn.cnn.com/cnnnext/dam/assets/200721154532-votingbooth-super-tease.jpg"], ["url", "https://www.cnn.com/2020/07/30/politics/trump-delay-election-fact-check/index.html"], ["created_at", "2020-07-30 23:10:32.960073"], ["updated_at", "2020-07-30 23:10:32.960073"], ["source", "CNN"]]
+  [1m[35m (0.6ms)[0m  [1m[36mcommit transaction[0m
+  [1m[35m (0.0ms)[0m  [1m[36mbegin transaction[0m
+  [1m[36mArticle Create (0.3ms)[0m  [1m[32mINSERT INTO "articles" ("title", "image", "url", "created_at", "updated_at", "source") VALUES (?, ?, ?, ?, ?, ?)[0m  [["title", "NASA: Mars rover Perseverance in 'safe mode' after launch, but should recover - Space.com"], ["image", "https://cdn.mos.cms.futurecdn.net/SrJXykWYzfLcMikQKctvsn-1200-80.jpeg"], ["url", "https://www.space.com/mars-rover-perseverance-safe-mode-after-launch.html"], ["created_at", "2020-07-30 23:10:32.963663"], ["updated_at", "2020-07-30 23:10:32.963663"], ["source", "Space.com"]]
+  [1m[35m (0.6ms)[0m  [1m[36mcommit transaction[0m
+  [1m[35m (0.0ms)[0m  [1m[36mbegin transaction[0m
+  [1m[36mArticle Create (0.4ms)[0m  [1m[32mINSERT INTO "articles" ("title", "url", "created_at", "updated_at", "source") VALUES (?, ?, ?, ?, ?)[0m  [["title", "U.S. economy suffers record drop in second quarter - Bloomberg Markets and Finance"], ["url", "https://news.google.com/__i/rss/rd/articles/CBMiK2h0dHBzOi8vd3d3LnlvdXR1YmUuY29tL3dhdGNoP3Y9eTktTlY4Snd3QVXSAQA?oc=5"], ["created_at", "2020-07-30 23:10:32.966799"], ["updated_at", "2020-07-30 23:10:32.966799"], ["source", "Google News"]]
+  [1m[35m (0.8ms)[0m  [1m[36mcommit transaction[0m
+  [1m[35m (0.0ms)[0m  [1m[36mbegin transaction[0m
+  [1m[36mArticle Create (0.3ms)[0m  [1m[32mINSERT INTO "articles" ("title", "url", "created_at", "updated_at", "source") VALUES (?, ?, ?, ?, ?)[0m  [["title", "In-Venue and Broadcast Enhancements for 2020 NBA Season Restart - NBA"], ["url", "https://news.google.com/__i/rss/rd/articles/CBMiK2h0dHBzOi8vd3d3LnlvdXR1YmUuY29tL3dhdGNoP3Y9UzgwSHBvNVU5VUXSAQA?oc=5"], ["created_at", "2020-07-30 23:10:32.971110"], ["updated_at", "2020-07-30 23:10:32.971110"], ["source", "Google News"]]
+  [1m[35m (0.6ms)[0m  [1m[36mcommit transaction[0m
+  [1m[35m (0.1ms)[0m  [1m[36mbegin transaction[0m
+  [1m[36mBusiness Create (0.4ms)[0m  [1m[32mINSERT INTO "businesses" ("title", "image", "url", "source", "created_at", "updated_at") VALUES (?, ?, ?, ?, ?, ?)[0m  [["title", "Amazon, Facebook and Apple thriving in lockdown - BBC News"], ["image", "https://ichef.bbci.co.uk/news/1024/branded_news/A72B/production/_113759724_hi062699390.jpg"], ["url", "https://www.bbc.com/news/business-53602596"], ["source", "BBC News"], ["created_at", "2020-07-30 23:10:33.345336"], ["updated_at", "2020-07-30 23:10:33.345336"]]
+  [1m[35m (0.9ms)[0m  [1m[36mcommit transaction[0m
+  [1m[35m (0.0ms)[0m  [1m[36mbegin transaction[0m
+  [1m[36mBusiness Create (0.3ms)[0m  [1m[32mINSERT INTO "businesses" ("title", "image", "url", "source", "created_at", "updated_at") VALUES (?, ?, ?, ?, ?, ?)[0m  [["title", "The FCC authorizes Amazon's satellite internet network that would compete with Elon Musk's Starlink - CNBC"], ["image", "https://image.cnbcfm.com/api/v1/image/106138718-1568905124797gettyimages-1169493341.jpeg?v=1579163462"], ["url", "https://www.cnbc.com/2020/07/30/fcc-authorizes-amazon-to-build-kuiper-satellite-internet-network.html"], ["source", "CNBC"], ["created_at", "2020-07-30 23:10:33.349398"], ["updated_at", "2020-07-30 23:10:33.349398"]]
+  [1m[35m (0.7ms)[0m  [1m[36mcommit transaction[0m
+  [1m[35m (0.0ms)[0m  [1m[36mbegin transaction[0m
+  [1m[36mBusiness Create (0.3ms)[0m  [1m[32mINSERT INTO "businesses" ("title", "image", "url", "source", "created_at", "updated_at") VALUES (?, ?, ?, ?, ?, ?)[0m  [["title", "Amazon Q2 earnings blow past estimates as coronavirus buying boosts revenue, profit - Yahoo Finance"], ["image", "https://s.yimg.com/uu/api/res/1.2/FIs7Hnq6AcJoeVa80jGR4A--~B/aD0yNDAwO3c9MzYwMDtzbT0xO2FwcGlkPXl0YWNoeW9u/https://media-mbst-pub-ue1.s3.amazonaws.com/creatr-uploaded-images/2020-07/969d3770-d26f-11ea-b3c5-174ea98986f2"], ["url", "https://finance.yahoo.com/news/amazon-earnings-q2-2020-201101073.html"], ["source", "Yahoo Entertainment"], ["created_at", "2020-07-30 23:10:33.352756"], ["updated_at", "2020-07-30 23:10:33.352756"]]
+  [1m[35m (0.6ms)[0m  [1m[36mcommit transaction[0m
+  [1m[35m (0.0ms)[0m  [1m[36mbegin transaction[0m
+  [1m[36mBusiness Create (0.3ms)[0m  [1m[32mINSERT INTO "businesses" ("title", "image", "url", "source", "created_at", "updated_at") VALUES (?, ?, ?, ?, ?, ?)[0m  [["title", "Stocks are set to jump Friday after four tech giants post strong earnings, Nasdaq futures gain 1% - CNBC"], ["image", "https://image.cnbcfm.com/api/v1/image/106569797-1591649109683gettyimages-1032942656.jpeg?v=1596141747"], ["url", "https://www.cnbc.com/2020/07/30/stock-market-futures-open-to-close-news.html"], ["source", "CNBC"], ["created_at", "2020-07-30 23:10:33.361514"], ["updated_at", "2020-07-30 23:10:33.361514"]]
+  [1m[35m (0.6ms)[0m  [1m[36mcommit transaction[0m
+  [1m[35m (0.0ms)[0m  [1m[36mbegin transaction[0m
+  [1m[36mBusiness Create (0.3ms)[0m  [1m[32mINSERT INTO "businesses" ("title", "image", "url", "source", "created_at", "updated_at") VALUES (?, ?, ?, ?, ?, ?)[0m  [["title", "Google parent company Alphabet sees its first revenue decline in history - The Verge"], ["image", "https://cdn.vox-cdn.com/thumbor/rO7gbGs_cP8JLPl_xk0gOSI2rDg=/0x146:2040x1214/fit-in/1200x630/cdn.vox-cdn.com/uploads/chorus_asset/file/10125267/acastro_180130_1777_0001.jpg"], ["url", "https://www.theverge.com/2020/7/30/21345014/google-youtube-alphabet-revenue-decline-q2"], ["source", "The Verge"], ["created_at", "2020-07-30 23:10:33.365385"], ["updated_at", "2020-07-30 23:10:33.365385"]]
+  [1m[35m (0.6ms)[0m  [1m[36mcommit transaction[0m
+  [1m[35m (0.0ms)[0m  [1m[36mbegin transaction[0m
+  [1m[36mBusiness Create (0.3ms)[0m  [1m[32mINSERT INTO "businesses" ("title", "image", "url", "source", "created_at", "updated_at") VALUES (?, ?, ?, ?, ?, ?)[0m  [["title", "Facebook usage and revenue continue to grow as the pandemic rages on - The Verge"], ["image", "https://cdn.vox-cdn.com/thumbor/mRsbBEAHbrYY0kVnjEEyueKxHno=/0x146:2040x1214/fit-in/1200x630/cdn.vox-cdn.com/uploads/chorus_asset/file/10595581/jbareham_180405_1777_facebook_0003.jpg"], ["url", "https://www.theverge.com/2020/7/30/21348308/facebook-earnings-q2-2020-pandemic-revenue-usage-growth"], ["source", "The Verge"], ["created_at", "2020-07-30 23:10:33.368981"], ["updated_at", "2020-07-30 23:10:33.368981"]]
+  [1m[35m (0.6ms)[0m  [1m[36mcommit transaction[0m
+  [1m[35m (0.0ms)[0m  [1m[36mbegin transaction[0m
+  [1m[36mBusiness Create (0.4ms)[0m  [1m[32mINSERT INTO "businesses" ("title", "image", "url", "source", "created_at", "updated_at") VALUES (?, ?, ?, ?, ?, ?)[0m  [["title", "Las Vegas Sands president says city of Las Vegas will see 'more pain' as pandemic persists - CNBC"], ["image", "https://image.cnbcfm.com/api/v1/image/106456639-1584969758925gettyimages-1214168483.jpeg?v=1584969852"], ["url", "https://www.cnbc.com/2020/07/30/las-vegas-sands-president-says-city-of-las-vegas-will-see-more-pain.html"], ["source", "CNBC"], ["created_at", "2020-07-30 23:10:33.372737"], ["updated_at", "2020-07-30 23:10:33.372737"]]
+  [1m[35m (0.7ms)[0m  [1m[36mcommit transaction[0m
+  [1m[35m (0.0ms)[0m  [1m[36mbegin transaction[0m
+  [1m[36mBusiness Create (0.3ms)[0m  [1m[32mINSERT INTO "businesses" ("title", "image", "url", "source", "created_at", "updated_at") VALUES (?, ?, ?, ?, ?, ?)[0m  [["title", "Impossible Foods brings meatless burger to Walmart - CNBC"], ["image", "https://image.cnbcfm.com/api/v1/image/106162307-1570103110301rtx75uew.jpg?v=1596139197"], ["url", "https://www.cnbc.com/2020/07/30/impossible-foods-brings-meatless-burger-to-walmart.html"], ["source", "CNBC"], ["created_at", "2020-07-30 23:10:33.376516"], ["updated_at", "2020-07-30 23:10:33.376516"]]
+  [1m[35m (0.6ms)[0m  [1m[36mcommit transaction[0m
+  [1m[35m (0.0ms)[0m  [1m[36mbegin transaction[0m
+  [1m[36mBusiness Create (0.3ms)[0m  [1m[32mINSERT INTO "businesses" ("title", "image", "url", "source", "created_at", "updated_at") VALUES (?, ?, ?, ?, ?, ?)[0m  [["title", "Atlassian acquires asset management company Mindville - TechCrunch"], ["image", "https://techcrunch.com/wp-content/uploads/2020/07/DSC_1430.jpeg?w=764"], ["url", "http://techcrunch.com/2020/07/30/atlassian-acquires-asset-management-company-mindville/"], ["source", "TechCrunch"], ["created_at", "2020-07-30 23:10:33.379729"], ["updated_at", "2020-07-30 23:10:33.379729"]]
+  [1m[35m (0.6ms)[0m  [1m[36mcommit transaction[0m
+  [1m[35m (0.0ms)[0m  [1m[36mbegin transaction[0m
+  [1m[36mBusiness Create (0.2ms)[0m  [1m[32mINSERT INTO "businesses" ("title", "image", "url", "source", "created_at", "updated_at") VALUES (?, ?, ?, ?, ?, ?)[0m  [["title", "Apple announces 4-for-1 stock split - CNBC"], ["image", "https://image.cnbcfm.com/api/v1/image/106359243-1596141468697-tim1.jpg?v=1596141491"], ["url", "https://www.cnbc.com/2020/07/30/apple-stock-split-announced.html"], ["source", "CNBC"], ["created_at", "2020-07-30 23:10:33.382800"], ["updated_at", "2020-07-30 23:10:33.382800"]]
+  [1m[35m (0.6ms)[0m  [1m[36mcommit transaction[0m
+  [1m[35m (0.0ms)[0m  [1m[36mbegin transaction[0m
+  [1m[36mBusiness Create (0.3ms)[0m  [1m[32mINSERT INTO "businesses" ("title", "url", "source", "created_at", "updated_at") VALUES (?, ?, ?, ?, ?)[0m  [["title", "Woman Who Destroyed Target Mask Display Admits She Needed Help - Newsweek"], ["url", "https://news.google.com/__i/rss/rd/articles/CBMid2h0dHBzOi8vd3d3Lm5ld3N3ZWVrLmNvbS9hcml6b25hLXdvbWFuLXdoby1kZXN0cm95ZWQtdGFyZ2V0LW1hc2stZGlzcGxheS12aXJhbC10aXJhZGUtYWRtaXRzLXNoZS1uZWVkcy1oZWxwLWhhZC0xNTIxNzk50gF9aHR0cHM6Ly93d3cubmV3c3dlZWsuY29tL2FyaXpvbmEtd29tYW4td2hvLWRlc3Ryb3llZC10YXJnZXQtbWFzay1kaXNwbGF5LXZpcmFsLXRpcmFkZS1hZG1pdHMtc2hlLW5lZWRzLWhlbHAtaGFkLTE1MjE3OTk_YW1wPTE?oc=5"], ["source", "Google News"], ["created_at", "2020-07-30 23:10:33.385641"], ["updated_at", "2020-07-30 23:10:33.385641"]]
+  [1m[35m (0.5ms)[0m  [1m[36mcommit transaction[0m
+  [1m[35m (0.0ms)[0m  [1m[36mbegin transaction[0m
+  [1m[36mBusiness Create (0.2ms)[0m  [1m[32mINSERT INTO "businesses" ("title", "image", "url", "source", "created_at", "updated_at") VALUES (?, ?, ?, ?, ?, ?)[0m  [["title", "Remdesivir maker Gilead Sciences sees 10% drop in second-quarter sales as demand for non-coronavirus drugs falls - CNBC"], ["image", "https://image.cnbcfm.com/api/v1/image/106515947-15883380932020-04-29t000000z_1006863930_rc2jeg98csot_rtrmadp_0_health-coronavirus-remdesivir.jpeg?v=1594918462"], ["url", "https://www.cnbc.com/2020/07/30/gilead-sciences-sales-fall-10percent-as-drug-demand-falls-due-to-coronavirus-pandemic.html"], ["source", "CNBC"], ["created_at", "2020-07-30 23:10:33.388316"], ["updated_at", "2020-07-30 23:10:33.388316"]]
+  [1m[35m (0.7ms)[0m  [1m[36mcommit transaction[0m
+  [1m[35m (0.0ms)[0m  [1m[36mbegin transaction[0m
+  [1m[36mBusiness Create (0.3ms)[0m  [1m[32mINSERT INTO "businesses" ("title", "image", "url", "source", "created_at", "updated_at") VALUES (?, ?, ?, ?, ?, ?)[0m  [["title", "McDonald's CEO says law enforcement may be called on customers who refuse to wear masks - Fox News"], ["image", "https://static.foxnews.com/foxnews.com/content/uploads/2020/03/McDonalds-arch.jpg"], ["url", "https://www.foxnews.com/food-drink/mcdonalds-ceo-face-masks-law-enforcement"], ["source", "Fox News"], ["created_at", "2020-07-30 23:10:33.391161"], ["updated_at", "2020-07-30 23:10:33.391161"]]
+  [1m[35m (0.6ms)[0m  [1m[36mcommit transaction[0m
+  [1m[35m (0.0ms)[0m  [1m[36mbegin transaction[0m
+  [1m[36mBusiness Create (0.3ms)[0m  [1m[32mINSERT INTO "businesses" ("title", "image", "url", "source", "created_at", "updated_at") VALUES (?, ?, ?, ?, ?, ?)[0m  [["title", "Comcast’s Peacock Is Bright Spot for Company Hit by Cord Cutting - Yahoo Finance"], ["image", "https://s.yimg.com/uu/api/res/1.2/1V6uAdZ1732QVF4hT78Fhw--~B/aD0xMzM0O3c9MjAwMDtzbT0xO2FwcGlkPXl0YWNoeW9u/https://media.zenfs.com/en/bloomberg_technology_68/8cba43fbba12bf012dbaac6d3c2a3260"], ["url", "https://finance.yahoo.com/news/comcast-peacock-bright-spot-company-193713497.html"], ["source", "Yahoo Entertainment"], ["created_at", "2020-07-30 23:10:33.394157"], ["updated_at", "2020-07-30 23:10:33.394157"]]
+  [1m[35m (0.8ms)[0m  [1m[36mcommit transaction[0m
+  [1m[35m (0.0ms)[0m  [1m[36mbegin transaction[0m
+  [1m[36mBusiness Create (0.3ms)[0m  [1m[32mINSERT INTO "businesses" ("title", "image", "url", "source", "created_at", "updated_at") VALUES (?, ?, ?, ?, ?, ?)[0m  [["title", "Ford beats Wall Street earnings expectations after coronavirus shuttered factories - CNBC"], ["image", "https://image.cnbcfm.com/api/v1/image/106274216-1575316780530gettyimages-1137684994.jpeg?v=1596140196"], ["url", "https://www.cnbc.com/2020/07/30/ford-f-earnings-q2-2020.html"], ["source", "CNBC"], ["created_at", "2020-07-30 23:10:33.397536"], ["updated_at", "2020-07-30 23:10:33.397536"]]
+  [1m[35m (0.7ms)[0m  [1m[36mcommit transaction[0m
+  [1m[35m (0.1ms)[0m  [1m[36mbegin transaction[0m
+  [1m[36mBusiness Create (0.3ms)[0m  [1m[32mINSERT INTO "businesses" ("title", "image", "url", "source", "created_at", "updated_at") VALUES (?, ?, ?, ?, ?, ?)[0m  [["title", "Families File First Wave of Covid-19 Lawsuits Against Companies Over Worker Deaths - The Wall Street Journal"], ["image", "https://si.wsj.net/public/resources/images/B3-HD520_SICKON_SOC_20200730154127.jpg"], ["url", "https://www.wsj.com/articles/families-file-first-wave-of-covid-19-lawsuits-against-companies-over-worker-deaths-11596137454"], ["source", "The Wall Street Journal"], ["created_at", "2020-07-30 23:10:33.400797"], ["updated_at", "2020-07-30 23:10:33.400797"]]
+  [1m[35m (0.7ms)[0m  [1m[36mcommit transaction[0m
+  [1m[35m (0.0ms)[0m  [1m[36mbegin transaction[0m
+  [1m[36mBusiness Create (0.3ms)[0m  [1m[32mINSERT INTO "businesses" ("title", "image", "url", "source", "created_at", "updated_at") VALUES (?, ?, ?, ?, ?, ?)[0m  [["title", "Why Shares of UPS Are Soaring Today - Motley Fool"], ["image", "https://g.foolcdn.com/editorial/images/584830/ups-747-8-freighter-source-ups.jpg"], ["url", "https://www.fool.com/investing/2020/07/30/why-shares-of-ups-are-soaring-today.aspx"], ["source", "Motley Fool"], ["created_at", "2020-07-30 23:10:33.404568"], ["updated_at", "2020-07-30 23:10:33.404568"]]
+  [1m[35m (0.6ms)[0m  [1m[36mcommit transaction[0m
+  [1m[35m (0.0ms)[0m  [1m[36mbegin transaction[0m
+  [1m[36mBusiness Create (0.3ms)[0m  [1m[32mINSERT INTO "businesses" ("title", "image", "url", "source", "created_at", "updated_at") VALUES (?, ?, ?, ?, ?, ?)[0m  [["title", "Internal emails show how an Amazon ad prompted Steve Jobs and Phil Schiller to block in-app purchases of Kindle books on iOS - 9to5Mac"], ["image", "https://9to5mac.com/wp-content/uploads/sites/6/2019/04/books.jpg?quality=82&strip=all"], ["url", "https://9to5mac.com/2020/07/30/internal-emails-show-how-an-amazon-ad-prompted-steve-jobs-and-phil-schiller-to-block-in-app-purchases-of-kindle-books-on-ios/"], ["source", "9to5Mac"], ["created_at", "2020-07-30 23:10:33.407480"], ["updated_at", "2020-07-30 23:10:33.407480"]]
+  [1m[35m (0.4ms)[0m  [1m[36mcommit transaction[0m
+  [1m[35m (0.0ms)[0m  [1m[36mbegin transaction[0m
+  [1m[36mBusiness Create (0.3ms)[0m  [1m[32mINSERT INTO "businesses" ("title", "image", "url", "source", "created_at", "updated_at") VALUES (?, ?, ?, ?, ?, ?)[0m  [["title", "Johnson & Johnson starts human vaccine trials after monkey study - New York Post "], ["image", "https://nypost.com/wp-content/uploads/sites/2/2020/07/Virus_Outbreak_Belgium.1.jpg?quality=90&strip=all&w=1200"], ["url", "https://nypost.com/2020/07/30/johnson-johnson-starts-human-vaccine-trials-after-monkey-study/"], ["source", "New York Post"], ["created_at", "2020-07-30 23:10:33.410322"], ["updated_at", "2020-07-30 23:10:33.410322"]]
+  [1m[35m (0.5ms)[0m  [1m[36mcommit transaction[0m
+  [1m[35m (0.0ms)[0m  [1m[36mbegin transaction[0m
+  [1m[36mBusiness Create (0.3ms)[0m  [1m[32mINSERT INTO "businesses" ("title", "image", "url", "source", "created_at", "updated_at") VALUES (?, ?, ?, ?, ?, ?)[0m  [["title", "This is the only city in America where unemployment is actually down - CNN"], ["image", "https://cdn.cnn.com/cnnnext/dam/assets/200730100638-02-owensboro-kentucky-super-tease.jpg"], ["url", "https://www.cnn.com/2020/07/30/business/unemployment-cities-owensboro/index.html"], ["source", "CNN"], ["created_at", "2020-07-30 23:10:33.413226"], ["updated_at", "2020-07-30 23:10:33.413226"]]
+  [1m[35m (0.8ms)[0m  [1m[36mcommit transaction[0m
+  [1m[35m (0.1ms)[0m  [1m[36mbegin transaction[0m
+  [1m[36mEntertainment Create (0.4ms)[0m  [1m[32mINSERT INTO "entertainments" ("title", "image", "url", "source", "created_at", "updated_at") VALUES (?, ?, ?, ?, ?, ?)[0m  [["title", "Drake Flexes Tupac-Inspired Jesus Pieces Worth $300000 Each - Billboard"], ["image", "https://static.billboard.com/files/2020/03/drake-2019-tb-kc-billboard-1548-1585601027-1024x677.jpg"], ["url", "https://www.billboard.com/articles/columns/hip-hop/9427308/drake-flexes-tupac-inspired-jesus-pieces"], ["source", "Billboard"], ["created_at", "2020-07-30 23:10:33.748905"], ["updated_at", "2020-07-30 23:10:33.748905"]]
+  [1m[35m (1.1ms)[0m  [1m[36mcommit transaction[0m
+  [1m[35m (0.0ms)[0m  [1m[36mbegin transaction[0m
+  [1m[36mEntertainment Create (0.3ms)[0m  [1m[32mINSERT INTO "entertainments" ("title", "image", "url", "source", "created_at", "updated_at") VALUES (?, ?, ?, ?, ?, ?)[0m  [["title", "Naya Rivera To Appear On ‘Sugar Rush’; Netflix Dedicates Episode To Late Actress Following Her Tragic Death - Deadline"], ["image", "https://pmcdeadline2.files.wordpress.com/2020/07/sugarrush_extrasweetakaseason3_episode3_00_17_51_08.jpg?w=1024"], ["url", "https://deadline.com/2020/07/naya-rivera-sugar-rush-last-tv-appearance-netflix-1202998952/"], ["source", "Deadline"], ["created_at", "2020-07-30 23:10:33.753539"], ["updated_at", "2020-07-30 23:10:33.753539"]]
+  [1m[35m (0.8ms)[0m  [1m[36mcommit transaction[0m
+  [1m[35m (0.1ms)[0m  [1m[36mbegin transaction[0m
+  [1m[36mEntertainment Create (0.3ms)[0m  [1m[32mINSERT INTO "entertainments" ("title", "image", "url", "source", "created_at", "updated_at") VALUES (?, ?, ?, ?, ?, ?)[0m  [["title", "Ellen DeGeneres Addresses Workplace Allegations and Changes Forthcoming in Staff Letter (Exclusive) - Hollywood Reporter"], ["image", "https://cdn1.thr.com/sites/default/files/2020/07/ellen_degeneres_-_serious_-getty_-_h_2020.jpg"], ["url", "https://www.hollywoodreporter.com/live-feed/ellen-degeneres-addresses-workplace-allegations-changes-forthcoming-staff-letter-1305189"], ["source", "Hollywood Reporter"], ["created_at", "2020-07-30 23:10:33.762764"], ["updated_at", "2020-07-30 23:10:33.762764"]]
+  [1m[35m (0.7ms)[0m  [1m[36mcommit transaction[0m
+  [1m[35m (0.0ms)[0m  [1m[36mbegin transaction[0m
+  [1m[36mEntertainment Create (0.3ms)[0m  [1m[32mINSERT INTO "entertainments" ("title", "url", "source", "created_at", "updated_at") VALUES (?, ?, ?, ?, ?)[0m  [["title", "Toni Braxton Breaks Her Silence After Sister Tamar's Hospitalization - Entertainment Tonight"], ["url", "https://news.google.com/__i/rss/rd/articles/CBMiK2h0dHBzOi8vd3d3LnlvdXR1YmUuY29tL3dhdGNoP3Y9NTRGc29laHdUYmPSAQA?oc=5"], ["source", "Google News"], ["created_at", "2020-07-30 23:10:33.766623"], ["updated_at", "2020-07-30 23:10:33.766623"]]
+  [1m[35m (0.7ms)[0m  [1m[36mcommit transaction[0m
+  [1m[35m (0.0ms)[0m  [1m[36mbegin transaction[0m
+  [1m[36mEntertainment Create (0.3ms)[0m  [1m[32mINSERT INTO "entertainments" ("title", "image", "url", "source", "created_at", "updated_at") VALUES (?, ?, ?, ?, ?, ?)[0m  [["title", "Taylor Swift is rebranding her album merch after a Black-owned business accused her team of ripping off its design - CNN"], ["image", "https://cdn.cnn.com/cnnnext/dam/assets/200730161321-03-taylor-swift-0105-super-tease.jpg"], ["url", "https://www.cnn.com/2020/07/30/entertainment/taylor-swift-folklore-merch-trnd/index.html"], ["source", "CNN"], ["created_at", "2020-07-30 23:10:33.770236"], ["updated_at", "2020-07-30 23:10:33.770236"]]
+  [1m[35m (0.7ms)[0m  [1m[36mcommit transaction[0m
+  [1m[35m (0.0ms)[0m  [1m[36mbegin transaction[0m
+  [1m[36mEntertainment Create (0.3ms)[0m  [1m[32mINSERT INTO "entertainments" ("title", "image", "url", "source", "created_at", "updated_at") VALUES (?, ?, ?, ?, ?, ?)[0m  [["title", "Elton John celebrates 30 years of sobriety, says he’d ‘be dead’ if he didn’t seek help - Fox News"], ["image", "https://static.foxnews.com/foxnews.com/content/uploads/2020/03/Elton-John-1.jpg"], ["url", "https://www.foxnews.com/entertainment/elton-john-celebrates-30-years-of-sobriety"], ["source", "Fox News"], ["created_at", "2020-07-30 23:10:33.774028"], ["updated_at", "2020-07-30 23:10:33.774028"]]
+  [1m[35m (0.6ms)[0m  [1m[36mcommit transaction[0m
+  [1m[35m (0.0ms)[0m  [1m[36mbegin transaction[0m
+  [1m[36mEntertainment Create (0.3ms)[0m  [1m[32mINSERT INTO "entertainments" ("title", "url", "source", "created_at", "updated_at") VALUES (?, ?, ?, ?, ?)[0m  [["title", "'Finding Freedom' Leak: Meghan Markle Scolded For Wearing 'M' And 'H' Necklace - ET Canada"], ["url", "https://news.google.com/__i/rss/rd/articles/CBMiK2h0dHBzOi8vd3d3LnlvdXR1YmUuY29tL3dhdGNoP3Y9YzhEWHA5ZFh4YWvSAQA?oc=5"], ["source", "Google News"], ["created_at", "2020-07-30 23:10:33.777611"], ["updated_at", "2020-07-30 23:10:33.777611"]]
+  [1m[35m (0.6ms)[0m  [1m[36mcommit transaction[0m
+  [1m[35m (0.0ms)[0m  [1m[36mbegin transaction[0m
+  [1m[36mEntertainment Create (0.3ms)[0m  [1m[32mINSERT INTO "entertainments" ("title", "image", "url", "source", "created_at", "updated_at") VALUES (?, ?, ?, ?, ?, ?)[0m  [["title", "Your 2020 VMA Nominations Are Here: Lady Gaga, Ariana Grande, Billie Eilish, And The Weeknd Lead The Pack - MTV.com"], ["image", "https://mtv.mtvnimages.com/uri/mgid:ao:image:mtv.com:694033?quality=0.8&format=jpg&width=1440&height=810&.jpg"], ["url", "http://www.mtv.com/news/3168188/vma-nominees-2020-ariana-grande-lady-gaga/"], ["source", "MTV News"], ["created_at", "2020-07-30 23:10:33.780914"], ["updated_at", "2020-07-30 23:10:33.780914"]]
+  [1m[35m (0.5ms)[0m  [1m[36mcommit transaction[0m
+  [1m[35m (0.0ms)[0m  [1m[36mbegin transaction[0m
+  [1m[36mEntertainment Create (0.3ms)[0m  [1m[32mINSERT INTO "entertainments" ("title", "image", "url", "source", "created_at", "updated_at") VALUES (?, ?, ?, ?, ?, ?)[0m  [["title", "Blue Ivy makes adorable cameo in Beyoncé's 'Black Is King' trailer - New York Post "], ["image", "https://nypost.com/wp-content/uploads/sites/2/2020/07/blue-ivy-beyonce-01.jpg?quality=90&strip=all&w=1200"], ["url", "https://nypost.com/2020/07/30/blue-ivy-carter-makes-cameo-in-beyonces-black-is-king-trailer/"], ["source", "New York Post"], ["created_at", "2020-07-30 23:10:33.783910"], ["updated_at", "2020-07-30 23:10:33.783910"]]
+  [1m[35m (0.5ms)[0m  [1m[36mcommit transaction[0m
+  [1m[35m (0.0ms)[0m  [1m[36mbegin transaction[0m
+  [1m[36mEntertainment Create (0.2ms)[0m  [1m[32mINSERT INTO "entertainments" ("title", "image", "url", "source", "created_at", "updated_at") VALUES (?, ?, ?, ?, ?, ?)[0m  [["title", "EXCLUSIVE: Fearing Trump interference, FBI agents hid copies of Russia investigation docs - CNN"], ["image", "https://cdn.cnn.com/cnnnext/dam/assets/200723161047-20200724-mueller-trump-fbi-book-super-tease.jpg"], ["url", "https://www.cnn.com/2020/07/30/politics/jeffrey-toobin-trump-fbi-mueller-true-crimes-and-misdemeanors/index.html"], ["source", "CNN"], ["created_at", "2020-07-30 23:10:33.786838"], ["updated_at", "2020-07-30 23:10:33.786838"]]
+  [1m[35m (0.4ms)[0m  [1m[36mcommit transaction[0m
+  [1m[35m (0.0ms)[0m  [1m[36mbegin transaction[0m
+  [1m[36mEntertainment Create (0.2ms)[0m  [1m[32mINSERT INTO "entertainments" ("title", "url", "source", "created_at", "updated_at") VALUES (?, ?, ?, ?, ?)[0m  [["title", "Blake Shelton Reacts To Garth Brooks' CMA Award Withdrawal - ET Canada"], ["url", "https://news.google.com/__i/rss/rd/articles/CBMiK2h0dHBzOi8vd3d3LnlvdXR1YmUuY29tL3dhdGNoP3Y9c19rUV9FYU1ReTTSAQA?oc=5"], ["source", "Google News"], ["created_at", "2020-07-30 23:10:33.789519"], ["updated_at", "2020-07-30 23:10:33.789519"]]
+  [1m[35m (0.6ms)[0m  [1m[36mcommit transaction[0m
+  [1m[35m (0.0ms)[0m  [1m[36mbegin transaction[0m
+  [1m[36mEntertainment Create (0.4ms)[0m  [1m[32mINSERT INTO "entertainments" ("title", "image", "url", "source", "created_at", "updated_at") VALUES (?, ?, ?, ?, ?, ?)[0m  [["title", "Kendall Jenner’s Los Angeles Home Is Meant to Feel “Super Calm” - Apartment Therapy"], ["image", "https://cdn.apartmenttherapy.info/image/upload/f_auto,q_auto:eco,c_fill,g_auto,w_1500/at%2Fnews-culture%2F2020-07%2FAD0920_JENNER_1"], ["url", "https://www.apartmenttherapy.com/kendall-jenner-house-photos-36802953"], ["source", "Apartment Therapy"], ["created_at", "2020-07-30 23:10:33.792419"], ["updated_at", "2020-07-30 23:10:33.792419"]]
+  [1m[35m (0.7ms)[0m  [1m[36mcommit transaction[0m
+  [1m[35m (0.0ms)[0m  [1m[36mbegin transaction[0m
+  [1m[36mEntertainment Create (0.3ms)[0m  [1m[32mINSERT INTO "entertainments" ("title", "image", "url", "source", "created_at", "updated_at") VALUES (?, ?, ?, ?, ?, ?)[0m  [["title", "Katie Holmes in 'The Secret: Dare to Dream' Movie Review -- Vision Bored - Showbiz Cheat Sheet"], ["image", "https://www.cheatsheet.com/wp-content/uploads/2020/07/Katie-Holmes-and-Josh-Lucas-1200x800.jpg"], ["url", "https://www.cheatsheet.com/entertainment/katie-holmes-in-the-secret-dare-to-dream-movie-review-vision-bored.html/"], ["source", "Showbiz Cheat Sheet"], ["created_at", "2020-07-30 23:10:33.795695"], ["updated_at", "2020-07-30 23:10:33.795695"]]
+  [1m[35m (0.6ms)[0m  [1m[36mcommit transaction[0m
+  [1m[35m (0.0ms)[0m  [1m[36mbegin transaction[0m
+  [1m[36mEntertainment Create (0.3ms)[0m  [1m[32mINSERT INTO "entertainments" ("title", "image", "url", "source", "created_at", "updated_at") VALUES (?, ?, ?, ?, ?, ?)[0m  [["title", "Nicki Minaj's husband asks judge to allow him at baby's birth - Daily Mail"], ["image", "https://i.dailymail.co.uk/1s/2020/07/30/19/31384426-0-image-a-165_1596135236510.jpg"], ["url", "https://www.dailymail.co.uk/tvshowbiz/article-8577831/Nicki-Minajs-husband-asks-judge-change-pretrial-restrictions-babys-birth.html"], ["source", "Daily Mail"], ["created_at", "2020-07-30 23:10:33.798811"], ["updated_at", "2020-07-30 23:10:33.798811"]]
+  [1m[35m (0.7ms)[0m  [1m[36mcommit transaction[0m
+  [1m[35m (0.0ms)[0m  [1m[36mbegin transaction[0m
+  [1m[36mEntertainment Create (0.3ms)[0m  [1m[32mINSERT INTO "entertainments" ("title", "image", "url", "source", "created_at", "updated_at") VALUES (?, ?, ?, ?, ?, ?)[0m  [["title", "Drew Barrymore interviews her 7-year-old self in promo for her new talk show - CNN"], ["image", "https://cdn.cnn.com/cnnnext/dam/assets/200730142329-drew-barrymore-show-promo-super-tease.jpg"], ["url", "https://www.cnn.com/2020/07/30/entertainment/drew-barrymore-show-promo/index.html"], ["source", "CNN"], ["created_at", "2020-07-30 23:10:33.802026"], ["updated_at", "2020-07-30 23:10:33.802026"]]
+  [1m[35m (0.6ms)[0m  [1m[36mcommit transaction[0m
+  [1m[35m (0.0ms)[0m  [1m[36mbegin transaction[0m
+  [1m[36mEntertainment Create (0.3ms)[0m  [1m[32mINSERT INTO "entertainments" ("title", "image", "url", "source", "created_at", "updated_at") VALUES (?, ?, ?, ?, ?, ?)[0m  [["title", "Michael Gelman pays tribute to Regis Philbin: 'The son I never had and a bonus father all in one' - EW.com"], ["image", "https://imagesvc.meredithcorp.io/v3/mm/image?q=85&c=sc&poi=%5B920%2C186%5D&w=2000&h=1047&url=https%3A%2F%2Fstatic.onecms.io%2Fwp-content%2Fuploads%2Fsites%2F6%2F2020%2F07%2F30%2FGelman-Philbin.jpg"], ["url", "https://ew.com/tv/michael-gelman-regis-philbin-tribute/"], ["source", "Entertainment Weekly"], ["created_at", "2020-07-30 23:10:33.804833"], ["updated_at", "2020-07-30 23:10:33.804833"]]
+  [1m[35m (0.5ms)[0m  [1m[36mcommit transaction[0m
+  [1m[35m (0.0ms)[0m  [1m[36mbegin transaction[0m
+  [1m[36mEntertainment Create (0.3ms)[0m  [1m[32mINSERT INTO "entertainments" ("title", "image", "url", "source", "created_at", "updated_at") VALUES (?, ?, ?, ?, ?, ?)[0m  [["title", "Shakuntala Devi movie review: Vidya Balan film shows us a lot but says little - Hindustan Times"], ["image", "https://www.hindustantimes.com/rf/image_size_960x540/HT/p2/2020/07/30/Pictures/_97521596-d27e-11ea-8924-6a92a23725cb.jpg"], ["url", "https://www.hindustantimes.com/bollywood/shakuntala-devi-movie-review-vidya-balan-film-shows-us-a-lot-but-says-little/story-9JaFC0ArKI2DI6VXVE03aK.html"], ["source", "Hindustan Times"], ["created_at", "2020-07-30 23:10:33.807998"], ["updated_at", "2020-07-30 23:10:33.807998"]]
+  [1m[35m (0.5ms)[0m  [1m[36mcommit transaction[0m
+  [1m[35m (0.0ms)[0m  [1m[36mbegin transaction[0m
+  [1m[36mEntertainment Create (0.2ms)[0m  [1m[32mINSERT INTO "entertainments" ("title", "image", "url", "source", "created_at", "updated_at") VALUES (?, ?, ?, ?, ?, ?)[0m  [["title", "Tyler Perry: 'We need more police' | TheHill - The Hill"], ["image", "https://thehill.com/sites/default/files/perrytyler_getty_031919.jpg"], ["url", "https://thehill.com/homenews/media/509774-tyler-perry-we-need-more-police"], ["source", "The Hill"], ["created_at", "2020-07-30 23:10:33.810894"], ["updated_at", "2020-07-30 23:10:33.810894"]]
+  [1m[35m (0.5ms)[0m  [1m[36mcommit transaction[0m
+  [1m[35m (0.0ms)[0m  [1m[36mbegin transaction[0m
+  [1m[36mEntertainment Create (0.2ms)[0m  [1m[32mINSERT INTO "entertainments" ("title", "image", "url", "source", "created_at", "updated_at") VALUES (?, ?, ?, ?, ?, ?)[0m  [["title", "Drake and J. Cole’s Loosie-Filled Attempt to Age Gracefully - Rolling Stone"], ["image", "https://www.rollingstone.com/wp-content/uploads/2020/07/drakejcole.jpg"], ["url", "https://www.rollingstone.com/music/music-features/who-are-these-songs-for-drake-j-cole-1035766/"], ["source", "Rolling Stone"], ["created_at", "2020-07-30 23:10:33.813652"], ["updated_at", "2020-07-30 23:10:33.813652"]]
+  [1m[35m (0.4ms)[0m  [1m[36mcommit transaction[0m
+  [1m[35m (0.0ms)[0m  [1m[36mbegin transaction[0m
+  [1m[36mEntertainment Create (0.3ms)[0m  [1m[32mINSERT INTO "entertainments" ("title", "image", "url", "source", "created_at", "updated_at") VALUES (?, ?, ?, ?, ?, ?)[0m  [["title", "HBO Drops First Teaser for NXIVM Docuseries ‘The Vow’ - Rolling Stone"], ["image", "https://www.rollingstone.com/wp-content/uploads/2020/07/TheVow.jpg"], ["url", "https://www.rollingstone.com/movies/movie-news/the-vow-docuseries-nxivm-hbo-teaser-1036705/"], ["source", "Rolling Stone"], ["created_at", "2020-07-30 23:10:33.816198"], ["updated_at", "2020-07-30 23:10:33.816198"]]
+  [1m[35m (0.6ms)[0m  [1m[36mcommit transaction[0m
+  [1m[35m (0.1ms)[0m  [1m[36mbegin transaction[0m
+  [1m[36mGeneral Create (0.4ms)[0m  [1m[32mINSERT INTO "generals" ("title", "image", "url", "source", "created_at", "updated_at") VALUES (?, ?, ?, ?, ?, ?)[0m  [["title", "Apple Stock Tops $400 on Strong Quarterly Earnings and 4-For-1 Split - Barron's"], ["image", "https://images.barrons.com/im-214944/social"], ["url", "https://www.barrons.com/articles/apple-stock-tops-400-on-strong-quarterly-earnings-and-4-for-1-split-51596143309"], ["source", "Barron's"], ["created_at", "2020-07-30 23:10:34.126723"], ["updated_at", "2020-07-30 23:10:34.126723"]]
+  [1m[35m (0.8ms)[0m  [1m[36mcommit transaction[0m
+  [1m[35m (0.0ms)[0m  [1m[36mbegin transaction[0m
+  [1m[36mGeneral Create (0.3ms)[0m  [1m[32mINSERT INTO "generals" ("title", "image", "url", "source", "created_at", "updated_at") VALUES (?, ?, ?, ?, ?, ?)[0m  [["title", "Stocks are set to jump Friday after four tech giants post strong earnings, Nasdaq futures gain 1% - CNBC"], ["image", "https://image.cnbcfm.com/api/v1/image/106569797-1591649109683gettyimages-1032942656.jpeg?v=1596141747"], ["url", "https://www.cnbc.com/2020/07/30/stock-market-futures-open-to-close-news.html"], ["source", "CNBC"], ["created_at", "2020-07-30 23:10:34.131070"], ["updated_at", "2020-07-30 23:10:34.131070"]]
+  [1m[35m (0.7ms)[0m  [1m[36mcommit transaction[0m
+  [1m[35m (0.0ms)[0m  [1m[36mbegin transaction[0m
+  [1m[36mGeneral Create (0.3ms)[0m  [1m[32mINSERT INTO "generals" ("title", "image", "url", "source", "created_at", "updated_at") VALUES (?, ?, ?, ?, ?, ?)[0m  [["title", "Ellen DeGeneres Addresses Workplace Allegations and Changes Forthcoming in Staff Letter (Exclusive) - Hollywood Reporter"], ["image", "https://cdn1.thr.com/sites/default/files/2020/07/ellen_degeneres_-_serious_-getty_-_h_2020.jpg"], ["url", "https://www.hollywoodreporter.com/live-feed/ellen-degeneres-addresses-workplace-allegations-changes-forthcoming-staff-letter-1305189"], ["source", "Hollywood Reporter"], ["created_at", "2020-07-30 23:10:34.134768"], ["updated_at", "2020-07-30 23:10:34.134768"]]
+  [1m[35m (0.7ms)[0m  [1m[36mcommit transaction[0m
+  [1m[35m (0.0ms)[0m  [1m[36mbegin transaction[0m
+  [1m[36mGeneral Create (0.3ms)[0m  [1m[32mINSERT INTO "generals" ("title", "url", "source", "created_at", "updated_at") VALUES (?, ?, ?, ?, ?)[0m  [["title", "5 p.m. Thursday advisory on Tropical Storm Isaias - WPTV News - FL Palm Beaches and Treasure Coast"], ["url", "https://news.google.com/__i/rss/rd/articles/CBMiK2h0dHBzOi8vd3d3LnlvdXR1YmUuY29tL3dhdGNoP3Y9TWlna1ZxMDI5RFnSAQA?oc=5"], ["source", "Google News"], ["created_at", "2020-07-30 23:10:34.138734"], ["updated_at", "2020-07-30 23:10:34.138734"]]
+  [1m[35m (0.7ms)[0m  [1m[36mcommit transaction[0m
+  [1m[35m (0.0ms)[0m  [1m[36mbegin transaction[0m
+  [1m[36mGeneral Create (0.3ms)[0m  [1m[32mINSERT INTO "generals" ("title", "url", "source", "created_at", "updated_at") VALUES (?, ?, ?, ?, ?)[0m  [["title", "Toni Braxton Breaks Her Silence After Sister Tamar's Hospitalization - Entertainment Tonight"], ["url", "https://news.google.com/__i/rss/rd/articles/CBMiK2h0dHBzOi8vd3d3LnlvdXR1YmUuY29tL3dhdGNoP3Y9NTRGc29laHdUYmPSAQA?oc=5"], ["source", "Google News"], ["created_at", "2020-07-30 23:10:34.142524"], ["updated_at", "2020-07-30 23:10:34.142524"]]
+  [1m[35m (0.6ms)[0m  [1m[36mcommit transaction[0m
+  [1m[35m (0.1ms)[0m  [1m[36mbegin transaction[0m
+  [1m[36mHealth Create (0.4ms)[0m  [1m[32mINSERT INTO "healths" ("title", "image", "url", "source", "created_at", "updated_at") VALUES (?, ?, ?, ?, ?, ?)[0m  [["title", "Health officials report 304 new COVID-19 cases, 15 additional deaths - WCVB Boston"], ["image", "https://kubrick.htvapps.com/htv-prod-media.s3.amazonaws.com/images/coronavirus-in-massachusetts-white-1587069227.jpg?crop=1.00xw:1.00xh;0,0&resize=1200:*"], ["url", "https://www.wcvb.com/article/massachusetts-covid-19-cornonavirus-numbers-daily-update-july-30-2020/33471558"], ["source", "WCVB Boston"], ["created_at", "2020-07-30 23:10:34.470478"], ["updated_at", "2020-07-30 23:10:34.470478"]]
+  [1m[35m (1.0ms)[0m  [1m[36mcommit transaction[0m
+  [1m[35m (0.0ms)[0m  [1m[36mbegin transaction[0m
+  [1m[36mHealth Create (0.3ms)[0m  [1m[32mINSERT INTO "healths" ("title", "image", "url", "source", "created_at", "updated_at") VALUES (?, ?, ?, ?, ?, ?)[0m  [["title", "Curbing the covid-19 comeback in Europe - The Economist"], ["image", "https://www.economist.com/sites/default/files/20200801_EUP501.jpg"], ["url", "https://www.economist.com/europe/2020/08/01/curbing-the-covid-19-comeback-in-europe"], ["source", "The Economist"], ["created_at", "2020-07-30 23:10:34.474791"], ["updated_at", "2020-07-30 23:10:34.474791"]]
+  [1m[35m (0.6ms)[0m  [1m[36mcommit transaction[0m
+  [1m[35m (0.0ms)[0m  [1m[36mbegin transaction[0m
+  [1m[36mHealth Create (0.4ms)[0m  [1m[32mINSERT INTO "healths" ("title", "image", "url", "source", "created_at", "updated_at") VALUES (?, ?, ?, ?, ?, ?)[0m  [["title", "L.A. Zoo mourns loss of beloved pair of African lions who were loyal companions - KTLA"], ["image", "https://ktla.com/wp-content/uploads/sites/4/2020/07/African-lion-pair-Hubert-Kalisa-photo-by-Jamie-Pham.jpg?w=1280&h=720&crop=1"], ["url", "https://ktla.com/news/l-a-zoo-mourns-loss-of-beloved-pair-of-african-lions-who-lived-as-loyal-companions/"], ["source", "KTLA Los Angeles"], ["created_at", "2020-07-30 23:10:34.478385"], ["updated_at", "2020-07-30 23:10:34.478385"]]
+  [1m[35m (0.7ms)[0m  [1m[36mcommit transaction[0m
+  [1m[35m (0.0ms)[0m  [1m[36mbegin transaction[0m
+  [1m[36mHealth Create (0.3ms)[0m  [1m[32mINSERT INTO "healths" ("title", "image", "url", "source", "created_at", "updated_at") VALUES (?, ?, ?, ?, ?, ?)[0m  [["title", "Rabid bats confirmed in San Bernardino County including Apple Valley - VVNG.com"], ["image", "https://i1.wp.com/www.vvng.com/wp-content/uploads/2020/07/rabid-bats-in-san-bernardino-county-scaled-e1596137077575.jpg?resize=1000%2C600&ssl=1"], ["url", "https://www.vvng.com/rabid-bats-confirmed-in-san-bernardino-county-including-apple-valley/"], ["source", "VVNG.com"], ["created_at", "2020-07-30 23:10:34.482076"], ["updated_at", "2020-07-30 23:10:34.482076"]]
+  [1m[35m (0.6ms)[0m  [1m[36mcommit transaction[0m
+  [1m[35m (0.0ms)[0m  [1m[36mbegin transaction[0m
+  [1m[36mHealth Create (0.3ms)[0m  [1m[32mINSERT INTO "healths" ("title", "image", "url", "source", "created_at", "updated_at") VALUES (?, ?, ?, ?, ?, ?)[0m  [["title", "Why some people who haven't had Covid-19 might already have some immunity - CNN"], ["image", "https://cdn.cnn.com/cnnnext/dam/assets/200213175741-04-coronavirus-0213-super-tease.jpg"], ["url", "https://www.cnn.com/2020/07/30/health/t-cells-coronavirus-study-wellness/index.html"], ["source", "CNN"], ["created_at", "2020-07-30 23:10:34.491365"], ["updated_at", "2020-07-30 23:10:34.491365"]]
+  [1m[35m (0.9ms)[0m  [1m[36mcommit transaction[0m
+  [1m[35m (0.0ms)[0m  [1m[36mbegin transaction[0m
+  [1m[36mHealth Create (0.3ms)[0m  [1m[32mINSERT INTO "healths" ("title", "image", "url", "source", "created_at", "updated_at") VALUES (?, ?, ?, ?, ?, ?)[0m  [["title", "‘Everything happened so quickly’: COVID-19 patients who were first in U.S. to undergo double lung transplants - Chicago Tribune"], ["image", "https://www.chicagotribune.com/resizer/3sf-ISnGWoYLP8MhbX-21uijmTc=/1200x0/center/middle/cloudfront-us-east-1.images.arcpublishing.com/tronc/D6UHD4XIA5HNXCDAOINT66YIME.jpg"], ["url", "https://www.chicagotribune.com/coronavirus/ct-coronavirus-double-lung-transplant-patients-northwestern-20200730-7cpbzat55zgg3mkhvnjwfw6byy-story.html"], ["source", "Chicago Tribune"], ["created_at", "2020-07-30 23:10:34.495114"], ["updated_at", "2020-07-30 23:10:34.495114"]]
+  [1m[35m (0.6ms)[0m  [1m[36mcommit transaction[0m
+  [1m[35m (0.0ms)[0m  [1m[36mbegin transaction[0m
+  [1m[36mHealth Create (0.4ms)[0m  [1m[32mINSERT INTO "healths" ("title", "url", "source", "created_at", "updated_at") VALUES (?, ?, ?, ?, ?)[0m  [["title", "Coronavirus in Ohio Thursday update: 1733 new cases reported, new single-day record - NBC4 Columbus"], ["url", "https://news.google.com/__i/rss/rd/articles/CBMiK2h0dHBzOi8vd3d3LnlvdXR1YmUuY29tL3dhdGNoP3Y9WVJwV3pRZThCRTTSAQA?oc=5"], ["source", "Google News"], ["created_at", "2020-07-30 23:10:34.498539"], ["updated_at", "2020-07-30 23:10:34.498539"]]
+  [1m[35m (0.7ms)[0m  [1m[36mcommit transaction[0m
+  [1m[35m (0.0ms)[0m  [1m[36mbegin transaction[0m
+  [1m[36mHealth Create (0.3ms)[0m  [1m[32mINSERT INTO "healths" ("title", "image", "url", "source", "created_at", "updated_at") VALUES (?, ?, ?, ?, ?, ?)[0m  [["title", "Massachusetts drug maker Pfizer could have 100 million doses of ‘most advanced’ coronavirus vaccine this year - Boston Herald"], ["image", "https://www.bostonherald.com/wp-content/uploads/2020/07/gov004-2-e1596132912155.jpg?w=1024&h=649"], ["url", "https://www.bostonherald.com/2020/07/30/massachusetts-drug-maker-pfizer-could-have-100-million-doses-of-most-advanced-coronavirus-vaccine-this-year/"], ["source", "Boston Herald"], ["created_at", "2020-07-30 23:10:34.502468"], ["updated_at", "2020-07-30 23:10:34.502468"]]
+  [1m[35m (0.7ms)[0m  [1m[36mcommit transaction[0m
+  [1m[35m (0.0ms)[0m  [1m[36mbegin transaction[0m
+  [1m[36mHealth Create (0.3ms)[0m  [1m[32mINSERT INTO "healths" ("title", "image", "url", "source", "created_at", "updated_at") VALUES (?, ?, ?, ?, ?, ?)[0m  [["title", "'Warning Light': Novel coronavirus aerosols can remain infectious for up to 16 hours - WZTV"], ["image", "http://static-38.sinclairstoryline.com/resources/media/9adc21df-62a7-4fa3-8f1b-fb28f210ee5c-large16x9_f2f051edf3624169b18abbb60904bd42large16x9_35ba8104f94048bfbeb9cbaa9c5ef917IMG_836911.jpg?1596132613639"], ["url", "http://fox17.com/news/local/scientists-find-novel-coronavirus-aerosols-remain-infectious-in-air-for-up-to-16-hours-covid-19-sars-mers-masks-diseases"], ["source", "WZTV"], ["created_at", "2020-07-30 23:10:34.506029"], ["updated_at", "2020-07-30 23:10:34.506029"]]
+  [1m[35m (0.7ms)[0m  [1m[36mcommit transaction[0m
+  [1m[35m (0.0ms)[0m  [1m[36mbegin transaction[0m
+  [1m[36mHealth Create (0.4ms)[0m  [1m[32mINSERT INTO "healths" ("title", "image", "url", "source", "created_at", "updated_at") VALUES (?, ?, ?, ?, ?, ?)[0m  [["title", "Study finds higher viral load in young children, raising questions about how likely they are to transmit the coronavirus - MSN Money"], ["image", "https://cdn.cnn.com/cnnnext/dam/assets/200514220119-conclu-ninos-super-tease.jpg"], ["url", "https://www.cnn.com/2020/07/30/health/children-coronavirus-viral-load-transmission-study-wellness/index.html"], ["source", "CNN"], ["created_at", "2020-07-30 23:10:34.509659"], ["updated_at", "2020-07-30 23:10:34.509659"]]
+  [1m[35m (0.7ms)[0m  [1m[36mcommit transaction[0m
+  [1m[35m (0.0ms)[0m  [1m[36mbegin transaction[0m
+  [1m[36mHealth Create (0.4ms)[0m  [1m[32mINSERT INTO "healths" ("title", "image", "url", "source", "created_at", "updated_at") VALUES (?, ?, ?, ?, ?, ?)[0m  [["title", "Why it's vital to get your flu shot this year - CNN"], ["image", "https://cdn.cnn.com/cnnnext/dam/assets/191125135419-kid-flu-shot-stock-3-super-tease.jpg"], ["url", "https://www.cnn.com/2020/07/30/opinions/covid-influenza-flu-vaccine-webby-opinion/index.html"], ["source", "CNN"], ["created_at", "2020-07-30 23:10:34.513262"], ["updated_at", "2020-07-30 23:10:34.513262"]]
+  [1m[35m (0.8ms)[0m  [1m[36mcommit transaction[0m
+  [1m[35m (0.0ms)[0m  [1m[36mbegin transaction[0m
+  [1m[36mHealth Create (0.3ms)[0m  [1m[32mINSERT INTO "healths" ("title", "image", "url", "source", "created_at", "updated_at") VALUES (?, ?, ?, ?, ?, ?)[0m  [["title", "Scientists map how COVID-19 could spread in schools, how ventilation systems could make a difference - WLS-TV"], ["image", "https://cdn.abcotvs.com/dip/images/6342911_1classroom.bmp?w=1600"], ["url", "https://abc7chicago.com/school-ventilation-covid-coronavirus-schools-covid-19-spread-study/6342910/"], ["source", "WLS-TV"], ["created_at", "2020-07-30 23:10:34.516932"], ["updated_at", "2020-07-30 23:10:34.516932"]]
+  [1m[35m (0.6ms)[0m  [1m[36mcommit transaction[0m
+  [1m[35m (0.0ms)[0m  [1m[36mbegin transaction[0m
+  [1m[36mHealth Create (0.2ms)[0m  [1m[32mINSERT INTO "healths" ("title", "image", "url", "source", "created_at", "updated_at") VALUES (?, ?, ?, ?, ?, ?)[0m  [["title", "Coronavirus-infected German shepherd, first dog to test positive for COVID-19 in US, dies - Fox News"], ["image", "https://static.foxnews.com/foxnews.com/content/uploads/2020/07/iStock-471094919.jpg"], ["url", "https://nypost.com/2020/07/29/si-dog-first-to-test-positive-for-covid-19-in-the-us-has-died-report/"], ["source", "New York Post"], ["created_at", "2020-07-30 23:10:34.520187"], ["updated_at", "2020-07-30 23:10:34.520187"]]
+  [1m[35m (0.5ms)[0m  [1m[36mcommit transaction[0m
+  [1m[35m (0.0ms)[0m  [1m[36mbegin transaction[0m
+  [1m[36mHealth Create (0.2ms)[0m  [1m[32mINSERT INTO "healths" ("title", "image", "url", "source", "created_at", "updated_at") VALUES (?, ?, ?, ?, ?, ?)[0m  [["title", "Coronavirus updates: NJ sees 112% increase in cases, deaths double in Atlanta area - Yahoo News"], ["image", "https://s.yimg.com/uu/api/res/1.2/KXElzBCN5D.A5CbkqCkutA--~B/aD01NTg7dz05OTI7c209MTthcHBpZD15dGFjaHlvbg--/http://media.zenfs.com/en_us/gma/us.abcnews.gma.com/1260863418_1596126258548_hpMain_16x9_992.jpg"], ["url", "https://www.yahoo.com/gma/coronavirus-updates-global-cases-covid-19-surge-more-090453296--abc-news-topstories.html"], ["source", "Yahoo Entertainment"], ["created_at", "2020-07-30 23:10:34.522968"], ["updated_at", "2020-07-30 23:10:34.522968"]]
+  [1m[35m (0.6ms)[0m  [1m[36mcommit transaction[0m
+  [1m[35m (0.0ms)[0m  [1m[36mbegin transaction[0m
+  [1m[36mHealth Create (0.2ms)[0m  [1m[32mINSERT INTO "healths" ("title", "image", "url", "source", "created_at", "updated_at") VALUES (?, ?, ?, ?, ?, ?)[0m  [["title", "WHO says young people appear to be causing coronavirus cases to surge in some countries - CNBC"], ["image", "https://image.cnbcfm.com/api/v1/image/106454187-1584724017641gettyimages-1204797411.jpeg?v=1584724086"], ["url", "https://www.cnbc.com/2020/07/30/who-says-young-people-appear-to-be-causing-coronavirus-cases-to-surge-in-some-countries.html"], ["source", "CNBC"], ["created_at", "2020-07-30 23:10:34.525784"], ["updated_at", "2020-07-30 23:10:34.525784"]]
+  [1m[35m (0.5ms)[0m  [1m[36mcommit transaction[0m
+  [1m[35m (0.0ms)[0m  [1m[36mbegin transaction[0m
+  [1m[36mHealth Create (0.2ms)[0m  [1m[32mINSERT INTO "healths" ("title", "image", "url", "source", "created_at", "updated_at") VALUES (?, ?, ?, ?, ?, ?)[0m  [["title", "3 more areas in Travis County have West Nile Virus-positive mosquitoes - KXAN.com"], ["image", "https://www.kxan.com/wp-content/uploads/sites/40/2015/05/4C2F5820EDCD4145A7634C63BA11D05B_37273798_ver1.0-e1596127829196.jpg?w=1078&h=544&crop=1&resize=1280,720"], ["url", "https://www.kxan.com/news/local/travis-county/3-more-areas-in-travis-county-have-west-nile-virus-positive-mosquitoes/"], ["source", "KXAN.com"], ["created_at", "2020-07-30 23:10:34.528538"], ["updated_at", "2020-07-30 23:10:34.528538"]]
+  [1m[35m (0.5ms)[0m  [1m[36mcommit transaction[0m
+  [1m[35m (0.0ms)[0m  [1m[36mbegin transaction[0m
+  [1m[36mHealth Create (0.2ms)[0m  [1m[32mINSERT INTO "healths" ("title", "image", "url", "source", "created_at", "updated_at") VALUES (?, ?, ?, ?, ?, ?)[0m  [["title", "Sedgwick County identifies COVID-19 clusters at 3 adult care homes in Wichita - KWCH"], ["image", "https://gray-kwch-prod.cdn.arcpublishing.com/resizer/fRhSvXPKmXOQK3FZhl1S2WBgQpM=/980x0/smart/cloudfront-us-east-1.images.arcpublishing.com/gray/XAKKQHWMXZFD3HQWIWWZGHMHVE.jpg"], ["url", "https://www.kwch.com/2020/07/30/sedgwick-county-announces-new-covid-19-clusters-3-wichita-adult-care-homes/"], ["source", "KWCH"], ["created_at", "2020-07-30 23:10:34.531181"], ["updated_at", "2020-07-30 23:10:34.531181"]]
+  [1m[35m (0.5ms)[0m  [1m[36mcommit transaction[0m
+  [1m[35m (0.0ms)[0m  [1m[36mbegin transaction[0m
+  [1m[36mHealth Create (0.2ms)[0m  [1m[32mINSERT INTO "healths" ("title", "image", "url", "source", "created_at", "updated_at") VALUES (?, ?, ?, ?, ?, ?)[0m  [["title", "Melissa Rein Lively Blames Outburst Over Face Masks in Target in Scottsdale, Arizona, on Mental Health Issues - Newser"], ["image", "https://img2-azrcdn.newser.com/image/1311697-12-20200730115239.jpeg"], ["url", "https://www.newser.com/story/294304/she-tore-down-masks-in-target-now-blasts-classless-act.html"], ["source", "Newser"], ["created_at", "2020-07-30 23:10:34.533994"], ["updated_at", "2020-07-30 23:10:34.533994"]]
+  [1m[35m (0.7ms)[0m  [1m[36mcommit transaction[0m
+  [1m[35m (0.0ms)[0m  [1m[36mbegin transaction[0m
+  [1m[36mHealth Create (0.2ms)[0m  [1m[32mINSERT INTO "healths" ("title", "image", "url", "source", "created_at", "updated_at") VALUES (?, ?, ?, ?, ?, ?)[0m  [["title", "OSDH: 1,117 More Oklahomans Test Positive For COVID-19; 13 Additional Virus-Related Deaths Reported - News On 6"], ["image", "https://hot-town-images.s3.amazonaws.com/kwtv/production/2020/June/18/coronavirus-covid19.1592495430545.jpeg"], ["url", "https://www.newson6.com/story/5f22ee729f0d9d0bbdfa84c5/osdh:-1117-more-oklahomans-test-positive-for-covid19-13-additional-virusrelated-deaths-reported"], ["source", "News On 6"], ["created_at", "2020-07-30 23:10:34.536895"], ["updated_at", "2020-07-30 23:10:34.536895"]]
+  [1m[35m (0.7ms)[0m  [1m[36mcommit transaction[0m
+  [1m[35m (0.1ms)[0m  [1m[36mbegin transaction[0m
+  [1m[36mHealth Create (0.3ms)[0m  [1m[32mINSERT INTO "healths" ("title", "image", "url", "source", "created_at", "updated_at") VALUES (?, ?, ?, ?, ?, ?)[0m  [["title", "Here is Minnesota's COVID-19 update for Thursday, July 30 - Bring Me The News"], ["image", "https://bringmethenews.com/.image/t_share/MTcyODI0ODE1MDkzMTYzNzA2/49826502432_13d94f5380_k.jpg"], ["url", "https://bringmethenews.com/minnesota-news/here-is-minnesotas-covid-19-update-for-thursday-july-30"], ["source", "Bring Me The News"], ["created_at", "2020-07-30 23:10:34.540007"], ["updated_at", "2020-07-30 23:10:34.540007"]]
+  [1m[35m (0.7ms)[0m  [1m[36mcommit transaction[0m
+  [1m[35m (0.1ms)[0m  [1m[36mbegin transaction[0m
+  [1m[36mScience Create (0.4ms)[0m  [1m[32mINSERT INTO "sciences" ("title", "image", "url", "source", "created_at", "updated_at") VALUES (?, ?, ?, ?, ?, ?)[0m  [["title", "Starship SN5 completes engine test – short, low-altitude flight test to follow ‘soon’ says Elon Musk - TechCrunch"], ["image", "https://techcrunch.com/wp-content/uploads/2019/09/SpaceX-Starship-Mk1-20.jpg?w=600"], ["url", "http://techcrunch.com/2020/07/30/starship-sn5-completes-engine-test-short-low-altitude-flight-test-to-follow-soon-says-elon-musk/"], ["source", "TechCrunch"], ["created_at", "2020-07-30 23:10:34.854087"], ["updated_at", "2020-07-30 23:10:34.854087"]]
+  [1m[35m (0.9ms)[0m  [1m[36mcommit transaction[0m
+  [1m[35m (0.0ms)[0m  [1m[36mbegin transaction[0m
+  [1m[36mScience Create (0.4ms)[0m  [1m[32mINSERT INTO "sciences" ("title", "image", "url", "source", "created_at", "updated_at") VALUES (?, ?, ?, ?, ?, ?)[0m  [["title", "SpaceX Crew Dragon Demo-2: How to watch NASA astronauts return to Earth - CNET"], ["image", "https://cnet2.cbsistatic.com/img/dzc3JchZV61gTCmoA9bBZx9rl3Y=/2020/05/31/c089236d-b651-43db-8658-a530603efa48/spacex-crew-dragon-before-docking.jpg"], ["url", "https://www.cnet.com/news/spacex-crew-dragon-demo-2-how-to-watch-two-nasa-astronauts-return-to-earth/"], ["source", "CNET"], ["created_at", "2020-07-30 23:10:34.863974"], ["updated_at", "2020-07-30 23:10:34.863974"]]
+  [1m[35m (0.7ms)[0m  [1m[36mcommit transaction[0m
+  [1m[35m (0.0ms)[0m  [1m[36mbegin transaction[0m
+  [1m[36mScience Create (0.4ms)[0m  [1m[32mINSERT INTO "sciences" ("title", "image", "url", "source", "created_at", "updated_at") VALUES (?, ?, ?, ?, ?, ?)[0m  [["title", "L.A. Zoo mourns loss of beloved pair of African lions who were loyal companions - KTLA"], ["image", "https://ktla.com/wp-content/uploads/sites/4/2020/07/African-lion-pair-Hubert-Kalisa-photo-by-Jamie-Pham.jpg?w=1280&h=720&crop=1"], ["url", "https://ktla.com/news/l-a-zoo-mourns-loss-of-beloved-pair-of-african-lions-who-lived-as-loyal-companions/"], ["source", "KTLA Los Angeles"], ["created_at", "2020-07-30 23:10:34.867894"], ["updated_at", "2020-07-30 23:10:34.867894"]]
+  [1m[35m (0.7ms)[0m  [1m[36mcommit transaction[0m
+  [1m[35m (0.0ms)[0m  [1m[36mbegin transaction[0m
+  [1m[36mScience Create (0.4ms)[0m  [1m[32mINSERT INTO "sciences" ("title", "image", "url", "source", "created_at", "updated_at") VALUES (?, ?, ?, ?, ?, ?)[0m  [["title", "Astrophysicists observe long-theorized quantum phenomena - Phys.org"], ["image", "https://scx2.b-cdn.net/gfx/news/2020/6-astrophysici.jpg"], ["url", "https://phys.org/news/2020-07-astrophysicists-long-theorized-quantum-phenomena.html"], ["source", "Phys.Org"], ["created_at", "2020-07-30 23:10:34.871823"], ["updated_at", "2020-07-30 23:10:34.871823"]]
+  [1m[35m (0.8ms)[0m  [1m[36mcommit transaction[0m
+  [1m[35m (0.0ms)[0m  [1m[36mbegin transaction[0m
+  [1m[36mScience Create (0.3ms)[0m  [1m[32mINSERT INTO "sciences" ("title", "image", "url", "source", "created_at", "updated_at") VALUES (?, ?, ?, ?, ?, ?)[0m  [["title", "NASA: Mars rover Perseverance in 'safe mode' after launch, but should recover - Space.com"], ["image", "https://cdn.mos.cms.futurecdn.net/SrJXykWYzfLcMikQKctvsn-1200-80.jpeg"], ["url", "https://www.space.com/mars-rover-perseverance-safe-mode-after-launch.html"], ["source", "Space.com"], ["created_at", "2020-07-30 23:10:34.875855"], ["updated_at", "2020-07-30 23:10:34.875855"]]
+  [1m[35m (0.6ms)[0m  [1m[36mcommit transaction[0m
+  [1m[35m (0.0ms)[0m  [1m[36mbegin transaction[0m
+  [1m[36mScience Create (0.3ms)[0m  [1m[32mINSERT INTO "sciences" ("title", "image", "url", "source", "created_at", "updated_at") VALUES (?, ?, ?, ?, ?, ?)[0m  [["title", "DNA capture by a CRISPR-Cas9–guided adenine base editor - Science Magazine"], ["image", "https://science.sciencemag.org/content/369/6503/566/F1.large.jpg"], ["url", "https://science.sciencemag.org/content/369/6503/566.full"], ["source", "Science Magazine"], ["created_at", "2020-07-30 23:10:34.879643"], ["updated_at", "2020-07-30 23:10:34.879643"]]
+  [1m[35m (0.5ms)[0m  [1m[36mcommit transaction[0m
+  [1m[35m (0.0ms)[0m  [1m[36mbegin transaction[0m
+  [1m[36mScience Create (0.3ms)[0m  [1m[32mINSERT INTO "sciences" ("title", "image", "url", "source", "created_at", "updated_at") VALUES (?, ?, ?, ?, ?, ?)[0m  [["title", "ALMA finds possible sign of neutron star in supernova 1987A - Phys.org"], ["image", "https://scx2.b-cdn.net/gfx/news/hires/2020/almafindspos.jpg"], ["url", "https://phys.org/news/2020-07-alma-neutron-star-supernova-1987a.html"], ["source", "Phys.Org"], ["created_at", "2020-07-30 23:10:34.883109"], ["updated_at", "2020-07-30 23:10:34.883109"]]
+  [1m[35m (0.6ms)[0m  [1m[36mcommit transaction[0m
+  [1m[35m (0.0ms)[0m  [1m[36mbegin transaction[0m
+  [1m[36mScience Create (0.3ms)[0m  [1m[32mINSERT INTO "sciences" ("title", "image", "url", "source", "created_at", "updated_at") VALUES (?, ?, ?, ?, ?, ?)[0m  [["title", "Exploring the Solar System - The New York Times"], ["image", "https://static01.nyt.com/images/2020/07/24/us/exploring-the-solar-system-promo-1595620746754/exploring-the-solar-system-promo-1595620746754-facebookJumbo.png"], ["url", "https://www.nytimes.com/interactive/2020/science/exploring-the-solar-system.html"], ["source", "New York Times"], ["created_at", "2020-07-30 23:10:34.886648"], ["updated_at", "2020-07-30 23:10:34.886648"]]
+  [1m[35m (0.6ms)[0m  [1m[36mcommit transaction[0m
+  [1m[35m (0.0ms)[0m  [1m[36mbegin transaction[0m
+  [1m[36mScience Create (0.3ms)[0m  [1m[32mINSERT INTO "sciences" ("title", "image", "url", "source", "created_at", "updated_at") VALUES (?, ?, ?, ?, ?, ?)[0m  [["title", "Size up our solar system's many magnificent moons, plopped down right here on Earth - SYFY WIRE"], ["image", "https://www.syfy.com/sites/syfy/files/styles/1200x680/public/2020/07/moons.jpg"], ["url", "https://www.syfy.com/syfywire/size-up-our-solar-systems-magnificent-moons-in-new-video"], ["source", "SYFY WIRE"], ["created_at", "2020-07-30 23:10:34.890018"], ["updated_at", "2020-07-30 23:10:34.890018"]]
+  [1m[35m (0.7ms)[0m  [1m[36mcommit transaction[0m
+  [1m[35m (0.0ms)[0m  [1m[36mbegin transaction[0m
+  [1m[36mScience Create (0.3ms)[0m  [1m[32mINSERT INTO "sciences" ("title", "image", "url", "source", "created_at", "updated_at") VALUES (?, ?, ?, ?, ?, ?)[0m  [["title", "This Is the Best Spot on Earth for Stargazing—If You Can Handle It - Gizmodo"], ["image", "https://i.kinja-img.com/gawker-media/image/upload/c_fill,f_auto,fl_progressive,g_center,h_675,pg_1,q_80,w_1200/cldgyomna5d8wsz2jag0.jpg"], ["url", "https://gizmodo.com/this-is-the-best-spot-on-earth-for-stargazing-if-you-ca-1844557816"], ["source", "Gizmodo.com"], ["created_at", "2020-07-30 23:10:34.893520"], ["updated_at", "2020-07-30 23:10:34.893520"]]
+  [1m[35m (0.6ms)[0m  [1m[36mcommit transaction[0m
+  [1m[35m (0.0ms)[0m  [1m[36mbegin transaction[0m
+  [1m[36mScience Create (0.4ms)[0m  [1m[32mINSERT INTO "sciences" ("title", "image", "url", "source", "created_at", "updated_at") VALUES (?, ?, ?, ?, ?, ?)[0m  [["title", "Researchers Figure Out How To Genetically Alter Squid : Shots - Health News - NPR"], ["image", "https://media.npr.org/assets/img/2020/07/30/20200729-4-squid-tentacle-doryteuthis-pealeii-credit-karen-crawford_wide-85f7261f1f27a3903d559918246edc0ee226f596.jpg?s=1400"], ["url", "https://www.npr.org/sections/health-shots/2020/07/30/895733739/the-first-gene-altered-squid-has-thrilled-biologists"], ["source", "NPR"], ["created_at", "2020-07-30 23:10:34.896945"], ["updated_at", "2020-07-30 23:10:34.896945"]]
+  [1m[35m (0.7ms)[0m  [1m[36mcommit transaction[0m
+  [1m[35m (0.1ms)[0m  [1m[36mbegin transaction[0m
+  [1m[36mScience Create (0.4ms)[0m  [1m[32mINSERT INTO "sciences" ("title", "image", "url", "source", "created_at", "updated_at") VALUES (?, ?, ?, ?, ?, ?)[0m  [["title", "How often are people wearing masks in your county? Forsyth residents report higher use than their neighbors. - Winston-Salem Journal"], ["image", "https://bloximages.newyork1.vip.townnews.com/journalnow.com/content/tncms/assets/v3/editorial/5/88/58884983-333d-561a-a280-c042a6fb131c/5f2224f2b86f2.preview.jpg?resize=800%2C450"], ["url", "https://journalnow.com/news/local/how-often-are-people-wearing-masks-in-your-county-forsyth-residents-report-higher-use-than/article_58884983-333d-561a-a280-c042a6fb131c.html"], ["source", "Winston-Salem Journal"], ["created_at", "2020-07-30 23:10:34.900920"], ["updated_at", "2020-07-30 23:10:34.900920"]]
+  [1m[35m (0.7ms)[0m  [1m[36mcommit transaction[0m
+  [1m[35m (0.0ms)[0m  [1m[36mbegin transaction[0m
+  [1m[36mScience Create (0.4ms)[0m  [1m[32mINSERT INTO "sciences" ("title", "image", "url", "source", "created_at", "updated_at") VALUES (?, ?, ?, ?, ?, ?)[0m  [["title", "Scientists expose fascinating 'compartments' in bacteria - Phys.org"], ["image", "https://scx2.b-cdn.net/gfx/news/hires/2018/3-bacteria.jpg"], ["url", "https://phys.org/news/2020-07-scientists-expose-fascinating-compartments-bacteria.html"], ["source", "Phys.Org"], ["created_at", "2020-07-30 23:10:34.905243"], ["updated_at", "2020-07-30 23:10:34.905243"]]
+  [1m[35m (0.7ms)[0m  [1m[36mcommit transaction[0m
+  [1m[35m (0.0ms)[0m  [1m[36mbegin transaction[0m
+  [1m[36mScience Create (0.3ms)[0m  [1m[32mINSERT INTO "sciences" ("title", "image", "url", "source", "created_at", "updated_at") VALUES (?, ?, ?, ?, ?, ?)[0m  [["title", "Sleeping microbes wake up after 100 million years buried under the seafloor - Livescience.com"], ["image", "https://cdn.mos.cms.futurecdn.net/VvmnC6JygiStMeqVarostg-1200-80.jpg"], ["url", "https://www.livescience.com/ancient-microbes-wake-up.html"], ["source", "Live Science"], ["created_at", "2020-07-30 23:10:34.908984"], ["updated_at", "2020-07-30 23:10:34.908984"]]
+  [1m[35m (0.8ms)[0m  [1m[36mcommit transaction[0m
+  [1m[35m (0.0ms)[0m  [1m[36mbegin transaction[0m
+  [1m[36mScience Create (0.4ms)[0m  [1m[32mINSERT INTO "sciences" ("title", "image", "url", "source", "created_at", "updated_at") VALUES (?, ?, ?, ?, ?, ?)[0m  [["title", "MIT: 'Snowball Earth' Came From Huge Drop in Sunlight - ExtremeTech"], ["image", "https://www.extremetech.com/wp-content/uploads/2020/07/AntarcticaDomeCSnow.jpg"], ["url", "https://www.extremetech.com/extreme/313313-mit-snowball-earth-came-from-huge-drop-in-sunlight"], ["source", "ExtremeTech"], ["created_at", "2020-07-30 23:10:34.912711"], ["updated_at", "2020-07-30 23:10:34.912711"]]
+  [1m[35m (0.8ms)[0m  [1m[36mcommit transaction[0m
+  [1m[35m (0.0ms)[0m  [1m[36mbegin transaction[0m
+  [1m[36mScience Create (0.3ms)[0m  [1m[32mINSERT INTO "sciences" ("title", "image", "url", "source", "created_at", "updated_at") VALUES (?, ?, ?, ?, ?, ?)[0m  [["title", "Return of the extremely elongated cloud on Mars - Phys.org"], ["image", "https://scx2.b-cdn.net/gfx/news/hires/2020/returnofthee.jpg"], ["url", "https://phys.org/news/2020-07-extremely-elongated-cloud-mars.html"], ["source", "Phys.Org"], ["created_at", "2020-07-30 23:10:34.916378"], ["updated_at", "2020-07-30 23:10:34.916378"]]
+  [1m[35m (0.6ms)[0m  [1m[36mcommit transaction[0m
+  [1m[35m (0.0ms)[0m  [1m[36mbegin transaction[0m
+  [1m[36mScience Create (0.3ms)[0m  [1m[32mINSERT INTO "sciences" ("title", "image", "url", "source", "created_at", "updated_at") VALUES (?, ?, ?, ?, ?, ?)[0m  [["title", "Virologists divided over plans to change virus-naming rules during the pandemic - Nature.com"], ["image", "https://media.nature.com/lw1024/magazine-assets/d41586-020-02243-2/d41586-020-02243-2_18207626.jpg"], ["url", "https://www.nature.com/articles/d41586-020-02243-2"], ["source", "Nature.com"], ["created_at", "2020-07-30 23:10:34.919800"], ["updated_at", "2020-07-30 23:10:34.919800"]]
+  [1m[35m (0.7ms)[0m  [1m[36mcommit transaction[0m
+  [1m[35m (0.0ms)[0m  [1m[36mbegin transaction[0m
+  [1m[36mScience Create (0.3ms)[0m  [1m[32mINSERT INTO "sciences" ("title", "image", "url", "source", "created_at", "updated_at") VALUES (?, ?, ?, ?, ?, ?)[0m  [["title", "The Science Behind Butterfly Vision And Body Temperature : Short Wave - NPR"], ["image", "https://media.npr.org/assets/img/2020/07/29/gettyimages-496901952_wide-cef8c68eabfd2112a119649bb27122d43dcd4653.jpg?s=1400"], ["url", "https://www.npr.org/2020/07/24/895174775/butterflies-have-hearts-in-their-wings-youll-never-guess-where-they-have-eyes"], ["source", "NPR"], ["created_at", "2020-07-30 23:10:34.923125"], ["updated_at", "2020-07-30 23:10:34.923125"]]
+  [1m[35m (0.6ms)[0m  [1m[36mcommit transaction[0m
+  [1m[35m (0.0ms)[0m  [1m[36mbegin transaction[0m
+  [1m[36mScience Create (0.3ms)[0m  [1m[32mINSERT INTO "sciences" ("title", "image", "url", "source", "created_at", "updated_at") VALUES (?, ?, ?, ?, ?, ?)[0m  [["title", "New current that transports water to major 'waterfall' discovered in deep ocean - Phys.org"], ["image", "https://scx2.b-cdn.net/gfx/news/hires/2020/newcurrentth.jpg"], ["url", "https://phys.org/news/2020-07-current-major-waterfall-deep-ocean.html"], ["source", "Phys.Org"], ["created_at", "2020-07-30 23:10:34.926352"], ["updated_at", "2020-07-30 23:10:34.926352"]]
+  [1m[35m (0.7ms)[0m  [1m[36mcommit transaction[0m
+  [1m[35m (0.0ms)[0m  [1m[36mbegin transaction[0m
+  [1m[36mScience Create (0.3ms)[0m  [1m[32mINSERT INTO "sciences" ("title", "image", "url", "source", "created_at", "updated_at") VALUES (?, ?, ?, ?, ?, ?)[0m  [["title", "Cosmic tango between the very small and the very large - Phys.org"], ["image", "https://scx2.b-cdn.net/gfx/news/hires/2020/cosmictangob.jpg"], ["url", "https://phys.org/news/2020-07-cosmic-tango-small-large.html"], ["source", "Phys.Org"], ["created_at", "2020-07-30 23:10:34.936063"], ["updated_at", "2020-07-30 23:10:34.936063"]]
+  [1m[35m (0.6ms)[0m  [1m[36mcommit transaction[0m
+  [1m[35m (0.1ms)[0m  [1m[36mbegin transaction[0m
+  [1m[36mSport Create (0.4ms)[0m  [1m[32mINSERT INTO "sports" ("title", "image", "url", "source", "created_at", "updated_at") VALUES (?, ?, ?, ?, ?, ?)[0m  [["title", "Braves bullpen living up to the hype early in the season - sportstalkatl.com"], ["image", "https://i2.wp.com/www.sportstalkatl.com/wp-content/uploads/2019/11/dkb190813028-nym-vs-atl.jpg?fit=1000%2C667&ssl=1"], ["url", "https://www.sportstalkatl.com/braves-bullpen-living-up-to-the-hype-early-in-the-season/"], ["source", "sportstalkatl.com"], ["created_at", "2020-07-30 23:10:35.273308"], ["updated_at", "2020-07-30 23:10:35.273308"]]
+  [1m[35m (1.2ms)[0m  [1m[36mcommit transaction[0m
+  [1m[35m (0.1ms)[0m  [1m[36mbegin transaction[0m
+  [1m[36mSport Create (0.4ms)[0m  [1m[32mINSERT INTO "sports" ("title", "image", "url", "source", "created_at", "updated_at") VALUES (?, ?, ?, ?, ?, ?)[0m  [["title", "LeSean McCoy Agrees to 1-Year Contract with Tom Brady's Buccaneers - Bleacher Report"], ["image", "https://img.bleacherreport.net/img/images/photos/003/848/666/hi-res-9f565c2c7faac9a6cfb31f5339ce2e38_crop_exact.jpg?w=1200&h=1200&q=75"], ["url", "https://bleacherreport.com/articles/2872587-lesean-mccoy-agrees-to-1-year-contract-with-tom-bradys-buccaneers"], ["source", "Bleacher Report"], ["created_at", "2020-07-30 23:10:35.278016"], ["updated_at", "2020-07-30 23:10:35.278016"]]
+  [1m[35m (0.6ms)[0m  [1m[36mcommit transaction[0m
+  [1m[35m (0.0ms)[0m  [1m[36mbegin transaction[0m
+  [1m[36mSport Create (0.3ms)[0m  [1m[32mINSERT INTO "sports" ("title", "image", "url", "source", "created_at", "updated_at") VALUES (?, ?, ?, ?, ?, ?)[0m  [["title", "Marsha Blackburn targets NBA after report says league told her 'inaccurate' statement about China academies - Fox News"], ["image", "https://static.foxnews.com/foxnews.com/content/uploads/2020/03/AP20079643037776.jpg"], ["url", "https://www.foxnews.com/sports/marsha-blackburn-targets-nba-after-report-says-league-told-her-inaccurate-statement-about-china-academies"], ["source", "Fox News"], ["created_at", "2020-07-30 23:10:35.281925"], ["updated_at", "2020-07-30 23:10:35.281925"]]
+  [1m[35m (0.8ms)[0m  [1m[36mcommit transaction[0m
+  [1m[35m (0.0ms)[0m  [1m[36mbegin transaction[0m
+  [1m[36mSport Create (0.3ms)[0m  [1m[32mINSERT INTO "sports" ("title", "image", "url", "source", "created_at", "updated_at") VALUES (?, ?, ?, ?, ?, ?)[0m  [["title", "LeBron James' intensity, Zion Williamson's return, Lakers-Clippers among top storylines as NBA restarts season - CBS Sports"], ["image", "https://sportshub.cbsistatic.com/i/r/2020/07/30/52b2cf8c-9890-47c3-b1a6-8ffb90a181b9/thumbnail/1200x675/da5ae3acd0c4d69c9c0f53d6ffed1c62/lebron-clippers.jpg"], ["url", "https://www.cbssports.com/nba/news/lebron-james-intensity-zion-williamsons-return-lakers-clippers-among-top-storylines-as-nba-restarts-season/"], ["source", "CBS Sports"], ["created_at", "2020-07-30 23:10:35.285835"], ["updated_at", "2020-07-30 23:10:35.285835"]]
+  [1m[35m (0.6ms)[0m  [1m[36mcommit transaction[0m
+  [1m[35m (0.0ms)[0m  [1m[36mbegin transaction[0m
+  [1m[36mSport Create (0.3ms)[0m  [1m[32mINSERT INTO "sports" ("title", "image", "url", "source", "created_at", "updated_at") VALUES (?, ?, ?, ?, ?, ?)[0m  [["title", "Umpire Joe West leaves game, then returns, after being hit in head by flying bat - ESPN"], ["image", "https://a.espncdn.com/combiner/i?img=%2Fphoto%2F2020%2F0730%2Fr725636_1296x729_16%2D9.jpg"], ["url", "https://www.espn.com/mlb/story/_/id/29566292/umpire-joe-west-leaves-game-being-hit-head-flying-bat"], ["source", "ESPN"], ["created_at", "2020-07-30 23:10:35.289301"], ["updated_at", "2020-07-30 23:10:35.289301"]]
+  [1m[35m (0.6ms)[0m  [1m[36mcommit transaction[0m
+  [1m[35m (0.0ms)[0m  [1m[36mbegin transaction[0m
+  [1m[36mSport Create (0.4ms)[0m  [1m[32mINSERT INTO "sports" ("title", "image", "url", "source", "created_at", "updated_at") VALUES (?, ?, ?, ?, ?, ?)[0m  [["title", "Packers add Mason Crosby, Jace Sternberger to COVID-19 list - NBC Sports - NFL"], ["image", "https://profootballtalk.nbcsports.com/wp-content/uploads/sites/25/2020/07/GettyImages-1186026365-e1596143501154.jpg"], ["url", "https://profootballtalk.nbcsports.com/2020/07/30/packers-add-mason-crosby-jace-sternberger-to-covid-19-list/"], ["source", "NBCSports.com"], ["created_at", "2020-07-30 23:10:35.292698"], ["updated_at", "2020-07-30 23:10:35.292698"]]
+  [1m[35m (1.1ms)[0m  [1m[36mcommit transaction[0m
+  [1m[35m (0.0ms)[0m  [1m[36mbegin transaction[0m
+  [1m[36mSport Create (0.4ms)[0m  [1m[32mINSERT INTO "sports" ("title", "image", "url", "source", "created_at", "updated_at") VALUES (?, ?, ?, ?, ?, ?)[0m  [["title", "'The gloves were off' then the deal was off: Why Newcastle's takeover collapsed - The Athletic"], ["image", "https://cdn.theathletic.com/app/uploads/2020/07/30155420/NEWCASTLE-TAKEOVER-COLLAPSES-scaled-e1596138891341-1024x682.jpg"], ["url", "https://theathletic.com/1963663/2020/07/30/newcastle-united-takeover-withdraw-staveley-ashley-pif-premier-league/"], ["source", "The Athletic"], ["created_at", "2020-07-30 23:10:35.296708"], ["updated_at", "2020-07-30 23:10:35.296708"]]
+  [1m[35m (0.7ms)[0m  [1m[36mcommit transaction[0m
+  [1m[35m (0.1ms)[0m  [1m[36mbegin transaction[0m
+  [1m[36mSport Create (0.3ms)[0m  [1m[32mINSERT INTO "sports" ("title", "image", "url", "source", "created_at", "updated_at") VALUES (?, ?, ?, ?, ?, ?)[0m  [["title", "MLB's Phillies say two staffers tested positive for coronavirus after playing Marlins - CNN"], ["image", "https://cdn.cnn.com/cnnnext/dam/assets/200705080008-philadelphia-phillies-cap-super-tease.jpg"], ["url", "https://www.cnn.com/2020/07/30/us/mlb-phillies-marlins-coronavirus/index.html"], ["source", "CNN"], ["created_at", "2020-07-30 23:10:35.300737"], ["updated_at", "2020-07-30 23:10:35.300737"]]
+  [1m[35m (0.6ms)[0m  [1m[36mcommit transaction[0m
+  [1m[35m (0.0ms)[0m  [1m[36mbegin transaction[0m
+  [1m[36mSport Create (0.3ms)[0m  [1m[32mINSERT INTO "sports" ("title", "image", "url", "source", "created_at", "updated_at") VALUES (?, ?, ?, ?, ?, ?)[0m  [["title", "NFL training camp 2020 - Philip Rivers throws with Colts, rookies try on new uniforms - ESPN"], ["image", "https://a2.espncdn.com/combiner/i?img=%2Fphoto%2F2020%2F0730%2Fr725564_1080x608_16%2D9.jpg"], ["url", "https://www.espn.com/nfl/story/_/id/29563644/nfl-training-camp-2020-philip-rivers-throws-colts-rookies-try-new-uniforms"], ["source", "ESPN"], ["created_at", "2020-07-30 23:10:35.304894"], ["updated_at", "2020-07-30 23:10:35.304894"]]
+  [1m[35m (0.6ms)[0m  [1m[36mcommit transaction[0m
+  [1m[35m (0.0ms)[0m  [1m[36mbegin transaction[0m
+  [1m[36mSport Create (0.4ms)[0m  [1m[32mINSERT INTO "sports" ("title", "image", "url", "source", "created_at", "updated_at") VALUES (?, ?, ?, ?, ?, ?)[0m  [["title", "Chiefs' Damien Williams explains why he's opting out of 2020 NFL season and a chance to 'repeat' as champs - CBS Sports"], ["image", "https://sportshub.cbsistatic.com/i/r/2018/12/09/f708974f-b93c-49a5-b1c6-a6973fee57e1/thumbnail/1200x675/b23ad653af39e2b265c1444e53ff7fc7/usatsi-11816599-damien-williams-chiefs-pregame-2018-1400.jpg"], ["url", "https://www.cbssports.com/nfl/news/chiefs-damien-williams-explains-why-hes-opting-out-of-2020-nfl-season-and-a-chance-to-repeat-as-champs/"], ["source", "CBS Sports"], ["created_at", "2020-07-30 23:10:35.308378"], ["updated_at", "2020-07-30 23:10:35.308378"]]
+  [1m[35m (1.0ms)[0m  [1m[36mcommit transaction[0m
+  [1m[35m (0.0ms)[0m  [1m[36mbegin transaction[0m
+  [1m[36mSport Create (0.4ms)[0m  [1m[32mINSERT INTO "sports" ("title", "image", "url", "source", "created_at", "updated_at") VALUES (?, ?, ?, ?, ?, ?)[0m  [["title", "Bills rookies sent home after positive coronavirus tests - ESPN"], ["image", "https://a4.espncdn.com/combiner/i?img=%2Fphoto%2F2017%2F0824%2Fr248374_1296x729_16%2D9.jpg"], ["url", "https://www.espn.com/nfl/story/_/id/29565983/bills-rookies-sent-home-positive-coronavirus-tests-source-says"], ["source", "ESPN"], ["created_at", "2020-07-30 23:10:35.312436"], ["updated_at", "2020-07-30 23:10:35.312436"]]
+  [1m[35m (0.6ms)[0m  [1m[36mcommit transaction[0m
+  [1m[35m (0.0ms)[0m  [1m[36mbegin transaction[0m
+  [1m[36mSport Create (0.3ms)[0m  [1m[32mINSERT INTO "sports" ("title", "image", "url", "source", "created_at", "updated_at") VALUES (?, ?, ?, ?, ?, ?)[0m  [["title", "Ex-Warrior West cites two traits when praising Paschall - NBC Sports Bay Area"], ["image", "https://www.nbcsports.com/bayarea/sites/csnbayarea/files/2020/07/30/paschallfacedunk76ershorford.jpg"], ["url", "https://www.nbcsports.com/bayarea/warriors/david-west-cites-these-two-traits-praising-warriors-eric-paschall"], ["source", "NBCSports.com"], ["created_at", "2020-07-30 23:10:35.315988"], ["updated_at", "2020-07-30 23:10:35.315988"]]
+  [1m[35m (0.6ms)[0m  [1m[36mcommit transaction[0m
+  [1m[35m (0.0ms)[0m  [1m[36mbegin transaction[0m
+  [1m[36mSport Create (0.3ms)[0m  [1m[32mINSERT INTO "sports" ("title", "image", "url", "source", "created_at", "updated_at") VALUES (?, ?, ?, ?, ?, ?)[0m  [["title", "NCAA to allow student-athletes to wear patch supporting social justice initiatives on uniforms - Fox News"], ["image", "https://static.foxnews.com/foxnews.com/content/uploads/2020/05/NCAA-logo2.jpg"], ["url", "https://www.foxnews.com/sports/ncaa-allow-student-athletes-wear-patch-supporting-social-justice-initiatives"], ["source", "Fox News"], ["created_at", "2020-07-30 23:10:35.319270"], ["updated_at", "2020-07-30 23:10:35.319270"]]
+  [1m[35m (0.6ms)[0m  [1m[36mcommit transaction[0m
+  [1m[35m (0.1ms)[0m  [1m[36mbegin transaction[0m
+  [1m[36mSport Create (0.3ms)[0m  [1m[32mINSERT INTO "sports" ("title", "image", "url", "source", "created_at", "updated_at") VALUES (?, ?, ?, ?, ?, ?)[0m  [["title", "Indians need to rethink Brad Hand as their closer - Let's Go Tribe"], ["image", "https://cdn.vox-cdn.com/thumbor/d0Nrt6yO5jgw3YyFigThA6mOt_E=/0x0:3000x1571/fit-in/1200x630/cdn.vox-cdn.com/uploads/chorus_asset/file/20902996/1227743320.jpg.jpg"], ["url", "https://www.letsgotribe.com/2020/7/30/21348013/indians-need-to-rethink-brad-hand-as-their-closer"], ["source", "Let's Go Tribe"], ["created_at", "2020-07-30 23:10:35.322568"], ["updated_at", "2020-07-30 23:10:35.322568"]]
+  [1m[35m (0.5ms)[0m  [1m[36mcommit transaction[0m
+  [1m[35m (0.0ms)[0m  [1m[36mbegin transaction[0m
+  [1m[36mSport Create (0.3ms)[0m  [1m[32mINSERT INTO "sports" ("title", "image", "url", "source", "created_at", "updated_at") VALUES (?, ?, ?, ?, ?, ?)[0m  [["title", "Edwin Ríos Wins Game For Dodgers In A Bizarre Major League First - HuffPost"], ["image", "https://img.huffingtonpost.com/asset/5f22facb2500003912c2a93e.jpeg?ops=1778_1000"], ["url", "https://www.huffpost.com/entry/edwin-rios-first-leadoff-2-run-home-run_n_5f22f8c5c5b6a34284b7e5d6"], ["source", "HuffPost"], ["created_at", "2020-07-30 23:10:35.325700"], ["updated_at", "2020-07-30 23:10:35.325700"]]
+  [1m[35m (0.5ms)[0m  [1m[36mcommit transaction[0m
+  [1m[35m (0.0ms)[0m  [1m[36mbegin transaction[0m
+  [1m[36mSport Create (0.4ms)[0m  [1m[32mINSERT INTO "sports" ("title", "image", "url", "source", "created_at", "updated_at") VALUES (?, ?, ?, ?, ?, ?)[0m  [["title", "Chicago Cubs Lineup: Boy ... Do I Like the Universal Designated Hitter - bleachernation.com"], ["image", "https://www.bleachernation.com/wp-content/uploads/2020/07/willson-contreras-victor-caratini-Photo-by-Jon-DurrGetty-Images-GettyImages-1025099464.jpg"], ["url", "https://www.bleachernation.com/cubs/2020/07/30/chicago-cubs-lineup-boy-do-i-like-the-universal-designated-hitter/"], ["source", "bleachernation.com"], ["created_at", "2020-07-30 23:10:35.328765"], ["updated_at", "2020-07-30 23:10:35.328765"]]
+  [1m[35m (0.8ms)[0m  [1m[36mcommit transaction[0m
+  [1m[35m (0.0ms)[0m  [1m[36mbegin transaction[0m
+  [1m[36mSport Create (0.3ms)[0m  [1m[32mINSERT INTO "sports" ("title", "image", "url", "source", "created_at", "updated_at") VALUES (?, ?, ?, ?, ?, ?)[0m  [["title", "Panthers release kicker Graham Gano - Panthers.com"], ["image", "https://static.clubs.nfl.com/image/private/t_editorial_landscape_12_desktop/panthers/qrifavyi5h1lwahjpv4w"], ["url", "https://www.panthers.com/news/carolina-releases-graham-gano-chris-smith"], ["source", "Panthers.com"], ["created_at", "2020-07-30 23:10:35.339602"], ["updated_at", "2020-07-30 23:10:35.339602"]]
+  [1m[35m (0.7ms)[0m  [1m[36mcommit transaction[0m
+  [1m[35m (0.0ms)[0m  [1m[36mbegin transaction[0m
+  [1m[36mSport Create (0.3ms)[0m  [1m[32mINSERT INTO "sports" ("title", "url", "source", "created_at", "updated_at") VALUES (?, ?, ?, ?, ?)[0m  [["title", "Rory McIlroy's range session at WGC-FedEx St. Jude 2020 - PGA TOUR"], ["url", "https://news.google.com/__i/rss/rd/articles/CBMiK2h0dHBzOi8vd3d3LnlvdXR1YmUuY29tL3dhdGNoP3Y9TnRNNEM4MlVVZk3SAQA?oc=5"], ["source", "Google News"], ["created_at", "2020-07-30 23:10:35.343255"], ["updated_at", "2020-07-30 23:10:35.343255"]]
+  [1m[35m (0.7ms)[0m  [1m[36mcommit transaction[0m
+  [1m[35m (0.1ms)[0m  [1m[36mbegin transaction[0m
+  [1m[36mSport Create (0.3ms)[0m  [1m[32mINSERT INTO "sports" ("title", "image", "url", "source", "created_at", "updated_at") VALUES (?, ?, ?, ?, ?, ?)[0m  [["title", "How Mariota has impressed Gruden early in Raiders tenure - NBC Sports Bay Area"], ["image", "https://www.nbcsports.com/bayarea/sites/csnbayarea/files/2020/07/30/marcusmariotagetty_2.jpg"], ["url", "https://www.nbcsports.com/bayarea/raiders/how-marcus-mariota-has-impressed-jon-gruden-early-raiders-tenure"], ["source", "NBCSports.com"], ["created_at", "2020-07-30 23:10:35.347088"], ["updated_at", "2020-07-30 23:10:35.347088"]]
+  [1m[35m (0.7ms)[0m  [1m[36mcommit transaction[0m
+  [1m[35m (0.0ms)[0m  [1m[36mbegin transaction[0m
+  [1m[36mSport Create (0.3ms)[0m  [1m[32mINSERT INTO "sports" ("title", "image", "url", "source", "created_at", "updated_at") VALUES (?, ?, ?, ?, ?, ?)[0m  [["title", "Perez ruled out of British Grand Prix after testing positive for Covid-19 - Formula 1 RSS UK"], ["image", "https://www.formula1.com/content/dam/fom-website/sutton/2020/Hungary/Friday/1256660990.jpg"], ["url", "https://www.formula1.com/en/latest/article.breaking-perez-ruled-out-of-british-grand-prix-after-testing-positive-for.4MLhBq01mPizIDrg3jrWXJ.html"], ["source", "Formula 1"], ["created_at", "2020-07-30 23:10:35.350959"], ["updated_at", "2020-07-30 23:10:35.350959"]]
+  [1m[35m (0.7ms)[0m  [1m[36mcommit transaction[0m
+  [1m[35m (0.1ms)[0m  [1m[36mbegin transaction[0m
+  [1m[36mTechnology Create (0.4ms)[0m  [1m[32mINSERT INTO "technologies" ("title", "image", "url", "source", "created_at", "updated_at") VALUES (?, ?, ?, ?, ?, ?)[0m  [["title", "Amazon, Facebook and Apple thriving in lockdown - BBC News"], ["image", "https://ichef.bbci.co.uk/news/1024/branded_news/A72B/production/_113759724_hi062699390.jpg"], ["url", "https://www.bbc.com/news/business-53602596"], ["source", "BBC News"], ["created_at", "2020-07-30 23:10:35.543553"], ["updated_at", "2020-07-30 23:10:35.543553"]]
+  [1m[35m (0.9ms)[0m  [1m[36mcommit transaction[0m
+  [1m[35m (0.0ms)[0m  [1m[36mbegin transaction[0m
+  [1m[36mTechnology Create (0.3ms)[0m  [1m[32mINSERT INTO "technologies" ("title", "image", "url", "source", "created_at", "updated_at") VALUES (?, ?, ?, ?, ?, ?)[0m  [["title", "The FCC authorizes Amazon's satellite internet network that would compete with Elon Musk's Starlink - CNBC"], ["image", "https://image.cnbcfm.com/api/v1/image/106138718-1568905124797gettyimages-1169493341.jpeg?v=1579163462"], ["url", "https://www.cnbc.com/2020/07/30/fcc-authorizes-amazon-to-build-kuiper-satellite-internet-network.html"], ["source", "CNBC"], ["created_at", "2020-07-30 23:10:35.547544"], ["updated_at", "2020-07-30 23:10:35.547544"]]
+  [1m[35m (0.9ms)[0m  [1m[36mcommit transaction[0m
+  [1m[35m (0.0ms)[0m  [1m[36mbegin transaction[0m
+  [1m[36mTechnology Create (0.3ms)[0m  [1m[32mINSERT INTO "technologies" ("title", "image", "url", "source", "created_at", "updated_at") VALUES (?, ?, ?, ?, ?, ?)[0m  [["title", "Amazon Q2 earnings blow past estimates as coronavirus buying boosts revenue, profit - Yahoo Finance"], ["image", "https://s.yimg.com/uu/api/res/1.2/FIs7Hnq6AcJoeVa80jGR4A--~B/aD0yNDAwO3c9MzYwMDtzbT0xO2FwcGlkPXl0YWNoeW9u/https://media-mbst-pub-ue1.s3.amazonaws.com/creatr-uploaded-images/2020-07/969d3770-d26f-11ea-b3c5-174ea98986f2"], ["url", "https://finance.yahoo.com/news/amazon-earnings-q2-2020-201101073.html"], ["source", "Yahoo Entertainment"], ["created_at", "2020-07-30 23:10:35.551081"], ["updated_at", "2020-07-30 23:10:35.551081"]]
+  [1m[35m (1.2ms)[0m  [1m[36mcommit transaction[0m
+  [1m[35m (0.0ms)[0m  [1m[36mbegin transaction[0m
+  [1m[36mTechnology Create (0.3ms)[0m  [1m[32mINSERT INTO "technologies" ("title", "image", "url", "source", "created_at", "updated_at") VALUES (?, ?, ?, ?, ?, ?)[0m  [["title", "Stocks are set to jump Friday after four tech giants post strong earnings, Nasdaq futures gain 1% - CNBC"], ["image", "https://image.cnbcfm.com/api/v1/image/106569797-1591649109683gettyimages-1032942656.jpeg?v=1596141747"], ["url", "https://www.cnbc.com/2020/07/30/stock-market-futures-open-to-close-news.html"], ["source", "CNBC"], ["created_at", "2020-07-30 23:10:35.554922"], ["updated_at", "2020-07-30 23:10:35.554922"]]
+  [1m[35m (0.6ms)[0m  [1m[36mcommit transaction[0m
+  [1m[35m (0.0ms)[0m  [1m[36mbegin transaction[0m
+  [1m[36mTechnology Create (0.3ms)[0m  [1m[32mINSERT INTO "technologies" ("title", "image", "url", "source", "created_at", "updated_at") VALUES (?, ?, ?, ?, ?, ?)[0m  [["title", "Google parent company Alphabet sees its first revenue decline in history - The Verge"], ["image", "https://cdn.vox-cdn.com/thumbor/rO7gbGs_cP8JLPl_xk0gOSI2rDg=/0x146:2040x1214/fit-in/1200x630/cdn.vox-cdn.com/uploads/chorus_asset/file/10125267/acastro_180130_1777_0001.jpg"], ["url", "https://www.theverge.com/2020/7/30/21345014/google-youtube-alphabet-revenue-decline-q2"], ["source", "The Verge"], ["created_at", "2020-07-30 23:10:35.558412"], ["updated_at", "2020-07-30 23:10:35.558412"]]
+  [1m[35m (0.7ms)[0m  [1m[36mcommit transaction[0m
+  [1m[35m (0.0ms)[0m  [1m[36mbegin transaction[0m
+  [1m[36mTechnology Create (0.3ms)[0m  [1m[32mINSERT INTO "technologies" ("title", "image", "url", "source", "created_at", "updated_at") VALUES (?, ?, ?, ?, ?, ?)[0m  [["title", "Facebook usage and revenue continue to grow as the pandemic rages on - The Verge"], ["image", "https://cdn.vox-cdn.com/thumbor/mRsbBEAHbrYY0kVnjEEyueKxHno=/0x146:2040x1214/fit-in/1200x630/cdn.vox-cdn.com/uploads/chorus_asset/file/10595581/jbareham_180405_1777_facebook_0003.jpg"], ["url", "https://www.theverge.com/2020/7/30/21348308/facebook-earnings-q2-2020-pandemic-revenue-usage-growth"], ["source", "The Verge"], ["created_at", "2020-07-30 23:10:35.562019"], ["updated_at", "2020-07-30 23:10:35.562019"]]
+  [1m[35m (0.5ms)[0m  [1m[36mcommit transaction[0m
+  [1m[35m (0.0ms)[0m  [1m[36mbegin transaction[0m
+  [1m[36mTechnology Create (0.3ms)[0m  [1m[32mINSERT INTO "technologies" ("title", "image", "url", "source", "created_at", "updated_at") VALUES (?, ?, ?, ?, ?, ?)[0m  [["title", "Las Vegas Sands president says city of Las Vegas will see 'more pain' as pandemic persists - CNBC"], ["image", "https://image.cnbcfm.com/api/v1/image/106456639-1584969758925gettyimages-1214168483.jpeg?v=1584969852"], ["url", "https://www.cnbc.com/2020/07/30/las-vegas-sands-president-says-city-of-las-vegas-will-see-more-pain.html"], ["source", "CNBC"], ["created_at", "2020-07-30 23:10:35.565334"], ["updated_at", "2020-07-30 23:10:35.565334"]]
+  [1m[35m (0.5ms)[0m  [1m[36mcommit transaction[0m
+  [1m[35m (0.0ms)[0m  [1m[36mbegin transaction[0m
+  [1m[36mTechnology Create (0.3ms)[0m  [1m[32mINSERT INTO "technologies" ("title", "image", "url", "source", "created_at", "updated_at") VALUES (?, ?, ?, ?, ?, ?)[0m  [["title", "Impossible Foods brings meatless burger to Walmart - CNBC"], ["image", "https://image.cnbcfm.com/api/v1/image/106162307-1570103110301rtx75uew.jpg?v=1596139197"], ["url", "https://www.cnbc.com/2020/07/30/impossible-foods-brings-meatless-burger-to-walmart.html"], ["source", "CNBC"], ["created_at", "2020-07-30 23:10:35.568901"], ["updated_at", "2020-07-30 23:10:35.568901"]]
+  [1m[35m (0.6ms)[0m  [1m[36mcommit transaction[0m
+  [1m[35m (0.0ms)[0m  [1m[36mbegin transaction[0m
+  [1m[36mTechnology Create (0.3ms)[0m  [1m[32mINSERT INTO "technologies" ("title", "image", "url", "source", "created_at", "updated_at") VALUES (?, ?, ?, ?, ?, ?)[0m  [["title", "Atlassian acquires asset management company Mindville - TechCrunch"], ["image", "https://techcrunch.com/wp-content/uploads/2020/07/DSC_1430.jpeg?w=764"], ["url", "http://techcrunch.com/2020/07/30/atlassian-acquires-asset-management-company-mindville/"], ["source", "TechCrunch"], ["created_at", "2020-07-30 23:10:35.572281"], ["updated_at", "2020-07-30 23:10:35.572281"]]
+  [1m[35m (0.9ms)[0m  [1m[36mcommit transaction[0m
+  [1m[35m (0.0ms)[0m  [1m[36mbegin transaction[0m
+  [1m[36mTechnology Create (0.2ms)[0m  [1m[32mINSERT INTO "technologies" ("title", "image", "url", "source", "created_at", "updated_at") VALUES (?, ?, ?, ?, ?, ?)[0m  [["title", "Apple announces 4-for-1 stock split - CNBC"], ["image", "https://image.cnbcfm.com/api/v1/image/106359243-1596141468697-tim1.jpg?v=1596141491"], ["url", "https://www.cnbc.com/2020/07/30/apple-stock-split-announced.html"], ["source", "CNBC"], ["created_at", "2020-07-30 23:10:35.576030"], ["updated_at", "2020-07-30 23:10:35.576030"]]
+  [1m[35m (0.5ms)[0m  [1m[36mcommit transaction[0m
+  [1m[35m (0.0ms)[0m  [1m[36mbegin transaction[0m
+  [1m[36mTechnology Create (0.3ms)[0m  [1m[32mINSERT INTO "technologies" ("title", "url", "source", "created_at", "updated_at") VALUES (?, ?, ?, ?, ?)[0m  [["title", "Woman Who Destroyed Target Mask Display Admits She Needed Help - Newsweek"], ["url", "https://news.google.com/__i/rss/rd/articles/CBMid2h0dHBzOi8vd3d3Lm5ld3N3ZWVrLmNvbS9hcml6b25hLXdvbWFuLXdoby1kZXN0cm95ZWQtdGFyZ2V0LW1hc2stZGlzcGxheS12aXJhbC10aXJhZGUtYWRtaXRzLXNoZS1uZWVkcy1oZWxwLWhhZC0xNTIxNzk50gF9aHR0cHM6Ly93d3cubmV3c3dlZWsuY29tL2FyaXpvbmEtd29tYW4td2hvLWRlc3Ryb3llZC10YXJnZXQtbWFzay1kaXNwbGF5LXZpcmFsLXRpcmFkZS1hZG1pdHMtc2hlLW5lZWRzLWhlbHAtaGFkLTE1MjE3OTk_YW1wPTE?oc=5"], ["source", "Google News"], ["created_at", "2020-07-30 23:10:35.583667"], ["updated_at", "2020-07-30 23:10:35.583667"]]
+  [1m[35m (0.6ms)[0m  [1m[36mcommit transaction[0m
+  [1m[35m (0.0ms)[0m  [1m[36mbegin transaction[0m
+  [1m[36mTechnology Create (0.2ms)[0m  [1m[32mINSERT INTO "technologies" ("title", "image", "url", "source", "created_at", "updated_at") VALUES (?, ?, ?, ?, ?, ?)[0m  [["title", "Remdesivir maker Gilead Sciences sees 10% drop in second-quarter sales as demand for non-coronavirus drugs falls - CNBC"], ["image", "https://image.cnbcfm.com/api/v1/image/106515947-15883380932020-04-29t000000z_1006863930_rc2jeg98csot_rtrmadp_0_health-coronavirus-remdesivir.jpeg?v=1594918462"], ["url", "https://www.cnbc.com/2020/07/30/gilead-sciences-sales-fall-10percent-as-drug-demand-falls-due-to-coronavirus-pandemic.html"], ["source", "CNBC"], ["created_at", "2020-07-30 23:10:35.587054"], ["updated_at", "2020-07-30 23:10:35.587054"]]
+  [1m[35m (0.7ms)[0m  [1m[36mcommit transaction[0m
+  [1m[35m (0.0ms)[0m  [1m[36mbegin transaction[0m
+  [1m[36mTechnology Create (0.3ms)[0m  [1m[32mINSERT INTO "technologies" ("title", "image", "url", "source", "created_at", "updated_at") VALUES (?, ?, ?, ?, ?, ?)[0m  [["title", "McDonald's CEO says law enforcement may be called on customers who refuse to wear masks - Fox News"], ["image", "https://static.foxnews.com/foxnews.com/content/uploads/2020/03/McDonalds-arch.jpg"], ["url", "https://www.foxnews.com/food-drink/mcdonalds-ceo-face-masks-law-enforcement"], ["source", "Fox News"], ["created_at", "2020-07-30 23:10:35.590472"], ["updated_at", "2020-07-30 23:10:35.590472"]]
+  [1m[35m (0.5ms)[0m  [1m[36mcommit transaction[0m
+  [1m[35m (0.0ms)[0m  [1m[36mbegin transaction[0m
+  [1m[36mTechnology Create (0.3ms)[0m  [1m[32mINSERT INTO "technologies" ("title", "image", "url", "source", "created_at", "updated_at") VALUES (?, ?, ?, ?, ?, ?)[0m  [["title", "Comcast’s Peacock Is Bright Spot for Company Hit by Cord Cutting - Yahoo Finance"], ["image", "https://s.yimg.com/uu/api/res/1.2/1V6uAdZ1732QVF4hT78Fhw--~B/aD0xMzM0O3c9MjAwMDtzbT0xO2FwcGlkPXl0YWNoeW9u/https://media.zenfs.com/en/bloomberg_technology_68/8cba43fbba12bf012dbaac6d3c2a3260"], ["url", "https://finance.yahoo.com/news/comcast-peacock-bright-spot-company-193713497.html"], ["source", "Yahoo Entertainment"], ["created_at", "2020-07-30 23:10:35.594044"], ["updated_at", "2020-07-30 23:10:35.594044"]]
+  [1m[35m (0.6ms)[0m  [1m[36mcommit transaction[0m
+  [1m[35m (0.0ms)[0m  [1m[36mbegin transaction[0m
+  [1m[36mTechnology Create (0.3ms)[0m  [1m[32mINSERT INTO "technologies" ("title", "image", "url", "source", "created_at", "updated_at") VALUES (?, ?, ?, ?, ?, ?)[0m  [["title", "Ford beats Wall Street earnings expectations after coronavirus shuttered factories - CNBC"], ["image", "https://image.cnbcfm.com/api/v1/image/106274216-1575316780530gettyimages-1137684994.jpeg?v=1596140196"], ["url", "https://www.cnbc.com/2020/07/30/ford-f-earnings-q2-2020.html"], ["source", "CNBC"], ["created_at", "2020-07-30 23:10:35.597579"], ["updated_at", "2020-07-30 23:10:35.597579"]]
+  [1m[35m (0.7ms)[0m  [1m[36mcommit transaction[0m
+  [1m[35m (0.0ms)[0m  [1m[36mbegin transaction[0m
+  [1m[36mTechnology Create (0.3ms)[0m  [1m[32mINSERT INTO "technologies" ("title", "image", "url", "source", "created_at", "updated_at") VALUES (?, ?, ?, ?, ?, ?)[0m  [["title", "Families File First Wave of Covid-19 Lawsuits Against Companies Over Worker Deaths - The Wall Street Journal"], ["image", "https://si.wsj.net/public/resources/images/B3-HD520_SICKON_SOC_20200730154127.jpg"], ["url", "https://www.wsj.com/articles/families-file-first-wave-of-covid-19-lawsuits-against-companies-over-worker-deaths-11596137454"], ["source", "The Wall Street Journal"], ["created_at", "2020-07-30 23:10:35.602133"], ["updated_at", "2020-07-30 23:10:35.602133"]]
+  [1m[35m (0.6ms)[0m  [1m[36mcommit transaction[0m
+  [1m[35m (0.0ms)[0m  [1m[36mbegin transaction[0m
+  [1m[36mTechnology Create (0.3ms)[0m  [1m[32mINSERT INTO "technologies" ("title", "image", "url", "source", "created_at", "updated_at") VALUES (?, ?, ?, ?, ?, ?)[0m  [["title", "Why Shares of UPS Are Soaring Today - Motley Fool"], ["image", "https://g.foolcdn.com/editorial/images/584830/ups-747-8-freighter-source-ups.jpg"], ["url", "https://www.fool.com/investing/2020/07/30/why-shares-of-ups-are-soaring-today.aspx"], ["source", "Motley Fool"], ["created_at", "2020-07-30 23:10:35.605441"], ["updated_at", "2020-07-30 23:10:35.605441"]]
+  [1m[35m (0.5ms)[0m  [1m[36mcommit transaction[0m
+  [1m[35m (0.0ms)[0m  [1m[36mbegin transaction[0m
+  [1m[36mTechnology Create (0.3ms)[0m  [1m[32mINSERT INTO "technologies" ("title", "image", "url", "source", "created_at", "updated_at") VALUES (?, ?, ?, ?, ?, ?)[0m  [["title", "Internal emails show how an Amazon ad prompted Steve Jobs and Phil Schiller to block in-app purchases of Kindle books on iOS - 9to5Mac"], ["image", "https://9to5mac.com/wp-content/uploads/sites/6/2019/04/books.jpg?quality=82&strip=all"], ["url", "https://9to5mac.com/2020/07/30/internal-emails-show-how-an-amazon-ad-prompted-steve-jobs-and-phil-schiller-to-block-in-app-purchases-of-kindle-books-on-ios/"], ["source", "9to5Mac"], ["created_at", "2020-07-30 23:10:35.608546"], ["updated_at", "2020-07-30 23:10:35.608546"]]
+  [1m[35m (0.6ms)[0m  [1m[36mcommit transaction[0m
+  [1m[35m (0.0ms)[0m  [1m[36mbegin transaction[0m
+  [1m[36mTechnology Create (0.3ms)[0m  [1m[32mINSERT INTO "technologies" ("title", "image", "url", "source", "created_at", "updated_at") VALUES (?, ?, ?, ?, ?, ?)[0m  [["title", "Johnson & Johnson starts human vaccine trials after monkey study - New York Post "], ["image", "https://nypost.com/wp-content/uploads/sites/2/2020/07/Virus_Outbreak_Belgium.1.jpg?quality=90&strip=all&w=1200"], ["url", "https://nypost.com/2020/07/30/johnson-johnson-starts-human-vaccine-trials-after-monkey-study/"], ["source", "New York Post"], ["created_at", "2020-07-30 23:10:35.615431"], ["updated_at", "2020-07-30 23:10:35.615431"]]
+  [1m[35m (1.2ms)[0m  [1m[36mcommit transaction[0m
+  [1m[35m (0.0ms)[0m  [1m[36mbegin transaction[0m
+  [1m[36mTechnology Create (0.3ms)[0m  [1m[32mINSERT INTO "technologies" ("title", "image", "url", "source", "created_at", "updated_at") VALUES (?, ?, ?, ?, ?, ?)[0m  [["title", "This is the only city in America where unemployment is actually down - CNN"], ["image", "https://cdn.cnn.com/cnnnext/dam/assets/200730100638-02-owensboro-kentucky-super-tease.jpg"], ["url", "https://www.cnn.com/2020/07/30/business/unemployment-cities-owensboro/index.html"], ["source", "CNN"], ["created_at", "2020-07-30 23:10:35.625010"], ["updated_at", "2020-07-30 23:10:35.625010"]]
+  [1m[35m (0.6ms)[0m  [1m[36mcommit transaction[0m
+Started GET "/articles" for ::1 at 2020-07-30 17:11:06 -0600
+Started GET "/generals" for ::1 at 2020-07-30 17:11:06 -0600
+  [1m[35m (0.8ms)[0m  [1m[34mSELECT sqlite_version(*)[0m
+  [1m[35m (0.1ms)[0m  [1m[34mSELECT sqlite_version(*)[0m
+  [1m[35m (0.7ms)[0m  [1m[34mSELECT "schema_migrations"."version" FROM "schema_migrations" ORDER BY "schema_migrations"."version" ASC[0m
+Processing by ArticlesController#index as */*
+  [1m[36mArticle Load (0.3ms)[0m  [1m[34mSELECT "articles".* FROM "articles"[0m
+Processing by GeneralsController#index as */*
+  ↳ app/controllers/articles_controller.rb:4:in `index'
+  [1m[36mGeneral Load (0.3ms)[0m  [1m[34mSELECT "generals".* FROM "generals"[0m
+  ↳ app/controllers/generals_controller.rb:4:in `index'
+Completed 200 OK in 33ms (Views: 30.8ms | ActiveRecord: 1.1ms | Allocations: 10304)
+
+
+Completed 200 OK in 47ms (Views: 44.1ms | ActiveRecord: 1.1ms | Allocations: 14621)
+
+
