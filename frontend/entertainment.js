@@ -1,6 +1,8 @@
 const $article_section = document.querySelector(".articles")
 const $top_header = document.querySelector(".top-header")
 const $time = document.querySelector("#time")
+const $date = document.querySelector("#date")
+
 const $categories = document.querySelectorAll(".cat")
 
 fetch(`http://localhost:3000/entertainments`)
@@ -25,13 +27,18 @@ fetch(`http://localhost:3000/entertainments`)
         $article_section.append($div)
       }
 
-  // set-up for date and time
-  const days = ["Sunday", "Monday", "Tuesday", "Wednesday", "Thursday", "Friday", "Saturday"] 
-  const today = new Date(); 
-  const date = `${days[today.getDay()]}, ${today.getDate()}/${today.getMonth()+1}/${today.getFullYear()}` 
-  const time = `${today.getHours()}:${today.getMinutes() < 10 ? '0' : ""}${today.getMinutes()}`
-  const dateTime = date + "                  " + time 
-
-  const $h4 = document.createElement("h4")
-  $h4.textContent = dateTime 
-  $time.append($h4)
+   // set-up for date and time
+   const days = ["Sunday", "Monday", "Tuesday", "Wednesday", "Thursday", "Friday", "Saturday"] 
+   const today = new Date(); 
+   const date = `${days[today.getDay()]}, ${today.getDate()}/${today.getMonth()+1}/${today.getFullYear()}` 
+ 
+   const $h4Date = document.createElement("h4")
+   $h4Date.textContent = date
+   $date.append($h4Date)
+ 
+   function startTime() {
+     const whatTime = new Date()
+     const time = whatTime.toLocaleString('en-US', { hour: 'numeric', minute: 'numeric', hour12: true })
+     $time.textContent = time
+     let refresh = setTimeout(startTime, 500)
+   }
