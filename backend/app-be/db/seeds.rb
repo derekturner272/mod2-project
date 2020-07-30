@@ -5,6 +5,13 @@ require 'byebug'
 
 User.destroy_all
 Article.destroy_all
+Business.destroy_all
+Entertainment.destroy_all
+General.destroy_all
+Health.destroy_all
+Science.destroy_all
+Sport.destroy_all
+Technology.destroy_all
 
 key = ENV["API_KEY"]
 

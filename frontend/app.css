@@ -14,13 +14,23 @@ body {
 }
 
 .carousel {
-  margin-top: 230px; 
+  margin-top: 20px; 
   width: 900px;
   height: 500px; 
   margin-left: auto; 
   margin-right: auto; 
   margin-bottom: 20px;
 
+}
+
+.main-content {
+  margin-top: 210px; 
+  display: flex; 
+  flex-direction: column;
+  justify-content: center;
+  margin-left: auto; 
+  margin-right: auto; 
+  width: 900px; 
 }
 
 .lock {
@@ -95,10 +105,14 @@ img {
   padding: 0px;
 }
 
+.time-left {
+  margin-right: 40px;
+}
+
 .top-header {
   display: flex; 
   flex-direction: row;
-  justify-content: space-between;
+  justify-content: center;
   margin: 15px 20px 0 20px;
 }
 
