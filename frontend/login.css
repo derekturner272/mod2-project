@@ -1,0 +1,71 @@
+body {
+  background-image: url('./Old-newspaper-background-1.jpg');
+}
+
+form {
+  margin: auto;
+  margin-top: 190px;
+  border: black;
+  border-style: solid;
+  border-radius: 15px;
+  border-width: medium;
+  background-color: seashell;
+}
+
+h1 {
+  font-size: 100px;
+  -webkit-text-stroke: 2px black; 
+}
+
+h2 {
+  font-size: 23px; 
+}
+
+#header {
+  margin-top: 50px;
+  color: white; 
+}
+
+#submit {
+  margin-top: 25px;
+}
+
+label#password {
+  margin-top: 25px;
+}
+
+button.btn {
+  margin-top: 15px;
+}
+
+.link {
+  text-align: center;
+  margin-top: 20px;
+}
+
+.line-1{
+  position: relative;
+  top: 50%;  
+  width: 24em;
+  margin: 0 auto;
+  border-right: 2px solid rgba(255,255,255,.75);
+  font-size: 180%;
+  text-align: center;
+  white-space: nowrap;
+  overflow: hidden;
+  transform: translateY(-50%);    
+}
+
+/* Animation */
+.anim-typewriter{
+animation: typewriter 4s steps(44) 1s 1 normal both,
+           blinkTextCursor 500ms steps(44) infinite normal;
+}
+@keyframes typewriter{
+from{width: 0;}
+to{width: 24em;}
+}
+@keyframes blinkTextCursor{
+from{border-right-color: rgba(255,255,255,.75);}
+to{border-right-color: transparent;}
+}
