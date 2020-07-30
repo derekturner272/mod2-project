@@ -17878,3 +17878,176 @@ Processing by GeneralsController#index as */*
 Completed 200 OK in 2ms (Views: 1.9ms | ActiveRecord: 0.2ms | Allocations: 1548)
 
 
+Started GET "/" for ::1 at 2020-07-30 12:47:10 -0600
+  [1m[35m (11.3ms)[0m  [1m[34mSELECT sqlite_version(*)[0m
+  [1m[35m (0.5ms)[0m  [1m[34mSELECT "schema_migrations"."version" FROM "schema_migrations" ORDER BY "schema_migrations"."version" ASC[0m
+Processing by Rails::WelcomeController#index as HTML
+  Rendering /Users/TonyKim/.rvm/gems/ruby-2.6.1/gems/railties-6.0.3.2/lib/rails/templates/rails/welcome/index.html.erb
+  Rendered /Users/TonyKim/.rvm/gems/ruby-2.6.1/gems/railties-6.0.3.2/lib/rails/templates/rails/welcome/index.html.erb (Duration: 26.8ms | Allocations: 480)
+Completed 200 OK in 67ms (Views: 53.5ms | ActiveRecord: 0.0ms | Allocations: 2630)
+
+
+Started GET "/articles" for ::1 at 2020-07-30 12:47:20 -0600
+Started GET "/generals" for ::1 at 2020-07-30 12:47:20 -0600
+  [1m[35m (0.4ms)[0m  [1m[34mSELECT sqlite_version(*)[0m
+Processing by ArticlesController#index as */*
+  [1m[36mArticle Load (2.5ms)[0m  [1m[34mSELECT "articles".* FROM "articles"[0m
+  ↳ app/controllers/articles_controller.rb:4:in `index'
+Processing by GeneralsController#index as */*
+  [1m[36mGeneral Load (1.0ms)[0m  [1m[34mSELECT "generals".* FROM "generals"[0m
+Completed 200 OK in 406ms (Views: 165.5ms | ActiveRecord: 5.8ms | Allocations: 10666)
+
+
+  ↳ app/controllers/generals_controller.rb:4:in `index'
+Completed 200 OK in 205ms (Views: 47.0ms | ActiveRecord: 6.0ms | Allocations: 14757)
+
+
+Started GET "/businesses" for ::1 at 2020-07-30 12:47:35 -0600
+Processing by BusinessesController#index as */*
+  [1m[36mBusiness Load (11.5ms)[0m  [1m[34mSELECT "businesses".* FROM "businesses"[0m
+  ↳ app/controllers/businesses_controller.rb:4:in `index'
+Completed 200 OK in 111ms (Views: 80.7ms | ActiveRecord: 15.9ms | Allocations: 8688)
+
+
+Started GET "/articles" for ::1 at 2020-07-30 12:47:40 -0600
+Started GET "/generals" for ::1 at 2020-07-30 12:47:40 -0600
+Processing by GeneralsController#index as */*
+Processing by ArticlesController#index as */*
+  [1m[36mGeneral Load (0.3ms)[0m  [1m[34mSELECT "generals".* FROM "generals"[0m
+  [1m[36mArticle Load (0.8ms)[0m  [1m[34mSELECT "articles".* FROM "articles"[0m
+  ↳ app/controllers/generals_controller.rb:4:in `index'
+Completed 200 OK in 11ms (Views: 9.4ms | ActiveRecord: 0.3ms | Allocations: 2452)
+
+
+  ↳ app/controllers/articles_controller.rb:4:in `index'
+Completed 200 OK in 23ms (Views: 21.8ms | ActiveRecord: 0.8ms | Allocations: 5295)
+
+
+Started GET "/articles" for ::1 at 2020-07-30 12:57:21 -0600
+Started GET "/generals" for ::1 at 2020-07-30 12:57:21 -0600
+  [1m[35m (0.8ms)[0m  [1m[34mSELECT sqlite_version(*)[0m
+  [1m[35m (1.1ms)[0m  [1m[34mSELECT sqlite_version(*)[0m
+Processing by ArticlesController#index as */*
+  [1m[36mArticle Load (1.6ms)[0m  [1m[34mSELECT "articles".* FROM "articles"[0m
+Processing by GeneralsController#index as */*
+  [1m[36mGeneral Load (0.9ms)[0m  [1m[34mSELECT "generals".* FROM "generals"[0m
+  ↳ app/controllers/articles_controller.rb:4:in `index'
+  ↳ app/controllers/generals_controller.rb:4:in `index'
+Completed 200 OK in 53ms (Views: 50.8ms | ActiveRecord: 0.9ms | Allocations: 5075)
+
+
+Completed 200 OK in 131ms (Views: 52.8ms | ActiveRecord: 1.6ms | Allocations: 4671)
+
+
+Started GET "/businesses" for ::1 at 2020-07-30 12:57:25 -0600
+Processing by BusinessesController#index as */*
+  [1m[36mBusiness Load (1.6ms)[0m  [1m[34mSELECT "businesses".* FROM "businesses"[0m
+  ↳ app/controllers/businesses_controller.rb:4:in `index'
+Completed 200 OK in 21ms (Views: 18.7ms | ActiveRecord: 1.6ms | Allocations: 3884)
+
+
+Started GET "/businesses" for ::1 at 2020-07-30 12:58:47 -0600
+Processing by BusinessesController#index as */*
+  [1m[36mBusiness Load (14.6ms)[0m  [1m[34mSELECT "businesses".* FROM "businesses"[0m
+  ↳ app/controllers/businesses_controller.rb:4:in `index'
+Completed 200 OK in 264ms (Views: 190.3ms | ActiveRecord: 14.6ms | Allocations: 3869)
+
+
+Started GET "/articles" for ::1 at 2020-07-30 12:58:51 -0600
+Started GET "/generals" for ::1 at 2020-07-30 12:58:51 -0600
+Processing by ArticlesController#index as */*
+  [1m[36mArticle Load (2.7ms)[0m  [1m[34mSELECT "articles".* FROM "articles"[0m
+  ↳ app/controllers/articles_controller.rb:4:in `index'
+Completed 200 OK in 21ms (Views: 16.9ms | ActiveRecord: 2.7ms | Allocations: 4203)
+
+
+Processing by GeneralsController#index as */*
+  [1m[36mGeneral Load (1.9ms)[0m  [1m[34mSELECT "generals".* FROM "generals"[0m
+  ↳ app/controllers/generals_controller.rb:4:in `index'
+Completed 200 OK in 15ms (Views: 10.8ms | ActiveRecord: 1.9ms | Allocations: 1629)
+
+
+Started GET "/businesses" for ::1 at 2020-07-30 12:58:54 -0600
+Processing by BusinessesController#index as */*
+  [1m[36mBusiness Load (3.0ms)[0m  [1m[34mSELECT "businesses".* FROM "businesses"[0m
+  ↳ app/controllers/businesses_controller.rb:4:in `index'
+Completed 200 OK in 16ms (Views: 11.7ms | ActiveRecord: 3.0ms | Allocations: 3884)
+
+
+Started GET "/businesses" for ::1 at 2020-07-30 13:00:22 -0600
+Processing by BusinessesController#index as */*
+  [1m[36mBusiness Load (2.3ms)[0m  [1m[34mSELECT "businesses".* FROM "businesses"[0m
+  ↳ app/controllers/businesses_controller.rb:4:in `index'
+Completed 200 OK in 42ms (Views: 33.8ms | ActiveRecord: 2.3ms | Allocations: 3865)
+
+
+Started GET "/articles" for ::1 at 2020-07-30 13:00:30 -0600
+Started GET "/generals" for ::1 at 2020-07-30 13:00:30 -0600
+Processing by ArticlesController#index as */*
+Processing by GeneralsController#index as */*
+  [1m[36mArticle Load (0.7ms)[0m  [1m[34mSELECT "articles".* FROM "articles"[0m
+  ↳ app/controllers/articles_controller.rb:4:in `index'
+  [1m[36mGeneral Load (0.4ms)[0m  [1m[34mSELECT "generals".* FROM "generals"[0m
+  ↳ app/controllers/generals_controller.rb:4:in `index'
+Completed 200 OK in 20ms (Views: 18.0ms | ActiveRecord: 0.7ms | Allocations: 4622)
+
+
+Completed 200 OK in 21ms (Views: 19.9ms | ActiveRecord: 0.4ms | Allocations: 5142)
+
+
+Started GET "/businesses" for ::1 at 2020-07-30 13:00:35 -0600
+Processing by BusinessesController#index as */*
+  [1m[36mBusiness Load (0.6ms)[0m  [1m[34mSELECT "businesses".* FROM "businesses"[0m
+  ↳ app/controllers/businesses_controller.rb:4:in `index'
+Completed 200 OK in 13ms (Views: 11.9ms | ActiveRecord: 0.6ms | Allocations: 3865)
+
+
+Started GET "/businesses" for ::1 at 2020-07-30 13:00:52 -0600
+Processing by BusinessesController#index as */*
+  [1m[36mBusiness Load (0.5ms)[0m  [1m[34mSELECT "businesses".* FROM "businesses"[0m
+  ↳ app/controllers/businesses_controller.rb:4:in `index'
+Completed 200 OK in 14ms (Views: 12.7ms | ActiveRecord: 0.5ms | Allocations: 3865)
+
+
+Started GET "/businesses" for ::1 at 2020-07-30 13:01:00 -0600
+Processing by BusinessesController#index as */*
+  [1m[36mBusiness Load (0.5ms)[0m  [1m[34mSELECT "businesses".* FROM "businesses"[0m
+  ↳ app/controllers/businesses_controller.rb:4:in `index'
+Completed 200 OK in 13ms (Views: 11.8ms | ActiveRecord: 0.5ms | Allocations: 3865)
+
+
+Started GET "/businesses" for ::1 at 2020-07-30 13:01:09 -0600
+Processing by BusinessesController#index as */*
+  [1m[36mBusiness Load (0.6ms)[0m  [1m[34mSELECT "businesses".* FROM "businesses"[0m
+  ↳ app/controllers/businesses_controller.rb:4:in `index'
+Completed 200 OK in 13ms (Views: 12.0ms | ActiveRecord: 0.6ms | Allocations: 3865)
+
+
+Started GET "/businesses" for ::1 at 2020-07-30 13:02:53 -0600
+Processing by BusinessesController#index as */*
+  [1m[36mBusiness Load (1.8ms)[0m  [1m[34mSELECT "businesses".* FROM "businesses"[0m
+  ↳ app/controllers/businesses_controller.rb:4:in `index'
+Completed 200 OK in 64ms (Views: 57.0ms | ActiveRecord: 1.8ms | Allocations: 3865)
+
+
+Started GET "/businesses" for ::1 at 2020-07-30 13:03:06 -0600
+Processing by BusinessesController#index as */*
+  [1m[36mBusiness Load (0.6ms)[0m  [1m[34mSELECT "businesses".* FROM "businesses"[0m
+  ↳ app/controllers/businesses_controller.rb:4:in `index'
+Completed 200 OK in 14ms (Views: 13.2ms | ActiveRecord: 0.6ms | Allocations: 3865)
+
+
+Started GET "/businesses" for ::1 at 2020-07-30 13:03:12 -0600
+Processing by BusinessesController#index as */*
+  [1m[36mBusiness Load (0.6ms)[0m  [1m[34mSELECT "businesses".* FROM "businesses"[0m
+  ↳ app/controllers/businesses_controller.rb:4:in `index'
+Completed 200 OK in 12ms (Views: 10.6ms | ActiveRecord: 0.6ms | Allocations: 3865)
+
+
+Started GET "/businesses" for ::1 at 2020-07-30 13:03:22 -0600
+Processing by BusinessesController#index as */*
+  [1m[36mBusiness Load (1.6ms)[0m  [1m[34mSELECT "businesses".* FROM "businesses"[0m
+  ↳ app/controllers/businesses_controller.rb:4:in `index'
+Completed 200 OK in 45ms (Views: 38.0ms | ActiveRecord: 1.6ms | Allocations: 3865)
+
+
