@@ -94,4 +94,4 @@ Created by [Tony Kim](https://www.linkedin.com/in/hyung-kim/) and [Derek Turner]
 Feel free to contact us! 
 
 ## License
-[Click to view](https://github.com/hjkmines/mod1_project/blob/master/LICENSE)
+[Click to view](https://github.com/derekturner272/mod2-project/blob/master/LICENSE)
