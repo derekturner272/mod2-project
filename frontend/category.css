@@ -23,6 +23,21 @@ body {
 
 }
 
+#entertainment {
+  font-size: 80px; 
+}
+
+#time, #date {
+  font-family: monospace;
+}
+
+h5.card-title, h3 {
+  font-family: monospace; 
+}
+
+h5.card-title {
+  text-align: left;
+}
 
 .carousel {
   margin-top: 20px; 
@@ -83,6 +98,7 @@ h5 {
 .linkers {
   color: gray;
   -webkit-text-stroke: 0.7px black; 
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif; 
 }
 
 .category-header {
@@ -148,7 +164,7 @@ h4 {
 }
 
 h1 {
-  font-size: 95px;
+  font-size: 80px;
   text-align: center;
 }
 

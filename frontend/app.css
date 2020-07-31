@@ -63,7 +63,7 @@ body {
 }
 
 .arrow {
-  margin-top: 460px; 
+  margin-top: 490px; 
 }
 
 .carousel-indicators {
@@ -72,8 +72,15 @@ body {
 
 h5 {
   text-align: center;
+  font-size: 20px; 
   margin-top: 3px; 
   padding-bottom: 1px;
+  font-family: monospace;
+
+}
+
+#date, #time {
+  font-family: monospace;
 }
 
 .linky {
@@ -84,7 +91,8 @@ h5 {
 
 .linkers {
   color: gray;
-  -webkit-text-stroke: 0.7px black; 
+  -webkit-text-stroke: 0.7px black;
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif; 
 }
 
 .category-header {
@@ -112,6 +120,11 @@ img {
 
 .card-body {
   padding: 0px;
+}
+
+.card-title {
+  text-align: left;
+  font-size: 15px;
 }
 
 /* .time-left {
@@ -143,6 +156,7 @@ img {
 
 h3 {
   text-align: center;
+  font-family: monospace;
 }
 
 h4 {
@@ -162,6 +176,8 @@ li {
 
 #headline-news {
   margin-bottom: 0px;
+  font-family: monospace;
+  font-size: 35px;
 }
 
 .card.col-lg-2.col-md-4.col-sm-6 {

@@ -19,7 +19,7 @@ key = ENV["API_KEY"]
 # all categories
 response = RestClient.get("https://newsapi.org/v2/top-headlines?country=us&apiKey=#{key}")
 parsed_response = JSON.parse(response)
-top30 = parsed_response["articles"].take(30)
+top30 = parsed_response["articles"].last(30)
 
 categories = ["business", "entertainment", "general", "health", "science", "sports", "technology"]
 
@@ -63,7 +63,7 @@ end
 # general
 general_response = RestClient.get("https://newsapi.org/v2/top-headlines?country=us&category=general&apiKey=#{key}")
 general_parsed = JSON.parse(general_response)
-general_top30 = general_parsed["articles"].take(5)
+general_top30 = general_parsed["articles"].last(5)
 
 general_top30.each do |article|
   General.create(
